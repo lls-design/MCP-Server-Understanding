@@ -1,0 +1,105 @@
+{
+  "generated_at": "2026-07-03",
+  "table_title": "TABLE I: Distribution of MCP server categories",
+  "exact_count_source": {
+    "path": "picture/auth_type_to_server_type_alluvial.audit.json",
+    "matched_projects": 4049,
+    "total_flow": 4049,
+    "server_totals": {
+      "Data and Public Content Access": 1607,
+      "Infrastructure and Gateway Services": 692,
+      "Source Control and Collaboration": 589,
+      "Task and Schedule Management": 431,
+      "Local Execution and Automation": 375,
+      "Financial and Blockchain Services": 143,
+      "Analytics and Peripheral Tools": 130,
+      "Security, Access Control, and Scanning": 82
+    }
+  },
+  "essential_files": [
+    {
+      "path": "picture/auth_type_to_server_type_alluvial.audit.json",
+      "role": "Direct source of the exact 4049-project category counts"
+    },
+    {
+      "path": "draw/plot_auth_category_to_server_type.py",
+      "role": "Script that generates the alluvial outputs and audit file"
+    },
+    {
+      "path": "tool_analyzer/final_success_projects.txt",
+      "role": "4049-project filtered population"
+    },
+    {
+      "path": "tool_analyzer/paper8_new_servers_classification/merged_server_assignments.jsonl",
+      "role": "Per-project paper-8 category assignments used for the filtered totals"
+    },
+    {
+      "path": "tool_analyzer/final_success_authorization_classified.json",
+      "role": "Authorization labels consumed by the same pipeline"
+    },
+    {
+      "path": "tool_analyzer/taxonomy_paper8.json",
+      "role": "8-category taxonomy definition"
+    }
+  ],
+  "same_pipeline_outputs": [
+    {
+      "path": "picture/auth_type_to_server_type_alluvial.csv",
+      "role": "Tabular flow output from the same count source"
+    },
+    {
+      "path": "picture/auth_type_to_server_type_alluvial.png",
+      "role": "Rendered alluvial figure"
+    },
+    {
+      "path": "picture/auth_type_to_server_type_alluvial.pdf",
+      "role": "PDF version of the rendered alluvial figure"
+    }
+  ],
+  "taxonomy_definition_files": [
+    {
+      "path": "tool_analyzer/taxonomy_paper8.json",
+      "role": "Paper-8 taxonomy"
+    },
+    {
+      "path": "tool_analyzer/taxonomy_paper8_codebook.json",
+      "role": "Machine-readable paper-8 codebook"
+    },
+    {
+      "path": "tool_analyzer/taxonomy_paper8_codebook.md",
+      "role": "Human-readable paper-8 codebook"
+    }
+  ],
+  "upstream_paper8_assignment_files": [
+    {
+      "path": "tool_analyzer/paper8_new_servers_classification/merged_server_assignments.jsonl",
+      "role": "Merged current paper-8 assignments"
+    },
+    {
+      "path": "tool_analyzer/paper8_new_servers_classification/merged_type_count_summary.json",
+      "role": "Unfiltered merged corpus category totals"
+    },
+    {
+      "path": "tool_analyzer/paper8_new_servers_classification/run_summary.json",
+      "role": "Run metadata for merged assignments"
+    }
+  ],
+  "upstream_scripts": [
+    {
+      "path": "scripts/classify_new_paper8_servers.py",
+      "role": "Produces merged current paper-8 assignments"
+    },
+    {
+      "path": "scripts/classify_servers_paper8_llm.py",
+      "role": "LLM paper-8 reclassification"
+    },
+    {
+      "path": "scripts/merge_paper8_llm_classification.py",
+      "role": "Merges paper-8 shard results"
+    },
+    {
+      "path": "scripts/server_category_pipeline.py",
+      "role": "Evidence-preparation and 8-way category pipeline"
+    }
+  ]
+}

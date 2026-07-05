@@ -1,0 +1,2742 @@
+[
+  {
+    "name": "awslabs_mcp_amazon-bedrock-agentcore-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/amazon-bedrock-agentcore-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_amazon-kendra-index-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/amazon-kendra-index-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_amazon-keyspaces-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/amazon-keyspaces-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_amazon-mq-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/amazon-mq-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_amazon-neptune-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/amazon-neptune-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_amazon-qbusiness-anonymous-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/amazon-qbusiness-anonymous-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_amazon-qindex-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/amazon-qindex-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_amazon-sns-sqs-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/amazon-sns-sqs-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aurora-dsql-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aurora-dsql-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-api-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-api-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-appsync-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-appsync-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-bedrock-custom-model-import-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-bedrock-custom-model-import-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-bedrock-data-automation-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-bedrock-data-automation-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-dataprocessing-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-dataprocessing-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-diagram-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-diagram-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-documentation-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-documentation-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-healthomics-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-healthomics-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-iot-sitewise-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-iot-sitewise-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-knowledge-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-knowledge-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-location-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-location-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-msk-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-msk-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-pricing-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-pricing-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-serverless-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-serverless-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_aws-support-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/aws-support-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_bedrock-kb-retrieval-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/bedrock-kb-retrieval-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_billing-cost-management-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/billing-cost-management-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_ccapi-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/ccapi-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_cdk-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/cdk-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_cfn-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/cfn-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_cloudtrail-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/cloudtrail-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_cloudwatch-applicationsignals-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/cloudwatch-applicationsignals-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_cloudwatch-appsignals-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/cloudwatch-appsignals-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_cloudwatch-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/cloudwatch-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_code-doc-gen-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/code-doc-gen-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_core-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/core-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_cost-explorer-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/cost-explorer-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_document-loader-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/document-loader-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_documentdb-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/documentdb-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_dynamodb-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/dynamodb-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_ecs-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/ecs-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_eks-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/eks-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_elasticache-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/elasticache-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_finch-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/finch-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_frontend-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/frontend-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_git-repo-research-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/git-repo-research-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_healthlake-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/healthlake-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_iam-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/iam-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_lambda-tool-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/lambda-tool-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_memcached-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/memcached-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_mysql-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/mysql-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_nova-canvas-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/nova-canvas-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_openapi-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/openapi-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_postgres-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/postgres-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_prometheus-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/prometheus-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_redshift-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/redshift-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_s3-tables-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/s3-tables-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_stepfunctions-tool-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/stepfunctions-tool-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_syntheticdata-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/syntheticdata-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_terraform-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/terraform-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_timestream-for-influxdb-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/timestream-for-influxdb-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_valkey-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/valkey-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "awslabs_mcp_well-architected-security-mcp-server",
+    "repo_url": "https://github.com/awslabs/mcp/tree/main/src/well-architected-security-mcp-server",
+    "stars": 8883
+  },
+  {
+    "name": "Wook133_mcp_amazon-mq-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/amazon-mq-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_amazon-neptune-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/amazon-neptune-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_amazon-sns-sqs-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/amazon-sns-sqs-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_aws-diagram-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/aws-diagram-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_aws-documentation-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/aws-documentation-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_aws-location-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/aws-location-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_bedrock-kb-retrieval-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/bedrock-kb-retrieval-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_cdk-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/cdk-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_cfn-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/cfn-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_code-doc-gen-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/code-doc-gen-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_core-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/core-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_cost-analysis-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/cost-analysis-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_dynamodb-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/dynamodb-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_git-repo-research-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/git-repo-research-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_lambda-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/lambda-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_memcached-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/memcached-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_nova-canvas-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/nova-canvas-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_postgres-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/postgres-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_syntheticdata-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/syntheticdata-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_terraform-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/terraform-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Wook133_mcp_valkey-mcp-server",
+    "repo_url": "https://github.com/Wook133/mcp/tree/main/src/valkey-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Klavis-AI_klavis_affinity",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/affinity",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_airtable",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/airtable",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_asana",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/asana",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_attio",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/attio",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_brave_search",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/brave_search",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_cal_com",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/cal_com",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_calendly",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/calendly",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_clickup",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/clickup",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_close",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/close",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_coinbase",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/coinbase",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_confluence",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/confluence",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_discord",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/discord",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_dropbox",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/dropbox",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_exa",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/exa",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_figma",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/figma",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_firecrawl",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/firecrawl",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_firecrawl_deep_research",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/firecrawl_deep_research",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_freshdesk",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/freshdesk",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_github",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/github",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_gmail",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/gmail",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_gong",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/gong",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_google_calendar",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/google_calendar",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_google_docs",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/google_docs",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_google_drive",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/google_drive",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_google_jobs",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/google_jobs",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_google_meet",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/google_meet",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_google_sheets",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/google_sheets",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_google_slides",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/google_slides",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_hacker_news",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/hacker_news",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_heygen",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/heygen",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_hubspot",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/hubspot",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_intercom",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/intercom",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_jira",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/jira",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_linear",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/linear",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_linkedin",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/linkedin",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_mailchimp",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/mailchimp",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_markitdown",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/markitdown",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_mem0",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/mem0",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_mixpanel",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/mixpanel",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_monday",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/monday",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_moneybird",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/moneybird",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_motion",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/motion",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_msteams",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/msteams",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_notion",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/notion",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_onedrive",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/onedrive",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_openrouter",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/openrouter",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_outlook",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/outlook",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_pandoc",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/pandoc",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_perplexity_ai",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/perplexity_ai",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_postgres",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/postgres",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_quickbooks",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/quickbooks",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_reddit_search",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/reddit_search",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_report_generation",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/report_generation",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_resend",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/resend",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_salesforce",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/salesforce",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_shopify",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/shopify",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_slack",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/slack",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_spotify",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/spotify",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_supabase",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/supabase",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_tavily",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/tavily",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_trello",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/trello",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_twilio",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/twilio",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_whatsapp",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/whatsapp",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_wordpress",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/wordpress",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_yahoo_finance",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/yahoo_finance",
+    "stars": 5404
+  },
+  {
+    "name": "Klavis-AI_klavis_youtube",
+    "repo_url": "https://github.com/Klavis-AI/klavis/tree/main/mcp_servers/youtube",
+    "stars": 5404
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-baidu-translate",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-baidu-translate",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-bilibili",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-bilibili",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-book-info",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-book-info",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-computer-env",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-computer-env",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-daily-hot-list",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-daily-hot-list",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-dialog",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-dialog",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-doc-info",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-doc-info",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-enterprise-info",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-enterprise-info",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-exchange-rate",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-exchange-rate",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-file-compression",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-file-compression",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-file-select",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-file-select",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-get-location",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-get-location",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-go-off-work",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-go-off-work",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-image-editor",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-image-editor",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-image-processor",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-image-processor",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-image-upload",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-image-upload",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-ip-query",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-ip-query",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-math-eval",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-math-eval",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-movie-info",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-movie-info",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-news-headlines",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-news-headlines",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-notification",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-notification",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-open-app",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-open-app",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-open-web",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-open-web",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-phone-location",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-phone-location",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-qrcode",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-qrcode",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-screenshot",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-screenshot",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-speed-tester",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-speed-tester",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-split-screen",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-split-screen",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_typescript_mcp-system-cleaner",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-system-cleaner",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-traffic-info",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/typescript/mcp-traffic-info",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_amap-maps-mcp-server",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/other/amap-maps-mcp-server",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-server-baidu-map",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/other/mcp-server-baidu-map",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-server-hotnews",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/other/mcp-server-hotnews",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-trends-hub",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/other/mcp-trends-hub",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_playwright",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/other/playwright",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_server-sequential-thinking",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/other/server-sequential-thinking",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_variflight-ai",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/other/variflight-ai",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-ashare-quant",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/python/mcp-ashare-quant",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-server-document-writer",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/python/mcp-server-document-writer",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp-server-image-processing",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/python/mcp-server-image-processing",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_python_mcp-system-cleaner",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/python/mcp-system-cleaner",
+    "stars": 9
+  },
+  {
+    "name": "mcpchina_mcp-servers_mcp_volc_edit",
+    "repo_url": "https://github.com/mcpchina/mcp-servers/tree/main/python/mcp_volc_edit",
+    "stars": 9
+  },
+  {
+    "name": "Mnehmos_rpg-mcp-servers_combat-engine-server",
+    "repo_url": "https://github.com/Mnehmos/rpg-mcp-servers/tree/main/combat-engine-server",
+    "stars": 22
+  },
+  {
+    "name": "Mnehmos_rpg-mcp-servers_game-state-server",
+    "repo_url": "https://github.com/Mnehmos/rpg-mcp-servers/tree/main/game-state-server",
+    "stars": 22
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_agentico-dev--mcp-server",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/agentico-dev--mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_claudesidian",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/claudesidian",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_mcp-architect",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/mcp-architect",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_mcp-pdf-tools",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/mcp-pdf-tools",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_mcp-taskmanager",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/mcp-taskmanager",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_mcp-youtube",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/mcp-youtube",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_mcp-youtube-sheets",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/mcp-youtube-sheets",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_playwright-plus-python-mcp",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/playwright-plus-python-mcp",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_project-handoffs",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/project-handoffs",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_swiss",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/swiss",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_youtube_research_mcp",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/youtube_research_mcp",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_server-curl",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/community-servers/src/server-curl",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_server-llm-txt",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/community-servers/src/server-llm-txt",
+    "stars": 0
+  },
+  {
+    "name": "cbruyndoncx_ThirdBrAIn-MCPSERVERS-IQ_server-macos",
+    "repo_url": "https://github.com/cbruyndoncx/ThirdBrAIn-MCPSERVERS-IQ/tree/main/community-servers/src/server-macos",
+    "stars": 0
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_applovin-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/applovin-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_appsamurai-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/appsamurai-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_civitai-records",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/civitai-records",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_feedmob-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/feedmob-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_femini-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/femini-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_github-issues",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/github-issues",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_imagekit",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/imagekit",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_impact-radius-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/impact-radius-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_inmobi-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/inmobi-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_ironsource-aura-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/ironsource-aura-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_ironsource-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/ironsource-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_jampp-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/jampp-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_kayzen-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/kayzen-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_liftoff-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/liftoff-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_mintegral-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/mintegral-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_rtb-house-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/rtb-house-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_samsung-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/samsung-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_sensor-tower-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/sensor-tower-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_singular-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/singular-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_smadex-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/smadex-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_tapjoy-reporting",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/tapjoy-reporting",
+    "stars": 3
+  },
+  {
+    "name": "feed-mob_fm-mcp-servers_work-journals",
+    "repo_url": "https://github.com/feed-mob/fm-mcp-servers/tree/main/src/work-journals",
+    "stars": 3
+  },
+  {
+    "name": "sylphlab_MCP_tools-base64-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-base64-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-fetch-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-fetch-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-filesystem-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-filesystem-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-hasher-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-hasher-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-json-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-json-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-memory-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-memory-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-net-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-net-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-pdf-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-pdf-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-rag-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-rag-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-wait-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-wait-mcp",
+    "stars": 4
+  },
+  {
+    "name": "sylphlab_MCP_tools-xml-mcp",
+    "repo_url": "https://github.com/sylphlab/MCP/tree/main/packages/tools-xml-mcp",
+    "stars": 4
+  },
+  {
+    "name": "rascal-3_MCP-servers_aws-kb-retrieval-server",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/aws-kb-retrieval-server",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_brave-search",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/brave-search",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_everart",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/everart",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_everything",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/everything",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_fetch",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/fetch",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_filesystem",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/filesystem",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_gdrive",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/gdrive",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_git",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/git",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_github",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/github",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_gitlab",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/gitlab",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_google-maps",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/google-maps",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_memory",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/memory",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_perplexity-ask",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/perplexity-ask",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_postgres",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/postgres",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_puppeteer",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/puppeteer",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_redis",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/redis",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_sentry",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/sentry",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_sequentialthinking",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/sequentialthinking",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_slack",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/slack",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_sqlite",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/sqlite",
+    "stars": 0
+  },
+  {
+    "name": "rascal-3_MCP-servers_time",
+    "repo_url": "https://github.com/rascal-3/MCP-servers/tree/main/servers/src/time",
+    "stars": 0
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_aws-kb-retrieval-server",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/aws-kb-retrieval-server",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_brave-search",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/brave-search",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_everart",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/everart",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_everything",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/everything",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_fetch",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/fetch",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_filesystem",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/filesystem",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_gdrive",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/gdrive",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_git",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/git",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_github",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/github",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_gitlab",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/gitlab",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_google-maps",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/google-maps",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_memory",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/memory",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_postgres",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/postgres",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_puppeteer",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/puppeteer",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_redis",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/redis",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_sentry",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/sentry",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_sequentialthinking",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/sequentialthinking",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_slack",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/slack",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_sqlite",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/sqlite",
+    "stars": 1
+  },
+  {
+    "name": "Birdsmith_Gauntlet-Incept-MCP_time",
+    "repo_url": "https://github.com/Birdsmith/Gauntlet-Incept-MCP/tree/master/servers/src/time",
+    "stars": 1
+  },
+  {
+    "name": "cremerf_my-mcp-servers_aws-kb-retrieval-server",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/aws-kb-retrieval-server",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_brave-search",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/brave-search",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_everart",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/everart",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_everything",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/everything",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_fetch",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/fetch",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_filesystem",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/filesystem",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_gdrive",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/gdrive",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_git",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/git",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_github",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/github",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_gitlab",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/gitlab",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_google-maps",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/google-maps",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_memory",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/memory",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_postgres",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/postgres",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_puppeteer",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/puppeteer",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_redis",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/redis",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_sentry",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/sentry",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_sequentialthinking",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/sequentialthinking",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_slack",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/slack",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_sqlite",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/sqlite",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers_time",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers/tree/main/servers/src/time",
+    "stars": 0
+  },
+  {
+    "name": "aegntic_aegntic-MCP_aegnt-27",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/aegnt-27",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_aegntic-auth",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/aegntic-auth",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_claude-export-mcp",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/claude-export-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_dailydoco-pro",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/dailydoco-pro",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_graphiti-mcp",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/graphiti-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_n8n-pro",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/n8n-pro",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_obsidian-elite-rag",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/obsidian-elite-rag",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_quick-data",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/quick-data",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_aegntic-knowledge-engine",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/servers/aegntic-knowledge-engine",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_ai-collaboration-hub",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/servers/ai-collaboration-hub",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_servers_claude-export-mcp",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/servers/claude-export-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_docker-mcp",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/servers/docker-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_firebase-studio-mcp",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/servers/firebase-studio-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegntic-MCP_firebase-studio-mcp-server",
+    "repo_url": "https://github.com/aegntic/aegntic-MCP/tree/main/servers/firebase-studio-mcp-server",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_aegnt-27",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/aegnt-27",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_aegntic-auth",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/aegntic-auth",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_claude-export-mcp",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/claude-export-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_dailydoco-pro",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/dailydoco-pro",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_graphiti-mcp",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/graphiti-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_n8n-pro",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/n8n-pro",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_obsidian-elite-rag",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/obsidian-elite-rag",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_quick-data",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/quick-data",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_aegntic-knowledge-engine",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/servers/aegntic-knowledge-engine",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_ai-collaboration-hub",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/servers/ai-collaboration-hub",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_servers_claude-export-mcp",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/servers/claude-export-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_docker-mcp",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/servers/docker-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_firebase-studio-mcp",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/servers/firebase-studio-mcp",
+    "stars": 5
+  },
+  {
+    "name": "aegntic_aegnticMCP_firebase-studio-mcp-server",
+    "repo_url": "https://github.com/aegntic/aegnticMCP/tree/main/servers/firebase-studio-mcp-server",
+    "stars": 5
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_ai-gateway",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/ai-gateway",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_auditlogs",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/auditlogs",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_autorag",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/autorag",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_browser-rendering",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/browser-rendering",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_cloudflare-one-casb",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/cloudflare-one-casb",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_dex-analysis",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/dex-analysis",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_dns-analytics",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/dns-analytics",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_graphql",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/graphql",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_logpush",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/logpush",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_radar",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/radar",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_sandbox-container",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/sandbox-container",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_workers-bindings",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/workers-bindings",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_workers-builds",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/workers-builds",
+    "stars": 3116
+  },
+  {
+    "name": "cloudflare_mcp-server-cloudflare_workers-observability",
+    "repo_url": "https://github.com/cloudflare/mcp-server-cloudflare/tree/main/apps/workers-observability",
+    "stars": 3116
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-amap-maps_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-amap-maps/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-brave-search_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-brave-search/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-ever-art_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-ever-art/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-everything_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-everything/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-flomo_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-flomo/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-github_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-github/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-gitlab_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-gitlab/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-java-hello-world-sse_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-java-hello-world-sse/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-java-hello-world_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-java-hello-world/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-nodejs-baidu-map_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-nodejs-baidu-map/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-notion_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-notion/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-python-hello-world-stdio_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-python-hello-world-stdio/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-python-hello-world_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-python-hello-world/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-quickchart_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-quickchart/src/code",
+    "stars": 23
+  },
+  {
+    "name": "devsapp_mcp-servers_start-mcp-sequentialthinking_src_code",
+    "repo_url": "https://github.com/devsapp/mcp-servers/tree/main/start-mcp-sequentialthinking/src/code",
+    "stars": 23
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_gpaw-computation",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/gpaw-computation",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_jupyter-act",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/jupyter-act",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_materials-project",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/materials-project",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_mathematica-check",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/mathematica-check",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_nemad",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/nemad",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_netket",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/netket",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_python-code-execution",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/python-code-execution",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_ssh-exec",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/ssh-exec",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_timer",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/timer",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_tinydb",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/tinydb",
+    "stars": 88
+  },
+  {
+    "name": "pathintegral-institute_mcp-servers_txyz-search",
+    "repo_url": "https://github.com/pathintegral-institute/mcp-servers/tree/main/servers/txyz-search",
+    "stars": 88
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_ai-web-scraper",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/ai-web-scraper",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_ai-web-search",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/ai-web-search",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_deepresearch",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/deepresearch",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_embedding",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/embedding",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_image-generation",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/image-generation",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_nsfw",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/nsfw",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_objectdetection",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/objectdetection",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_sentiment",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/sentiment",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_speechtotext",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/speechtotext",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_texttospeech",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/texttospeech",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_translation",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/translation",
+    "stars": 23
+  },
+  {
+    "name": "JigsawStack_jigsawstack-mcp-server_vOCR",
+    "repo_url": "https://github.com/JigsawStack/jigsawstack-mcp-server/tree/main/vOCR",
+    "stars": 23
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_brave-search",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/brave-search",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_chat_chatgpt",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/chat_chatgpt",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_chat_claude",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/chat_claude",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_chat_gemini",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/chat_gemini",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_fetch",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/fetch",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_filesystem",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/filesystem",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_git",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/git",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_github",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/github",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_nodemailer",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/nodemailer",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_puppeteer",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/puppeteer",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_CSA-MCP-servers_sequentialthinking",
+    "repo_url": "https://github.com/CloudSecurityAlliance/CSA-MCP-servers/tree/main/src/sequentialthinking",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_brave-search",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/brave-search",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_chat_chatgpt",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/chat_chatgpt",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_chat_claude",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/chat_claude",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_chat_gemini",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/chat_gemini",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_fetch",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/fetch",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_filesystem",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/filesystem",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_git",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/git",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_github",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/github",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_nodemailer",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/nodemailer",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_puppeteer",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/puppeteer",
+    "stars": 2
+  },
+  {
+    "name": "CloudSecurityAlliance_csa-mcp-servers_sequentialthinking",
+    "repo_url": "https://github.com/CloudSecurityAlliance/csa-mcp-servers/tree/main/src/sequentialthinking",
+    "stars": 2
+  },
+  {
+    "name": "kingler_vividwalls-mas_email-marketing-mcp-server",
+    "repo_url": "https://github.com/kingler/vividwalls-mas/tree/main/services/mcp-servers/core/email-marketing-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "kingler_vividwalls-mas_wordpress-mcp-server",
+    "repo_url": "https://github.com/kingler/vividwalls-mas/tree/main/services/mcp-servers/core/wordpress-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "kingler_vividwalls-mas_color-psychology-mcp-server",
+    "repo_url": "https://github.com/kingler/vividwalls-mas/tree/main/services/mcp-servers/creative/color-psychology-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "kingler_vividwalls-mas_pictorem-mcp-server",
+    "repo_url": "https://github.com/kingler/vividwalls-mas/tree/main/services/mcp-servers/creative/pictorem-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "kingler_vividwalls-mas_seo-research-mcp",
+    "repo_url": "https://github.com/kingler/vividwalls-mas/tree/main/services/mcp-servers/research/seo-research-mcp",
+    "stars": 0
+  },
+  {
+    "name": "kingler_vividwalls-mas_facebook-ads-mcp-server",
+    "repo_url": "https://github.com/kingler/vividwalls-mas/tree/main/services/mcp-servers/social-media/facebook-ads-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "kingler_vividwalls-mas_pinterest-mcp-server",
+    "repo_url": "https://github.com/kingler/vividwalls-mas/tree/main/services/mcp-servers/social-media/pinterest-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "marcelo-ochoa_servers_everything",
+    "repo_url": "https://github.com/marcelo-ochoa/servers/tree/main/src/everything",
+    "stars": 1
+  },
+  {
+    "name": "marcelo-ochoa_servers_fetch",
+    "repo_url": "https://github.com/marcelo-ochoa/servers/tree/main/src/fetch",
+    "stars": 1
+  },
+  {
+    "name": "marcelo-ochoa_servers_filesystem",
+    "repo_url": "https://github.com/marcelo-ochoa/servers/tree/main/src/filesystem",
+    "stars": 1
+  },
+  {
+    "name": "marcelo-ochoa_servers_git",
+    "repo_url": "https://github.com/marcelo-ochoa/servers/tree/main/src/git",
+    "stars": 1
+  },
+  {
+    "name": "marcelo-ochoa_servers_memory",
+    "repo_url": "https://github.com/marcelo-ochoa/servers/tree/main/src/memory",
+    "stars": 1
+  },
+  {
+    "name": "marcelo-ochoa_servers_oracle",
+    "repo_url": "https://github.com/marcelo-ochoa/servers/tree/main/src/oracle",
+    "stars": 1
+  },
+  {
+    "name": "marcelo-ochoa_servers_postgres",
+    "repo_url": "https://github.com/marcelo-ochoa/servers/tree/main/src/postgres",
+    "stars": 1
+  },
+  {
+    "name": "marcelo-ochoa_servers_sequentialthinking",
+    "repo_url": "https://github.com/marcelo-ochoa/servers/tree/main/src/sequentialthinking",
+    "stars": 1
+  },
+  {
+    "name": "marcelo-ochoa_servers_time",
+    "repo_url": "https://github.com/marcelo-ochoa/servers/tree/main/src/time",
+    "stars": 1
+  },
+  {
+    "name": "DynamicEndpoints_Automated-BOD-25-01-CISA-Microsoft-Policies-MCP_cisa-defender",
+    "repo_url": "https://github.com/DynamicEndpoints/Automated-BOD-25-01-CISA-Microsoft-Policies-MCP/tree/main/cisa-defender",
+    "stars": 2
+  },
+  {
+    "name": "DynamicEndpoints_Automated-BOD-25-01-CISA-Microsoft-Policies-MCP_cisa-exchange",
+    "repo_url": "https://github.com/DynamicEndpoints/Automated-BOD-25-01-CISA-Microsoft-Policies-MCP/tree/main/cisa-exchange",
+    "stars": 2
+  },
+  {
+    "name": "DynamicEndpoints_Automated-BOD-25-01-CISA-Microsoft-Policies-MCP_cisa-m365",
+    "repo_url": "https://github.com/DynamicEndpoints/Automated-BOD-25-01-CISA-Microsoft-Policies-MCP/tree/main/cisa-m365",
+    "stars": 2
+  },
+  {
+    "name": "DynamicEndpoints_Automated-BOD-25-01-CISA-Microsoft-Policies-MCP_cisa-powerplatform",
+    "repo_url": "https://github.com/DynamicEndpoints/Automated-BOD-25-01-CISA-Microsoft-Policies-MCP/tree/main/cisa-powerplatform",
+    "stars": 2
+  },
+  {
+    "name": "DynamicEndpoints_Automated-BOD-25-01-CISA-Microsoft-Policies-MCP_cisa-sharepoint",
+    "repo_url": "https://github.com/DynamicEndpoints/Automated-BOD-25-01-CISA-Microsoft-Policies-MCP/tree/main/cisa-sharepoint",
+    "stars": 2
+  },
+  {
+    "name": "DynamicEndpoints_Automated-BOD-25-01-CISA-Microsoft-Policies-MCP_cisa-teams",
+    "repo_url": "https://github.com/DynamicEndpoints/Automated-BOD-25-01-CISA-Microsoft-Policies-MCP/tree/main/cisa-teams",
+    "stars": 2
+  },
+  {
+    "name": "madisonbullard_mcp-servers_coderabbit-mcp-server",
+    "repo_url": "https://github.com/madisonbullard/mcp-servers/tree/main/packages/coderabbit-mcp-server",
+    "stars": 5
+  },
+  {
+    "name": "madisonbullard_mcp-servers_notion-mcp-server",
+    "repo_url": "https://github.com/madisonbullard/mcp-servers/tree/main/packages/notion-mcp-server",
+    "stars": 5
+  },
+  {
+    "name": "madisonbullard_mcp-servers_remote-mcp",
+    "repo_url": "https://github.com/madisonbullard/mcp-servers/tree/main/packages/remote-mcp",
+    "stars": 5
+  },
+  {
+    "name": "madisonbullard_mcp-servers_slack-mcp-server",
+    "repo_url": "https://github.com/madisonbullard/mcp-servers/tree/main/packages/slack-mcp-server",
+    "stars": 5
+  },
+  {
+    "name": "madisonbullard_shortcut-mcp-server_coderabbit-mcp-server",
+    "repo_url": "https://github.com/madisonbullard/shortcut-mcp-server/tree/main/packages/coderabbit-mcp-server",
+    "stars": 5
+  },
+  {
+    "name": "madisonbullard_shortcut-mcp-server_notion-mcp-server",
+    "repo_url": "https://github.com/madisonbullard/shortcut-mcp-server/tree/main/packages/notion-mcp-server",
+    "stars": 5
+  },
+  {
+    "name": "madisonbullard_shortcut-mcp-server_remote-mcp",
+    "repo_url": "https://github.com/madisonbullard/shortcut-mcp-server/tree/main/packages/remote-mcp",
+    "stars": 5
+  },
+  {
+    "name": "madisonbullard_shortcut-mcp-server_slack-mcp-server",
+    "repo_url": "https://github.com/madisonbullard/shortcut-mcp-server/tree/main/packages/slack-mcp-server",
+    "stars": 5
+  },
+  {
+    "name": "agentic-community_mcp-gateway-registry_currenttime",
+    "repo_url": "https://github.com/agentic-community/mcp-gateway-registry/tree/main/servers/currenttime",
+    "stars": 261
+  },
+  {
+    "name": "agentic-community_mcp-gateway-registry_example-server",
+    "repo_url": "https://github.com/agentic-community/mcp-gateway-registry/tree/main/servers/example-server",
+    "stars": 261
+  },
+  {
+    "name": "agentic-community_mcp-gateway-registry_fininfo",
+    "repo_url": "https://github.com/agentic-community/mcp-gateway-registry/tree/main/servers/fininfo",
+    "stars": 261
+  },
+  {
+    "name": "agentic-community_mcp-gateway-registry_mcpgw",
+    "repo_url": "https://github.com/agentic-community/mcp-gateway-registry/tree/main/servers/mcpgw",
+    "stars": 261
+  },
+  {
+    "name": "agentic-community_mcp-gateway-registry_realserverfaketools",
+    "repo_url": "https://github.com/agentic-community/mcp-gateway-registry/tree/main/servers/realserverfaketools",
+    "stars": 261
+  },
+  {
+    "name": "EmberAGI_arbitrum-vibekit_allora-mcp-server",
+    "repo_url": "https://github.com/EmberAGI/arbitrum-vibekit/tree/main/typescript/community/mcp-tools/allora-mcp-server",
+    "stars": 40
+  },
+  {
+    "name": "EmberAGI_arbitrum-vibekit_centrifuge-mcp-server",
+    "repo_url": "https://github.com/EmberAGI/arbitrum-vibekit/tree/main/typescript/community/mcp-tools/centrifuge-mcp-server",
+    "stars": 40
+  },
+  {
+    "name": "EmberAGI_arbitrum-vibekit_coingecko-mcp-server",
+    "repo_url": "https://github.com/EmberAGI/arbitrum-vibekit/tree/main/typescript/community/mcp-tools/coingecko-mcp-server",
+    "stars": 40
+  },
+  {
+    "name": "EmberAGI_arbitrum-vibekit_defisafety-implementation",
+    "repo_url": "https://github.com/EmberAGI/arbitrum-vibekit/tree/main/typescript/community/mcp-tools/defisafety-implementation",
+    "stars": 40
+  },
+  {
+    "name": "EmberAGI_arbitrum-vibekit_tatum-mcp-server",
+    "repo_url": "https://github.com/EmberAGI/arbitrum-vibekit/tree/main/typescript/community/mcp-tools/tatum-mcp-server",
+    "stars": 40
+  },
+  {
+    "name": "tejpalvirk_contextmanager_developer",
+    "repo_url": "https://github.com/tejpalvirk/contextmanager/tree/main/developer",
+    "stars": 8
+  },
+  {
+    "name": "tejpalvirk_contextmanager_main",
+    "repo_url": "https://github.com/tejpalvirk/contextmanager/tree/main/main",
+    "stars": 8
+  },
+  {
+    "name": "The-System-Coperation_mcp-servers_kakao-local-mcp",
+    "repo_url": "https://github.com/The-System-Coperation/mcp-servers/tree/main/kakao-local-mcp",
+    "stars": 0
+  },
+  {
+    "name": "The-System-Coperation_mcp-servers_naver-blog-search-mcp",
+    "repo_url": "https://github.com/The-System-Coperation/mcp-servers/tree/main/naver-blog-search-mcp",
+    "stars": 0
+  },
+  {
+    "name": "The-System-Coperation_mcp-servers_naver-local-mcp",
+    "repo_url": "https://github.com/The-System-Coperation/mcp-servers/tree/main/naver-local-mcp",
+    "stars": 0
+  },
+  {
+    "name": "The-System-Coperation_mcp-servers_naver-news-search",
+    "repo_url": "https://github.com/The-System-Coperation/mcp-servers/tree/main/naver-news-search",
+    "stars": 0
+  },
+  {
+    "name": "The-System-Coperation_mcp-servers_naver-shopping-search",
+    "repo_url": "https://github.com/The-System-Coperation/mcp-servers/tree/main/naver-shopping-search",
+    "stars": 0
+  },
+  {
+    "name": "The-System-Coperation_mcp-servers_wiki-mcp",
+    "repo_url": "https://github.com/The-System-Coperation/mcp-servers/tree/main/wiki-mcp",
+    "stars": 0
+  },
+  {
+    "name": "waldzellai_mcp-enhancement-servers_server-clear-thought",
+    "repo_url": "https://github.com/waldzellai/mcp-enhancement-servers/tree/main/servers/server-clear-thought",
+    "stars": 181
+  },
+  {
+    "name": "waldzellai_mcp-enhancement-servers_server-google-styleguide",
+    "repo_url": "https://github.com/waldzellai/mcp-enhancement-servers/tree/main/servers/server-google-styleguide",
+    "stars": 181
+  },
+  {
+    "name": "waldzellai_mcp-enhancement-servers_server-stochasticthinking",
+    "repo_url": "https://github.com/waldzellai/mcp-enhancement-servers/tree/main/servers/server-stochasticthinking",
+    "stars": 181
+  },
+  {
+    "name": "waldzellai_mcp-enhancement-servers_server-typestyle",
+    "repo_url": "https://github.com/waldzellai/mcp-enhancement-servers/tree/main/servers/server-typestyle",
+    "stars": 181
+  },
+  {
+    "name": "waldzellai_waldzell-mcp_server-clear-thought",
+    "repo_url": "https://github.com/waldzellai/waldzell-mcp/tree/main/servers/server-clear-thought",
+    "stars": 181
+  },
+  {
+    "name": "waldzellai_waldzell-mcp_server-google-styleguide",
+    "repo_url": "https://github.com/waldzellai/waldzell-mcp/tree/main/servers/server-google-styleguide",
+    "stars": 181
+  },
+  {
+    "name": "waldzellai_waldzell-mcp_server-stochasticthinking",
+    "repo_url": "https://github.com/waldzellai/waldzell-mcp/tree/main/servers/server-stochasticthinking",
+    "stars": 181
+  },
+  {
+    "name": "waldzellai_waldzell-mcp_server-typestyle",
+    "repo_url": "https://github.com/waldzellai/waldzell-mcp/tree/main/servers/server-typestyle",
+    "stars": 181
+  },
+  {
+    "name": "integrabotia_mcp-servers_brasil-api",
+    "repo_url": "https://github.com/integrabotia/mcp-servers/tree/main/src/brasil-api",
+    "stars": 1
+  },
+  {
+    "name": "integrabotia_mcp-servers_brave-search",
+    "repo_url": "https://github.com/integrabotia/mcp-servers/tree/main/src/brave-search",
+    "stars": 1
+  },
+  {
+    "name": "integrabotia_mcp-servers_google-calendar",
+    "repo_url": "https://github.com/integrabotia/mcp-servers/tree/main/src/google-calendar",
+    "stars": 1
+  },
+  {
+    "name": "integrabotia_mcp-servers_ploomes-crm",
+    "repo_url": "https://github.com/integrabotia/mcp-servers/tree/main/src/ploomes-crm",
+    "stars": 1
+  },
+  {
+    "name": "integrabotia_mcp-servers_slack",
+    "repo_url": "https://github.com/integrabotia/mcp-servers/tree/main/src/slack",
+    "stars": 1
+  },
+  {
+    "name": "oceanbase_mcp-oceanbase_obcloud_mcp_server",
+    "repo_url": "https://github.com/oceanbase/mcp-oceanbase/tree/main/src/obcloud_mcp_server",
+    "stars": 84
+  },
+  {
+    "name": "oceanbase_mcp-oceanbase_obdiag_mcp_server",
+    "repo_url": "https://github.com/oceanbase/mcp-oceanbase/tree/main/src/obdiag_mcp_server",
+    "stars": 84
+  },
+  {
+    "name": "oceanbase_mcp-oceanbase_obshell_mcp_server",
+    "repo_url": "https://github.com/oceanbase/mcp-oceanbase/tree/main/src/obshell_mcp_server",
+    "stars": 84
+  },
+  {
+    "name": "oceanbase_mcp-oceanbase_oceanbase_mcp_server",
+    "repo_url": "https://github.com/oceanbase/mcp-oceanbase/tree/main/src/oceanbase_mcp_server",
+    "stars": 84
+  },
+  {
+    "name": "oceanbase_mcp-oceanbase_powermem_mcp_server",
+    "repo_url": "https://github.com/oceanbase/mcp-oceanbase/tree/main/src/powermem_mcp_server",
+    "stars": 84
+  },
+  {
+    "name": "aarora79_mcp-gateway_currenttime",
+    "repo_url": "https://github.com/aarora79/mcp-gateway/tree/main/servers/currenttime",
+    "stars": 78
+  },
+  {
+    "name": "aarora79_mcp-gateway_fininfo",
+    "repo_url": "https://github.com/aarora79/mcp-gateway/tree/main/servers/fininfo",
+    "stars": 78
+  },
+  {
+    "name": "aarora79_mcp-gateway_mcpgw",
+    "repo_url": "https://github.com/aarora79/mcp-gateway/tree/main/servers/mcpgw",
+    "stars": 78
+  },
+  {
+    "name": "aarora79_mcp-gateway_realserverfaketools",
+    "repo_url": "https://github.com/aarora79/mcp-gateway/tree/main/servers/realserverfaketools",
+    "stars": 78
+  },
+  {
+    "name": "AIAnytime_Awesome-MCP-Server_linkedin-profile-mcp",
+    "repo_url": "https://github.com/AIAnytime/Awesome-MCP-Server/tree/main/linkedin-profile-mcp",
+    "stars": 58
+  },
+  {
+    "name": "AIAnytime_Awesome-MCP-Server_mcp-wiki",
+    "repo_url": "https://github.com/AIAnytime/Awesome-MCP-Server/tree/main/mcp-wiki",
+    "stars": 58
+  },
+  {
+    "name": "AIAnytime_Awesome-MCP-Server_pubmed-mcp-server",
+    "repo_url": "https://github.com/AIAnytime/Awesome-MCP-Server/tree/main/pubmed-mcp-server",
+    "stars": 58
+  },
+  {
+    "name": "anishgowda21_mcp-local-servers_mcp-cmd-exec",
+    "repo_url": "https://github.com/anishgowda21/mcp-local-servers/tree/main/mcp-cmd-exec",
+    "stars": 0
+  },
+  {
+    "name": "anishgowda21_mcp-local-servers_mcp-filesystem",
+    "repo_url": "https://github.com/anishgowda21/mcp-local-servers/tree/main/mcp-filesystem",
+    "stars": 0
+  },
+  {
+    "name": "anishgowda21_mcp-local-servers_mcp-sse",
+    "repo_url": "https://github.com/anishgowda21/mcp-local-servers/tree/main/mcp-sse",
+    "stars": 0
+  },
+  {
+    "name": "anishgowda21_mcp-local-servers_mcp-weather-node",
+    "repo_url": "https://github.com/anishgowda21/mcp-local-servers/tree/main/mcp-weather-node",
+    "stars": 0
+  },
+  {
+    "name": "dchf12_mcp_mcp-calc-server",
+    "repo_url": "https://github.com/dchf12/mcp/tree/main/mcp-calc-server",
+    "stars": 0
+  },
+  {
+    "name": "dchf12_mcp_mcp-filesystem-server",
+    "repo_url": "https://github.com/dchf12/mcp/tree/main/mcp-filesystem-server",
+    "stars": 0
+  },
+  {
+    "name": "dchf12_mcp_mcp-google-calendar",
+    "repo_url": "https://github.com/dchf12/mcp/tree/main/mcp-google-calendar",
+    "stars": 0
+  },
+  {
+    "name": "dchf12_mcp_mcp-weather-server",
+    "repo_url": "https://github.com/dchf12/mcp/tree/main/mcp-weather-server",
+    "stars": 0
+  },
+  {
+    "name": "istanadodan_mcp_py_exam_openai-mcp",
+    "repo_url": "https://github.com/istanadodan/mcp_py_exam/tree/main/openai-mcp",
+    "stars": 0
+  },
+  {
+    "name": "istanadodan_mcp_py_exam_python-mcp-server",
+    "repo_url": "https://github.com/istanadodan/mcp_py_exam/tree/main/python-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "mericozkayagan_mcp-servers_gemini-image-mcp",
+    "repo_url": "https://github.com/mericozkayagan/mcp-servers/tree/main/gemini-image-mcp",
+    "stars": 2
+  },
+  {
+    "name": "mericozkayagan_mcp-servers_n8n-mcp",
+    "repo_url": "https://github.com/mericozkayagan/mcp-servers/tree/main/n8n-mcp",
+    "stars": 2
+  },
+  {
+    "name": "mericozkayagan_mcp-servers_obsidian-mcp",
+    "repo_url": "https://github.com/mericozkayagan/mcp-servers/tree/main/obsidian-mcp",
+    "stars": 2
+  },
+  {
+    "name": "mericozkayagan_mcp-servers_postgresql-mcp",
+    "repo_url": "https://github.com/mericozkayagan/mcp-servers/tree/main/postgresql-mcp",
+    "stars": 2
+  },
+  {
+    "name": "neo4j-contrib_mcp-neo4j_mcp-neo4j-cloud-aura-api",
+    "repo_url": "https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers/mcp-neo4j-cloud-aura-api",
+    "stars": 795
+  },
+  {
+    "name": "neo4j-contrib_mcp-neo4j_mcp-neo4j-cypher",
+    "repo_url": "https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers/mcp-neo4j-cypher",
+    "stars": 795
+  },
+  {
+    "name": "neo4j-contrib_mcp-neo4j_mcp-neo4j-data-modeling",
+    "repo_url": "https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers/mcp-neo4j-data-modeling",
+    "stars": 795
+  },
+  {
+    "name": "neo4j-contrib_mcp-neo4j_mcp-neo4j-memory",
+    "repo_url": "https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers/mcp-neo4j-memory",
+    "stars": 795
+  },
+  {
+    "name": "u10-github_mcp-servers-config_memory-server",
+    "repo_url": "https://github.com/u10-github/mcp-servers-config/tree/main/memory-server",
+    "stars": 0
+  },
+  {
+    "name": "u10-github_mcp-servers-config_notion",
+    "repo_url": "https://github.com/u10-github/mcp-servers-config/tree/main/notion-server/notion",
+    "stars": 0
+  },
+  {
+    "name": "u10-github_mcp-servers-config_playwright-mcp-server",
+    "repo_url": "https://github.com/u10-github/mcp-servers-config/tree/main/playwright-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "u10-github_mcp-servers-config_trello",
+    "repo_url": "https://github.com/u10-github/mcp-servers-config/tree/main/trello",
+    "stars": 0
+  },
+  {
+    "name": "aziouiz_zemcp_zemcp-mssql",
+    "repo_url": "https://github.com/aziouiz/zemcp/tree/main/zemcp-mssql",
+    "stars": 0
+  },
+  {
+    "name": "aziouiz_zemcp_zemcp-oracle",
+    "repo_url": "https://github.com/aziouiz/zemcp/tree/main/zemcp-oracle",
+    "stars": 0
+  },
+  {
+    "name": "aziouiz_zemcp_zemcp-postgres",
+    "repo_url": "https://github.com/aziouiz/zemcp/tree/main/zemcp-postgres",
+    "stars": 0
+  },
+  {
+    "name": "b1ff_atlassian-dc-mcp_bitbucket",
+    "repo_url": "https://github.com/b1ff/atlassian-dc-mcp/tree/master/packages/bitbucket",
+    "stars": 35
+  },
+  {
+    "name": "b1ff_atlassian-dc-mcp_confluence",
+    "repo_url": "https://github.com/b1ff/atlassian-dc-mcp/tree/master/packages/confluence",
+    "stars": 35
+  },
+  {
+    "name": "b1ff_atlassian-dc-mcp_jira",
+    "repo_url": "https://github.com/b1ff/atlassian-dc-mcp/tree/master/packages/jira",
+    "stars": 35
+  },
+  {
+    "name": "Dbillionaer_polygon-mcp_github-server",
+    "repo_url": "https://github.com/Dbillionaer/polygon-mcp/tree/master/github-server",
+    "stars": 5
+  },
+  {
+    "name": "Dbillionaer_polygon-mcp_polygonmcp",
+    "repo_url": "https://github.com/Dbillionaer/polygon-mcp/tree/master/polygonmcp",
+    "stars": 5
+  },
+  {
+    "name": "Dbillionaer_polygon-mcp_puppeteer-server",
+    "repo_url": "https://github.com/Dbillionaer/polygon-mcp/tree/master/puppeteer-server",
+    "stars": 5
+  },
+  {
+    "name": "edonyzpc_MCP_sse_mcp",
+    "repo_url": "https://github.com/edonyzpc/MCP/tree/master/servers/sse_mcp",
+    "stars": 0
+  },
+  {
+    "name": "GitGuardian_gg-mcp_developer_mcp_server",
+    "repo_url": "https://github.com/GitGuardian/gg-mcp/tree/main/packages/developer_mcp_server",
+    "stars": 25
+  },
+  {
+    "name": "GitGuardian_gg-mcp_secops_mcp_server",
+    "repo_url": "https://github.com/GitGuardian/gg-mcp/tree/main/packages/secops_mcp_server",
+    "stars": 25
+  },
+  {
+    "name": "mcp-get_community-servers_server-curl",
+    "repo_url": "https://github.com/mcp-get/community-servers/tree/main/src/server-curl",
+    "stars": 64
+  },
+  {
+    "name": "mcp-get_community-servers_server-llm-txt",
+    "repo_url": "https://github.com/mcp-get/community-servers/tree/main/src/server-llm-txt",
+    "stars": 64
+  },
+  {
+    "name": "mcp-get_community-servers_server-macos",
+    "repo_url": "https://github.com/mcp-get/community-servers/tree/main/src/server-macos",
+    "stars": 64
+  },
+  {
+    "name": "MCP-Mirror_mcp-get_community-servers_server-curl",
+    "repo_url": "https://github.com/MCP-Mirror/mcp-get_community-servers/tree/main/src/server-curl",
+    "stars": 1
+  },
+  {
+    "name": "MCP-Mirror_mcp-get_community-servers_server-llm-txt",
+    "repo_url": "https://github.com/MCP-Mirror/mcp-get_community-servers/tree/main/src/server-llm-txt",
+    "stars": 1
+  },
+  {
+    "name": "MCP-Mirror_mcp-get_community-servers_server-macos",
+    "repo_url": "https://github.com/MCP-Mirror/mcp-get_community-servers/tree/main/src/server-macos",
+    "stars": 1
+  },
+  {
+    "name": "sirocco-k1_eth-security-mcp_cast",
+    "repo_url": "https://github.com/sirocco-k1/eth-security-mcp/tree/main/src/cast",
+    "stars": 0
+  },
+  {
+    "name": "sirocco-k1_eth-security-mcp_dune",
+    "repo_url": "https://github.com/sirocco-k1/eth-security-mcp/tree/main/src/dune",
+    "stars": 0
+  },
+  {
+    "name": "sirocco-k1_eth-security-mcp_sources",
+    "repo_url": "https://github.com/sirocco-k1/eth-security-mcp/tree/main/src/sources",
+    "stars": 0
+  },
+  {
+    "name": "SweetingTech_MCP_github-server",
+    "repo_url": "https://github.com/SweetingTech/MCP/tree/main/multi-mcp-repo/github-server",
+    "stars": 0
+  },
+  {
+    "name": "SweetingTech_MCP_manager-server",
+    "repo_url": "https://github.com/SweetingTech/MCP/tree/main/multi-mcp-repo/manager-server",
+    "stars": 0
+  },
+  {
+    "name": "SweetingTech_MCP_search-server",
+    "repo_url": "https://github.com/SweetingTech/MCP/tree/main/multi-mcp-repo/search-server",
+    "stars": 0
+  },
+  {
+    "name": "aliyun_alibabacloud-opensearch-mcp-server_aisearch-mcp-server",
+    "repo_url": "https://github.com/aliyun/alibabacloud-opensearch-mcp-server/tree/master/aisearch-mcp-server",
+    "stars": 9
+  },
+  {
+    "name": "aliyun_alibabacloud-opensearch-mcp-server_opensearch-vector-mcp-server",
+    "repo_url": "https://github.com/aliyun/alibabacloud-opensearch-mcp-server/tree/master/opensearch-vector-mcp-server",
+    "stars": 9
+  },
+  {
+    "name": "AnalyticAce_MyMCP_mcp-server-webhooker",
+    "repo_url": "https://github.com/AnalyticAce/MyMCP/tree/main/mcp-server-webhooker",
+    "stars": 2
+  },
+  {
+    "name": "AnalyticAce_MyMCP_mcp-server-websearch",
+    "repo_url": "https://github.com/AnalyticAce/MyMCP/tree/main/mcp-server-websearch",
+    "stars": 2
+  },
+  {
+    "name": "AryanK1511_custom-mcp-servers_fastapi-sse-mcp-server",
+    "repo_url": "https://github.com/AryanK1511/custom-mcp-servers/tree/main/fastapi-sse-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "AryanK1511_custom-mcp-servers_raspberrypi",
+    "repo_url": "https://github.com/AryanK1511/custom-mcp-servers/tree/main/raspberrypi",
+    "stars": 0
+  },
+  {
+    "name": "DXHeroes_mcp-devtools_jira",
+    "repo_url": "https://github.com/DXHeroes/mcp-devtools/tree/main/packages/jira",
+    "stars": 13
+  },
+  {
+    "name": "DXHeroes_mcp-devtools_linear",
+    "repo_url": "https://github.com/DXHeroes/mcp-devtools/tree/main/packages/linear",
+    "stars": 13
+  },
+  {
+    "name": "HuaweiCloudDeveloper_mcp-server_mcp_server_time",
+    "repo_url": "https://github.com/HuaweiCloudDeveloper/mcp-server/tree/main/common_servers/mcp_server_time",
+    "stars": 28
+  },
+  {
+    "name": "HuaweiCloudDeveloper_mcp-server_huaweicloud_dws_mcp_inner",
+    "repo_url": "https://github.com/HuaweiCloudDeveloper/mcp-server/tree/main/huaweicloud_dws_mcp_inner",
+    "stars": 28
+  },
+  {
+    "name": "kurtseifried_mcp-servers-kurtseifried_nodemailer",
+    "repo_url": "https://github.com/kurtseifried/mcp-servers-kurtseifried/tree/main/src/nodemailer",
+    "stars": 0
+  },
+  {
+    "name": "kurtseifried_mcp-servers-kurtseifried_wordpress",
+    "repo_url": "https://github.com/kurtseifried/mcp-servers-kurtseifried/tree/main/src/wordpress",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_kurtseifried_mcp-servers-kurtseifried_nodemailer",
+    "repo_url": "https://github.com/MCP-Mirror/kurtseifried_mcp-servers-kurtseifried/tree/main/src/nodemailer",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_kurtseifried_mcp-servers-kurtseifried_wordpress",
+    "repo_url": "https://github.com/MCP-Mirror/kurtseifried_mcp-servers-kurtseifried/tree/main/src/wordpress",
+    "stars": 0
+  },
+  {
+    "name": "modelscope_mcp-central_crawl4ai",
+    "repo_url": "https://github.com/modelscope/mcp-central/tree/main/mcp_central/crawl4ai",
+    "stars": 24
+  },
+  {
+    "name": "modelscope_mcp-central_ocrmypdf",
+    "repo_url": "https://github.com/modelscope/mcp-central/tree/main/mcp_central/ocrmypdf",
+    "stars": 24
+  },
+  {
+    "name": "omar391_mcp-agents_mcp-playwright-fetch",
+    "repo_url": "https://github.com/omar391/mcp-agents/tree/main/mcp-playwright-fetch",
+    "stars": 0
+  },
+  {
+    "name": "omar391_mcp-agents_youtube-server",
+    "repo_url": "https://github.com/omar391/mcp-agents/tree/main/youtube-server",
+    "stars": 0
+  },
+  {
+    "name": "rebots-online_mcp-neo4j_mcp-json-memory",
+    "repo_url": "https://github.com/rebots-online/mcp-neo4j/tree/main/servers/mcp-json-memory",
+    "stars": 2
+  },
+  {
+    "name": "rebots-online_mcp-neo4j_mcp-neo4j-cypher",
+    "repo_url": "https://github.com/rebots-online/mcp-neo4j/tree/main/servers/mcp-neo4j-cypher",
+    "stars": 2
+  },
+  {
+    "name": "shivay-couchbase_couchbase-mcp_couchbase-mcp-monsters",
+    "repo_url": "https://github.com/shivay-couchbase/couchbase-mcp/tree/main/couchbase-mcp-monsters",
+    "stars": 2
+  },
+  {
+    "name": "shivay-couchbase_couchbase-mcp_couchbase-mcp-starwars",
+    "repo_url": "https://github.com/shivay-couchbase/couchbase-mcp/tree/main/couchbase-mcp-starwars",
+    "stars": 2
+  },
+  {
+    "name": "suzukalight_cline-mcp-server-test_mcp-server-jst-time",
+    "repo_url": "https://github.com/suzukalight/cline-mcp-server-test/tree/main/packages/mcp-server-jst-time",
+    "stars": 0
+  },
+  {
+    "name": "suzukalight_cline-mcp-server-test_mcp-server-todoapp",
+    "repo_url": "https://github.com/suzukalight/cline-mcp-server-test/tree/main/packages/mcp-server-todoapp",
+    "stars": 0
+  },
+  {
+    "name": "UjjwalSaini07_MCP-Quantum-Server_github_server",
+    "repo_url": "https://github.com/UjjwalSaini07/MCP-Quantum-Server/tree/main/Servers/github_server",
+    "stars": 2
+  },
+  {
+    "name": "UjjwalSaini07_MCP-Quantum-Server_x_server",
+    "repo_url": "https://github.com/UjjwalSaini07/MCP-Quantum-Server/tree/main/Servers/x_server",
+    "stars": 2
+  }
+]

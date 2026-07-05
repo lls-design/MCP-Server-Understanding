@@ -1,0 +1,114 @@
+{
+  "source": "/home/lls/MCP_Analyze/tool_analyzer/api_cache.json",
+  "total_external_apis": 27465,
+  "filter_scope": "All api_cache.json entries with external_api=true",
+  "taxonomy": "10-category merged taxonomy",
+  "category_aliases": {
+    "Academic Research Data Services": "Specialized Domain Data Services",
+    "Blockchain and Cryptocurrency Services": "Financial and Blockchain Services",
+    "Calendar Services": "Project Management Services",
+    "Code Repository Services": "Project Management Services",
+    "Email Management Services": "Specialized Domain Data Services",
+    "Email Services": "Specialized Domain Data Services",
+    "Financial Market Data Services": "Specialized Domain Data Services",
+    "Financial Trading Services": "Financial and Blockchain Services",
+    "Healthcare Terminology Services": "Specialized Domain Data Services",
+    "Network Access": "Specialized Domain Data Services",
+    "Payment Processing": "Financial and Blockchain Services",
+    "SMS and Telephony Services": "Specialized Domain Data Services",
+    "Social Media Management": "Specialized Domain Data Services",
+    "Weather and Climate Services": "Specialized Domain Data Services"
+  },
+  "categories": {
+    "Specialized Domain Data Services": {
+      "count": 8309,
+      "share": "30.25%",
+      "description": "Access domain-specific external data.",
+      "examples": [
+        "GoogleMaps.geocode()",
+        "YouTube.videos.list()"
+      ]
+    },
+    "Project Management Services": {
+      "count": 3736,
+      "share": "13.60%",
+      "description": "Manage issues, tasks, and repositories.",
+      "examples": [
+        "JIRA.create_issue()",
+        "GitHub.createPullRequest()"
+      ]
+    },
+    "Database Management": {
+      "count": 3209,
+      "share": "11.68%",
+      "description": "Query, modify, or administer databases.",
+      "examples": [
+        "SQLite.execute()",
+        "PostgreSQL.query()"
+      ]
+    },
+    "Cloud Infrastructure Management": {
+      "count": 3035,
+      "share": "11.05%",
+      "description": "Provision or manage cloud resources.",
+      "examples": [
+        "EC2.describe_volumes()",
+        "Kubernetes.list_pod()"
+      ]
+    },
+    "System Command Execution": {
+      "count": 2202,
+      "share": "8.02%",
+      "description": "Run local commands or scripts.",
+      "examples": [
+        "subprocess.run()",
+        "child_process.spawn()"
+      ]
+    },
+    "Financial and Blockchain Services": {
+      "count": 1899,
+      "share": "6.91%",
+      "description": "Process financial or blockchain transactions.",
+      "examples": [
+        "Stripe.paymentIntents.create()",
+        "viem.sendTransaction()"
+      ]
+    },
+    "Identity and Access Management": {
+      "count": 1695,
+      "share": "6.17%",
+      "description": "Authenticate users and manage access.",
+      "examples": [
+        "OAuth.run_server()",
+        "Credentials.refresh()"
+      ]
+    },
+    "File System Operations": {
+      "count": 1563,
+      "share": "5.69%",
+      "description": "Read, write, or transfer files.",
+      "examples": [
+        "os.remove()",
+        "fs.writeFile()"
+      ]
+    },
+    "AI and Machine Learning Services": {
+      "count": 1000,
+      "share": "3.64%",
+      "description": "Invoke AI/ML models or services.",
+      "examples": [
+        "OpenAI.chat.create()",
+        "OpenAI.embeddings()"
+      ]
+    },
+    "Browser Automation and Web Interaction": {
+      "count": 817,
+      "share": "2.97%",
+      "description": "Automate browsers and web pages.",
+      "examples": [
+        "Puppeteer.waitForSelector()",
+        "Playwright.goto()"
+      ]
+    }
+  }
+}

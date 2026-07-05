@@ -1,0 +1,476 @@
+{
+    "https://docs.python.org/3/library/subprocess.html": {
+        "accessible": true
+    },
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.quad.html": {
+        "accessible": true
+    },
+    "https://googleapis.github.io/google-api-python-client/docs/epy/googleapiclient.discovery-module.html#build": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/crypto.html#ciphergetauthtag": {
+        "accessible": true
+    },
+    "https://www.dropbox.com/developers/documentation/javascript#overview": {
+        "accessible": true
+    },
+    "https://github.com/seatgeek/fuzzywuzzy": {
+        "accessible": true
+    },
+    "https://github.com/yamato-snow/fastmcp": {
+        "accessible": false
+    },
+    "https://opentelemetry.io/docs/reference/api/trace/": {
+        "accessible": false
+    },
+    "https://pptr.dev/api/puppeteer.page.evaluate": {
+        "accessible": true
+    },
+    "https://playwright.dev/docs/evaluating": {
+        "accessible": true
+    },
+    "https://github.com/googleapis/google-api-nodejs-client#using-an-api": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/child_process.html#child_processspawncommand-args-options": {
+        "accessible": true
+    },
+    "https://pocketbase.io/docs/": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/child_process.html#child_processexeccommand-options-callback": {
+        "accessible": true
+    },
+    "https://www.selenium.dev/documentation/webdriver/drivers/service/": {
+        "accessible": true
+    },
+    "https://pocketbase.io/docs/api-collections/": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/child_process.html#child_processexecfilesynccommand-options": {
+        "accessible": false
+    },
+    "https://nodejs.org/api/child_process.html#child_processexecfilesynccommand-args-options": {
+        "accessible": true
+    },
+    "https://docs.blender.org/api/current/": {
+        "accessible": true
+    },
+    "https://github.com/googleapis/google-api-nodejs-client": {
+        "accessible": true
+    },
+    "https://playwright.dev/docs/api/class-page#page-goto": {
+        "accessible": true
+    },
+    "https://developers.google.com/gmail/api/reference/rest/v1/users.messages.attachments/get": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/fs.html#fsreadfilesyncpath-options": {
+        "accessible": true
+    },
+    "https://docs.oxylabs.io": {
+        "accessible": true
+    },
+    "https://docs.python.org/3/library/wave.html": {
+        "accessible": true
+    },
+    "https://docs.github.com/en/rest/repos/contents#get-repository-content": {
+        "accessible": true
+    },
+    "https://github.com/modelcontextprotocol/sdk-javascript": {
+        "accessible": false
+    },
+    "https://nodejs.org/api/child_process.html": {
+        "accessible": true
+    },
+    "https://github.com/nbd-wtf/nostr-tools": {
+        "accessible": true
+    },
+    "https://www.mlflow.org/docs/latest/rest-api.html": {
+        "accessible": true
+    },
+    "https://github.com/WiseLibs/better-sqlite3/blob/master/docs/api.md#preparestatement": {
+        "accessible": true
+    },
+    "https://github.com/paulmillr/chokidar#readme": {
+        "accessible": true
+    },
+    "https://developers.google.com/analytics/devguides/reporting/data/v1/rest/v1beta/properties/runReport": {
+        "accessible": true
+    },
+    "https://docs.python-requests.org/en/latest/": {
+        "accessible": true
+    },
+    "https://docs.python.org/3/library/socket.html#socket.socket.recv": {
+        "accessible": true
+    },
+    "https://www.starknet.io/en": {
+        "accessible": true
+    },
+    "https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/dynamodb/command/": {
+        "accessible": false
+    },
+    "https://nodejs.org/api/fs.html#fswritefilesyncfile-data-options": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/fs.html#fssync": {
+        "accessible": true
+    },
+    "https://playwright.dev/python/docs/api/class-page#page-wait-for-load-state": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/fs.html#fspromisesopenpath-flags-mode": {
+        "accessible": true
+    },
+    "https://github.com/colinhacks/zod": {
+        "accessible": true
+    },
+    "https://github.com/WiseLibs/better-sqlite3/blob/HEAD/docs/api.md#preparestring---prepared-statement": {
+        "accessible": true
+    },
+    "https://github.com/WiseLibs/better-sqlite3": {
+        "accessible": true
+    },
+    "https://docs.ethers.org/v5/api/contract/contract-factory/#ContractFactory--deployment": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/child_process.html#child_processexecfilefile-args-options-callback": {
+        "accessible": true
+    },
+    "https://github.com/microsoft/azure-devops-node-api": {
+        "accessible": true
+    },
+    "https://pygithub.readthedocs.io/en/latest/github_objects/Repository.html#github.Repository.Repository.search_repositories": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/https.html": {
+        "accessible": true
+    },
+    "https://github.com/prisma-labs/graphql-request#using-gql-to-parse-queries": {
+        "accessible": true
+    },
+    "https://docs.python.org/3/library/os.html#os.getenv": {
+        "accessible": true
+    },
+    "https://axios-http.com/docs/api_intro": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/events.html#emitteronname-listener": {
+        "accessible": true
+    },
+    "https://pypi.org/project/mcp/": {
+        "accessible": true
+    },
+    "https://docs.pixeltable.com/api-reference/query/collect": {
+        "accessible": false
+    },
+    "https://developers.pipedrive.com/docs/api/v1/#!/Organizations/get_organization_id": {
+        "accessible": true
+    },
+    "https://jsforce.github.io/document/#read-metadata": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/modules.html#modules_require": {
+        "accessible": true
+    },
+    "https://www.checkov.io/2.Basics/CLI%20Command%20Reference.html": {
+        "accessible": true
+    },
+    "https://developers.google.com/gmail/api/reference/rest/v1/users.messages/get": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/child_process.html#child_process_child_spawnargs": {
+        "accessible": true
+    },
+    "https://playwright.dev/docs/api/class-page#page-evaluate": {
+        "accessible": true
+    },
+    "https://github.com/neovim/node-client/blob/master/README.md": {
+        "accessible": true
+    },
+    "https://github.com/neovim/node-client": {
+        "accessible": true
+    },
+    "https://github.com/nut-tree/nut.js": {
+        "accessible": true
+    },
+    "https://www.electronjs.org/docs/latest/api/browser-window#winmovex-y": {
+        "accessible": true
+    },
+    "https://docs.python.org/3/library/importlib.html#importlib.import_module": {
+        "accessible": true
+    },
+    "https://developers.cloudflare.com/api/": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/url.html#urlfileurltopathurl": {
+        "accessible": true
+    },
+    "https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateKeyPair.html": {
+        "accessible": true
+    },
+    "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html#EC2.Client.describe_key_pairs": {
+        "accessible": true
+    },
+    "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ecs.html#ECS.Client.list_clusters": {
+        "accessible": true
+    },
+    "https://psutil.readthedocs.io/en/latest/#psutil.disk_usage": {
+        "accessible": true
+    },
+    "https://docs.bnbchain.org/greenfield-docs/docs/quick-start": {
+        "accessible": false
+    },
+    "https://nodejs.org/api/fs.html#fsaccesspath-mode-callback": {
+        "accessible": true
+    },
+    "https://github.com/bnb-chain/greenfield-js-sdk": {
+        "accessible": true
+    },
+    "https://github.com/apocas/dockerode": {
+        "accessible": true
+    },
+    "https://viem.sh/docs/utilities/formatUnits": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/child_process.html#child_processexeccommand-options": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/child_process.html#child_process_execsync_command_options": {
+        "accessible": true
+    },
+    "https://cloud.tencent.com/document/product/436/57905": {
+        "accessible": false
+    },
+    "https://github.com/nut-tree/nut-js": {
+        "accessible": false
+    },
+    "https://code.visualstudio.com/api/references/vscode-api#debug": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/fs.html#fsstatpath-options-callback": {
+        "accessible": true
+    },
+    "https://www.browserstack.com/docs": {
+        "accessible": true
+    },
+    "https://www.browserstack.com/docs/automate/api-reference/rest/v4": {
+        "accessible": false
+    },
+    "https://docs.python.org/3/library/urllib.request.html#urllib.request.urlretrieve": {
+        "accessible": true
+    },
+    "https://www.npmjs.com/package/gitdiff-parser": {
+        "accessible": false
+    },
+    "https://docs.python.org/3/library/stdtypes.html#dict.get": {
+        "accessible": true
+    },
+    "https://help.aliyun.com/document_detail/26319.html": {
+        "accessible": true
+    },
+    "https://xrpl-py.readthedocs.io/en/latest/source/xrpl.models.requests.html#xrpl.models.requests.server_info.ServerInfo": {
+        "accessible": true
+    },
+    "https://boto3.amazonaws.com/v1/documentation/api/latest/reference/core/boto3.html#boto3.client": {
+        "accessible": true
+    },
+    "https://web3js.readthedocs.io/en/v1.8.2/web3-eth-accounts.html#createnewaccount": {
+        "accessible": true
+    },
+    "https://github.com/hoffstadt/DearPyGui": {
+        "accessible": true
+    },
+    "https://dearpygui.readthedocs.io/en/latest/documentation/container-commands.html#font-registry": {
+        "accessible": false
+    },
+    "https://atproto.com": {
+        "accessible": true
+    },
+    "https://pymupdf4llm.readthedocs.io/en/latest/": {
+        "accessible": true
+    },
+    "https://www.cancer.gov/research/participate/clinical-trials-search/developers": {
+        "accessible": true
+    },
+    "https://code.visualstudio.com/api/references/commands": {
+        "accessible": true
+    },
+    "https://code.visualstudio.com/api/references/vscode-api#commands": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/child_process.html#child_processexecsynccommand-options": {
+        "accessible": true
+    },
+    "https://developer.apple.com/documentation/coregraphics/quartz_window_services": {
+        "accessible": true
+    },
+    "https://developers.notion.com/reference/create-a-page": {
+        "accessible": false
+    },
+    "https://sharp.pixelplumbing.com/api-output#tofile": {
+        "accessible": true
+    },
+    "https://github.com/jasonkuhrt/graphql-request": {
+        "accessible": true
+    },
+    "https://pypi.org/project/pytz/": {
+        "accessible": true
+    },
+    "https://diagrams.mingrammer.com/docs/nodes/aws#network": {
+        "accessible": true
+    },
+    "https://pypi.org/project/FirstCyclingAPI/": {
+        "accessible": true
+    },
+    "https://mcp.dev": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/fs.html#fssstatsyncpath-options": {
+        "accessible": true
+    },
+    "https://docs.streamlit.io/develop/api-reference/caching-and-state/st.session_state": {
+        "accessible": true
+    },
+    "https://expressjs.com/en/4x/api.html#router.post": {
+        "accessible": true
+    },
+    "https://expressjs.com/en/4x/api.html#router.METHOD": {
+        "accessible": true
+    },
+    "https://www.npmjs.com/package/yanki-connect": {
+        "accessible": false
+    },
+    "https://developers.notion.com/reference/retrieve-a-block": {
+        "accessible": true
+    },
+    "https://github.com/modelcontextprotocol/sdk": {
+        "accessible": false
+    },
+    "https://opentelemetry.io/docs/languages/jsdk/api/context/#with": {
+        "accessible": false
+    },
+    "https://googleapis.github.io/google-api-python-client/docs/epy/googleapiclient.http.MediaIoBaseDownload-class.html": {
+        "accessible": true
+    },
+    "https://docs.opencv.org/4.x/d8/dfe/classcv_1_1VideoCapture.html#aac38f795d4cc8c8d667021cf3463e36b": {
+        "accessible": true
+    },
+    "https://developers.google.com/resources/api-libraries/documentation/drive/v3/python/latest/drive_v3.files.html": {
+        "accessible": true
+    },
+    "https://developers.google.com/resources/api-libraries/documentation/drive/v3/python/latest/drive_v3.files.html#get": {
+        "accessible": true
+    },
+    "https://docs.python.org/3/library/os.html#os.getcwd": {
+        "accessible": true
+    },
+    "https://www.alphavantage.co/documentation/": {
+        "accessible": true
+    },
+    "https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#connection_sendRequest": {
+        "accessible": true
+    },
+    "https://developer.shotgridsoftware.com/python-api/": {
+        "accessible": true
+    },
+    "https://pypi.org/project/inscriptis/": {
+        "accessible": true
+    },
+    "https://pypi.org/project/python-whois/": {
+        "accessible": true
+    },
+    "https://axios-http.com/docs/post_example": {
+        "accessible": true
+    },
+    "https://platform.openai.com/docs/api-reference": {
+        "accessible": true
+    },
+    "https://axios-http.com/docs/intro": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/fs.html#fsmkdirsyncpath-options": {
+        "accessible": true
+    },
+    "https://www.example.com": {
+        "accessible": true
+    },
+    "https://developer.mozilla.org/en-US/docs/Web/API/Response/text": {
+        "accessible": true
+    },
+    "https://wiki.fysik.dtu.dk/ase/": {
+        "accessible": true
+    },
+    "https://modelcontextprotocol.com/docs/spec": {
+        "accessible": false
+    },
+    "https://github.com/modelcontextprotocol/spec": {
+        "accessible": false
+    },
+    "https://learn.microsoft.com/en-us/azure/machine-learning/model-context-protocol": {
+        "accessible": false
+    },
+    "https://github.com/kubernetes-client/python/blob/master/kubernetes/docs/CoreV1Api.md#read_namespaced_pod_log": {
+        "accessible": true
+    },
+    "https://help.gnome.org/users/gnome-help/stable/screen-shot-take.html": {
+        "accessible": false
+    },
+    "https://docs.joern.io/api-reference/joern-remote": {
+        "accessible": false
+    },
+    "https://learn.microsoft.com/en-us/javascript/api/@azure/msal-node/tokencache?view=azure-node-latest#getAllAccounts__": {
+        "accessible": true
+    },
+    "https://developers.google.com/calendar/api/v3/reference/events/list": {
+        "accessible": true
+    },
+    "https://help.aliyun.com/zh/sae/api/execcontainercommand": {
+        "accessible": true
+    },
+    "https://mongodb.github.io/node-mongodb-native/api-bson-generated/objectid.html": {
+        "accessible": true
+    },
+    "https://github.com/yuna0x0/anilist-node": {
+        "accessible": true
+    },
+    "https://docs.python.org/3/library/asyncio-task.html#asyncio.to_thread": {
+        "accessible": true
+    },
+    "https://github.com/modelcontextprotocol/sdk-typescript/blob/main/src/server/completable.ts": {
+        "accessible": false
+    },
+    "https://pypi.org/project/lunar-python/": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/process.html": {
+        "accessible": true
+    },
+    "https://playwright.dev/docs/api/class-keyboard#keyboard-type": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/fs.html": {
+        "accessible": true
+    },
+    "https://nodejs.org/api/fs.html#promises-api": {
+        "accessible": true
+    },
+    "https://github.com/ladjs/supertest": {
+        "accessible": true
+    },
+    "https://modelcontextprotocol.io": {
+        "accessible": true
+    },
+    "": {
+        "accessible": false
+    },
+    "https://developers.notion.com/reference/post-search": {
+        "accessible": true
+    },
+    "https://modelcontextprotocol.io/docs/sdk": {
+        "accessible": true
+    },
+    "https://sharp.pixelplumbing.com/api-operation#rotate": {
+        "accessible": true
+    }
+}

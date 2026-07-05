@@ -1,0 +1,376 @@
+{
+  "authorization_classified_path": "/home/lls/MCP_Analyze/tool_analyzer/final_success_authorization_classified.json",
+  "final_projects_path": "/home/lls/MCP_Analyze/tool_analyzer/final_success_projects.txt",
+  "server_assignments_path": "/home/lls/MCP_Analyze/tool_analyzer/paper8_new_servers_classification/merged_server_assignments.jsonl",
+  "matched_projects": 4049,
+  "skipped_projects": 0,
+  "total_flow": 4049,
+  "auth_totals": {
+    "Static Token or API Key": 1867,
+    "No Authorization": 1440,
+    "Static Username or Password": 248,
+    "Runtime Injection": 128,
+    "Delegated Role-Scoped Token": 82,
+    "OAuth 2.0 or OIDC Flow": 164,
+    "Multi-Credential": 56,
+    "Capability Artifact": 53,
+    "Other": 11
+  },
+  "server_totals": {
+    "Data and Public Content Access": 1607,
+    "Infrastructure and Gateway Services": 692,
+    "Source Control and Collaboration": 589,
+    "Local Execution and Automation": 375,
+    "Task and Schedule Management": 431,
+    "Financial and Blockchain Services": 143,
+    "Analytics and Peripheral Tools": 130,
+    "Security, Access Control, and Scanning": 82
+  },
+  "links": [
+    {
+      "source": "Static Token or API Key",
+      "target": "Data and Public Content Access",
+      "value": 792
+    },
+    {
+      "source": "No Authorization",
+      "target": "Data and Public Content Access",
+      "value": 544
+    },
+    {
+      "source": "Static Token or API Key",
+      "target": "Infrastructure and Gateway Services",
+      "value": 332
+    },
+    {
+      "source": "Static Token or API Key",
+      "target": "Source Control and Collaboration",
+      "value": 303
+    },
+    {
+      "source": "No Authorization",
+      "target": "Local Execution and Automation",
+      "value": 207
+    },
+    {
+      "source": "No Authorization",
+      "target": "Infrastructure and Gateway Services",
+      "value": 199
+    },
+    {
+      "source": "No Authorization",
+      "target": "Source Control and Collaboration",
+      "value": 199
+    },
+    {
+      "source": "Static Token or API Key",
+      "target": "Task and Schedule Management",
+      "value": 170
+    },
+    {
+      "source": "No Authorization",
+      "target": "Task and Schedule Management",
+      "value": 146
+    },
+    {
+      "source": "Static Token or API Key",
+      "target": "Local Execution and Automation",
+      "value": 114
+    },
+    {
+      "source": "Static Username or Password",
+      "target": "Data and Public Content Access",
+      "value": 108
+    },
+    {
+      "source": "Static Token or API Key",
+      "target": "Financial and Blockchain Services",
+      "value": 81
+    },
+    {
+      "source": "No Authorization",
+      "target": "Analytics and Peripheral Tools",
+      "value": 69
+    },
+    {
+      "source": "OAuth 2.0 or OIDC Flow",
+      "target": "Task and Schedule Management",
+      "value": 55
+    },
+    {
+      "source": "Static Username or Password",
+      "target": "Infrastructure and Gateway Services",
+      "value": 50
+    },
+    {
+      "source": "OAuth 2.0 or OIDC Flow",
+      "target": "Data and Public Content Access",
+      "value": 48
+    },
+    {
+      "source": "Static Token or API Key",
+      "target": "Analytics and Peripheral Tools",
+      "value": 43
+    },
+    {
+      "source": "No Authorization",
+      "target": "Financial and Blockchain Services",
+      "value": 42
+    },
+    {
+      "source": "Runtime Injection",
+      "target": "Infrastructure and Gateway Services",
+      "value": 36
+    },
+    {
+      "source": "Delegated Role-Scoped Token",
+      "target": "Data and Public Content Access",
+      "value": 35
+    },
+    {
+      "source": "Runtime Injection",
+      "target": "Data and Public Content Access",
+      "value": 35
+    },
+    {
+      "source": "No Authorization",
+      "target": "Security, Access Control, and Scanning",
+      "value": 34
+    },
+    {
+      "source": "Static Token or API Key",
+      "target": "Security, Access Control, and Scanning",
+      "value": 32
+    },
+    {
+      "source": "OAuth 2.0 or OIDC Flow",
+      "target": "Infrastructure and Gateway Services",
+      "value": 27
+    },
+    {
+      "source": "Static Username or Password",
+      "target": "Task and Schedule Management",
+      "value": 26
+    },
+    {
+      "source": "Static Username or Password",
+      "target": "Source Control and Collaboration",
+      "value": 25
+    },
+    {
+      "source": "Delegated Role-Scoped Token",
+      "target": "Infrastructure and Gateway Services",
+      "value": 23
+    },
+    {
+      "source": "Multi-Credential",
+      "target": "Data and Public Content Access",
+      "value": 22
+    },
+    {
+      "source": "Static Username or Password",
+      "target": "Local Execution and Automation",
+      "value": 21
+    },
+    {
+      "source": "Capability Artifact",
+      "target": "Data and Public Content Access",
+      "value": 19
+    },
+    {
+      "source": "Runtime Injection",
+      "target": "Source Control and Collaboration",
+      "value": 19
+    },
+    {
+      "source": "OAuth 2.0 or OIDC Flow",
+      "target": "Source Control and Collaboration",
+      "value": 17
+    },
+    {
+      "source": "Runtime Injection",
+      "target": "Local Execution and Automation",
+      "value": 15
+    },
+    {
+      "source": "Runtime Injection",
+      "target": "Task and Schedule Management",
+      "value": 14
+    },
+    {
+      "source": "Capability Artifact",
+      "target": "Infrastructure and Gateway Services",
+      "value": 12
+    },
+    {
+      "source": "Multi-Credential",
+      "target": "Infrastructure and Gateway Services",
+      "value": 10
+    },
+    {
+      "source": "Delegated Role-Scoped Token",
+      "target": "Source Control and Collaboration",
+      "value": 9
+    },
+    {
+      "source": "Multi-Credential",
+      "target": "Source Control and Collaboration",
+      "value": 9
+    },
+    {
+      "source": "Static Username or Password",
+      "target": "Analytics and Peripheral Tools",
+      "value": 9
+    },
+    {
+      "source": "Capability Artifact",
+      "target": "Source Control and Collaboration",
+      "value": 7
+    },
+    {
+      "source": "Delegated Role-Scoped Token",
+      "target": "Task and Schedule Management",
+      "value": 7
+    },
+    {
+      "source": "OAuth 2.0 or OIDC Flow",
+      "target": "Security, Access Control, and Scanning",
+      "value": 7
+    },
+    {
+      "source": "Static Username or Password",
+      "target": "Financial and Blockchain Services",
+      "value": 7
+    },
+    {
+      "source": "Capability Artifact",
+      "target": "Task and Schedule Management",
+      "value": 6
+    },
+    {
+      "source": "Multi-Credential",
+      "target": "Task and Schedule Management",
+      "value": 6
+    },
+    {
+      "source": "Delegated Role-Scoped Token",
+      "target": "Local Execution and Automation",
+      "value": 5
+    },
+    {
+      "source": "Capability Artifact",
+      "target": "Local Execution and Automation",
+      "value": 4
+    },
+    {
+      "source": "Multi-Credential",
+      "target": "Financial and Blockchain Services",
+      "value": 4
+    },
+    {
+      "source": "OAuth 2.0 or OIDC Flow",
+      "target": "Financial and Blockchain Services",
+      "value": 4
+    },
+    {
+      "source": "OAuth 2.0 or OIDC Flow",
+      "target": "Local Execution and Automation",
+      "value": 4
+    },
+    {
+      "source": "Other",
+      "target": "Data and Public Content Access",
+      "value": 4
+    },
+    {
+      "source": "Multi-Credential",
+      "target": "Local Execution and Automation",
+      "value": 3
+    },
+    {
+      "source": "Other",
+      "target": "Infrastructure and Gateway Services",
+      "value": 3
+    },
+    {
+      "source": "Runtime Injection",
+      "target": "Analytics and Peripheral Tools",
+      "value": 3
+    },
+    {
+      "source": "Runtime Injection",
+      "target": "Financial and Blockchain Services",
+      "value": 3
+    },
+    {
+      "source": "Runtime Injection",
+      "target": "Security, Access Control, and Scanning",
+      "value": 3
+    },
+    {
+      "source": "Capability Artifact",
+      "target": "Analytics and Peripheral Tools",
+      "value": 2
+    },
+    {
+      "source": "Capability Artifact",
+      "target": "Security, Access Control, and Scanning",
+      "value": 2
+    },
+    {
+      "source": "OAuth 2.0 or OIDC Flow",
+      "target": "Analytics and Peripheral Tools",
+      "value": 2
+    },
+    {
+      "source": "Other",
+      "target": "Local Execution and Automation",
+      "value": 2
+    },
+    {
+      "source": "Static Username or Password",
+      "target": "Security, Access Control, and Scanning",
+      "value": 2
+    },
+    {
+      "source": "Capability Artifact",
+      "target": "Financial and Blockchain Services",
+      "value": 1
+    },
+    {
+      "source": "Delegated Role-Scoped Token",
+      "target": "Analytics and Peripheral Tools",
+      "value": 1
+    },
+    {
+      "source": "Delegated Role-Scoped Token",
+      "target": "Financial and Blockchain Services",
+      "value": 1
+    },
+    {
+      "source": "Delegated Role-Scoped Token",
+      "target": "Security, Access Control, and Scanning",
+      "value": 1
+    },
+    {
+      "source": "Multi-Credential",
+      "target": "Analytics and Peripheral Tools",
+      "value": 1
+    },
+    {
+      "source": "Multi-Credential",
+      "target": "Security, Access Control, and Scanning",
+      "value": 1
+    },
+    {
+      "source": "Other",
+      "target": "Source Control and Collaboration",
+      "value": 1
+    },
+    {
+      "source": "Other",
+      "target": "Task and Schedule Management",
+      "value": 1
+    }
+  ]
+}

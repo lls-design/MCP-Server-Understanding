@@ -1,0 +1,279 @@
+{
+  "total_servers": 30,
+  "types": [
+    {
+      "id": "T01",
+      "name": "Local execution & automation",
+      "definition": "在受控工作区或虚拟环境内执行本地命令、脚本、构建与测试，并返回输出以供助手自动化使用。",
+      "keywords": [
+        "本地执行",
+        "运行命令",
+        "venv",
+        "构建",
+        "测试",
+        "workspace"
+      ],
+      "include_signals": [
+        "execute command",
+        "run script",
+        "venv",
+        "local CLI",
+        "capture stdout",
+        "build and test",
+        "MCPExec",
+        "工作区隔离"
+      ],
+      "exclude_signals": [
+        "docker",
+        "container",
+        "git commit",
+        "calendar",
+        "oauth",
+        "trading",
+        "social media"
+      ]
+    },
+    {
+      "id": "T02",
+      "name": "Productivity & scheduling",
+      "definition": "管理任务条目、待办事项、工作流编排以及个人日历/事件，支持任务追踪、日程安排与自动化调度。",
+      "keywords": [
+        "task",
+        "todo",
+        "workflow",
+        "Taskwarrior",
+        "calendar",
+        "scheduling",
+        "event"
+      ],
+      "include_signals": [
+        "task",
+        "todo",
+        "create task",
+        "list tasks",
+        "update task",
+        "Taskwarrior",
+        "workflow orchestration",
+        "calendar",
+        "event creation",
+        "list events",
+        "free/busy",
+        "time slot search",
+        "Google Calendar"
+      ],
+      "exclude_signals": [
+        "git",
+        "docker",
+        "database query",
+        "social media",
+        "network scan",
+        "trade execution"
+      ]
+    },
+    {
+      "id": "T03",
+      "name": "Source control & developer workflows",
+      "definition": "暴露安全可编排的 Git 与仓库工作流操作（commit、branch、merge、rebase、PR 等），支持代码协作与开发流程自动化。",
+      "keywords": [
+        "git",
+        "commit",
+        "branch",
+        "merge",
+        "rebase",
+        "pull request"
+      ],
+      "include_signals": [
+        "git",
+        "commit",
+        "branch",
+        "merge",
+        "rebase",
+        "pull request",
+        "repository",
+        "github",
+        "仓库维护"
+      ],
+      "exclude_signals": [
+        "run shell command in workspace",
+        "docker image",
+        "calendar",
+        "task CRUD",
+        "network scan",
+        "trading"
+      ]
+    },
+    {
+      "id": "T04",
+      "name": "Infrastructure, containers & gateway",
+      "definition": "管理容器与基础设施生命周期（镜像、容器、Compose、发布），并提供聚合、路由、鉴权的网关或代理能力。",
+      "keywords": [
+        "docker",
+        "container",
+        "compose",
+        "image",
+        "registry",
+        "gateway",
+        "proxy",
+        "aggregator"
+      ],
+      "include_signals": [
+        "docker",
+        "container",
+        "compose",
+        "image push",
+        "registry",
+        "kubernetes manifest",
+        "aggregator",
+        "proxy routing",
+        "OAuth2 gateway",
+        "子进程管理"
+      ],
+      "exclude_signals": [
+        "run local CLI inside workspace",
+        "git operations",
+        "calendar",
+        "math computation",
+        "social search"
+      ]
+    },
+    {
+      "id": "T05",
+      "name": "Information retrieval & public content access",
+      "definition": "对结构化数据源、搜索服务、知识源及公开内容平台执行查询、检索、摘要、分页与代理访问，支持事实检查、研究与公开信息获取场景。",
+      "keywords": [
+        "SQL",
+        "search proxy",
+        "knowledge retrieval",
+        "public content",
+        "social proxy",
+        "twitter",
+        "pagination",
+        "fact check"
+      ],
+      "include_signals": [
+        "parameterized SQL",
+        "db query",
+        "Postgres",
+        "search proxy",
+        "google search",
+        "wikipedia",
+        "fact check",
+        "pagination",
+        "keyword filter",
+        "twitter",
+        "x api",
+        "social search",
+        "natural language -> query",
+        "media retrieval",
+        "public feed",
+        "rate limit handling"
+      ],
+      "exclude_signals": [
+        "run local command",
+        "git",
+        "docker",
+        "calendar",
+        "place order",
+        "network scan"
+      ]
+    },
+    {
+      "id": "T06",
+      "name": "Financial & blockchain services",
+      "definition": "提供与金融交易平台或区块链数据源对接的能力，包括行情、账户认证、下单/撤单以及链上抓取与分析功能。",
+      "keywords": [
+        "trading",
+        "order",
+        "market data",
+        "blockchain analytics",
+        "on-chain",
+        "account auth"
+      ],
+      "include_signals": [
+        "place order",
+        "cancel order",
+        "market data",
+        "account balance",
+        "trade execution",
+        "blockchain scrape",
+        "transaction analysis",
+        "Arbitrum",
+        "arbiscan"
+      ],
+      "exclude_signals": [
+        "run local scripts",
+        "git ops",
+        "calendar",
+        "image capture",
+        "social feed"
+      ]
+    },
+    {
+      "id": "T07",
+      "name": "Security, permissions & scanning",
+      "definition": "处理权限评估、访问控制、审计、硬件/软件证明以及网络/主机扫描与渗透探测能力，面向安全与合规需求。",
+      "keywords": [
+        "permissions",
+        "access control",
+        "attestation",
+        "enclave",
+        "Nmap",
+        "network scan",
+        "audit"
+      ],
+      "include_signals": [
+        "permission query",
+        "Lake Formation",
+        "access audit",
+        "attestation",
+        "Nitro enclave",
+        "hardware proof",
+        "Nmap",
+        "port scan",
+        "fingerprinting",
+        "host discovery"
+      ],
+      "exclude_signals": [
+        "calendar events",
+        "place trade",
+        "database query for app data",
+        "social search",
+        "local CLI builds"
+      ]
+    },
+    {
+      "id": "T08",
+      "name": "Analytics, computation & peripherals",
+      "definition": "提供数值或符号计算、分析与可视化，以及摄像头、二维码等外设或工具性功能，供助手辅助决策与产出。",
+      "keywords": [
+        "math",
+        "computation",
+        "visualization",
+        "analytics",
+        "webcam",
+        "OpenCV",
+        "qrcode"
+      ],
+      "include_signals": [
+        "numeric computation",
+        "symbolic math",
+        "linear algebra",
+        "optimize",
+        "plot",
+        "transcription analysis",
+        "speaker diarization",
+        "image capture",
+        "camera snapshot",
+        "QR code generation",
+        "OpenCV"
+      ],
+      "exclude_signals": [
+        "database SQL server queries",
+        "git operations",
+        "container orchestration",
+        "network scanning",
+        "placing trades"
+      ]
+    }
+  ]
+}

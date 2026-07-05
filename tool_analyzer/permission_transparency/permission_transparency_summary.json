@@ -1,0 +1,61 @@
+{
+  "projects_analyzed": 4049,
+  "tools_analyzed": 35476,
+  "tools_with_hidden_behavior": 3819,
+  "not_inferable_permission_count": 4345,
+  "sample_size": 4049,
+  "all_projects": true,
+  "seed": null,
+  "model": "deepseek-v4-pro",
+  "population": "tool_analyzer/final_success_projects.txt",
+  "population_size_loaded": 4049,
+  "tool_results_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_tools.json",
+  "hidden_permission_cases_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_hidden_permission_cases.json",
+  "hidden_permission_cases": 3819,
+  "table_csv_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_table.csv",
+  "table_rows": 34845,
+  "hidden_table_csv_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_hidden_table.csv",
+  "hidden_table_rows": 4345,
+  "analysis_scope": "permission_categories_elevated_impact_only",
+  "filtered_to_project_file": "/home/lls/MCP_Analyze/tool_analyzer/final_success_projects.txt",
+  "filter_backup_dir": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_backups_filter3858_20260624_144931",
+  "filter_input_tool_rows": 35682,
+  "filter_output_tool_rows": 35682,
+  "filter_input_projects": 3858,
+  "filter_output_projects": 3858,
+  "filter_removed_tool_rows": 0,
+  "filter_removed_projects": 0,
+  "missing_target_projects_after_filter": [],
+  "cache_filter_history": [
+    {
+      "applied_at": "20260627_144021",
+      "cache_file": "tool_analyzer/api_cache.json",
+      "cache_external_unique_api_names": 27149,
+      "backup_dir": "tool_analyzer/permission_transparency_cache_filter_backups_20260627_144021",
+      "removed_api_references": 31336,
+      "kept_api_references": 117019,
+      "removed_permission_items_empty_after_filter": 15152,
+      "filter_basis": "api_name present in current api_cache.json with external_api=true"
+    }
+  ],
+  "cache_filter": {
+    "applied_at": "20260627_144459",
+    "cache_file": "tool_analyzer/api_cache.json",
+    "backup_dir": "tool_analyzer/permission_transparency_cache_call_filter_backups_20260627_144459",
+    "filter_basis": "project+tool api_name must appear in results under a call whose (language, api_name) is external_api=true in current api_cache.json",
+    "cache_based_call_occurrences_under_tools": 124472,
+    "removed_api_references": 636,
+    "kept_api_references": 116383,
+    "removed_permission_items_empty_after_filter": 235
+  },
+  "multi_mcp_project_filter": {
+    "exclude_file": "/tmp/multi_server_yes_62.txt",
+    "excluded_project_count": 62,
+    "removed_project_count_in_this_result": 62,
+    "removed_tool_rows": 2552
+  },
+  "new253_merge": {
+    "merged_project_count": 253,
+    "merged_tool_rows": 2346
+  }
+}

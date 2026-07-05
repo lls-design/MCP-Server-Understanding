@@ -1,0 +1,569 @@
+{
+  "version": "mcp_server_taxonomy_paper8_codebook_v1",
+  "purpose": "LLM-ready codebook for classifying MCP servers into the eight paper categories. Agent-oriented and miscellaneous servers are not separate top-level classes; classify them by dominant exposed user-facing function.",
+  "label_cardinality": "single_label",
+  "allowed_categories": [
+    "Data and Public Content Access",
+    "Infrastructure and Gateway Services",
+    "Source Control and Collaboration",
+    "Local Execution and Automation",
+    "Task and Schedule Management",
+    "Financial and Blockchain Services",
+    "Analytics and Peripheral Tools",
+    "Security, Access Control, and Scanning"
+  ],
+  "evidence_priority": [
+    "Exposed MCP tool/resource/prompt names and descriptions",
+    "README feature, capability, and available-tools sections",
+    "Package metadata description, keywords, dependencies, scripts, and service names",
+    "Configuration variables that reveal an external service or domain",
+    "Repository name only when stronger evidence is unavailable"
+  ],
+  "noise_to_ignore": [
+    "Generic MCP, Claude Desktop, Cursor, VS Code, or client setup text",
+    "Installation commands such as npm install, pip install, uv run, docker run, git clone, or npx",
+    "Repository hosting metadata such as homepage, bugs URL, license, badges, or contribution instructions",
+    "Generic authentication setup unless identity, permission, secrets, or access control is the core exposed capability",
+    "Dockerfile, CI, tests, or deployment instructions unless the exposed MCP tools manage infrastructure"
+  ],
+  "global_decision_rules": [
+    "Classify by dominant exposed capability, not by implementation language, installation method, framework, or generic MCP protocol integration.",
+    "If tool names and README disagree, prefer tool names because they represent the server's callable interface.",
+    "If a server exposes multiple capabilities, choose the category that captures the highest-value user-facing operation, not incidental support functions.",
+    "Agent, copilot, AI, LLM, prompt, memory, or RAG wording is not a category by itself. Assign by what the server lets the user do: retrieve knowledge, run commands, manage repositories, create tasks, analyze media, and so on.",
+    "Do not assign to Source Control solely because a README or package metadata contains a GitHub repository URL.",
+    "Do not assign to Infrastructure solely because a Dockerfile, docker run command, or CI badge appears in installation documentation.",
+    "Do not assign to Security solely because a server requires an API key, OAuth token, or secure connection.",
+    "When evidence is sparse, assign the closest paper category using concrete service/domain clues; do not invent an Other category."
+  ],
+  "tie_breakers": [
+    {
+      "condition": "A server retrieves data from a database, documentation site, search engine, wiki, public API, or SaaS record store without primarily changing external state.",
+      "prefer": "Data and Public Content Access"
+    },
+    {
+      "condition": "A server controls cloud resources, containers, deployments, proxies, gateways, monitoring, logs, incidents, or service lifecycle.",
+      "prefer": "Infrastructure and Gateway Services"
+    },
+    {
+      "condition": "A server creates or manages commits, branches, repository files, pull/merge requests, releases, diffs, reviews, or source-hosting repositories.",
+      "prefer": "Source Control and Collaboration"
+    },
+    {
+      "condition": "A server executes shell commands, scripts, local filesystem operations, browser automation, desktop automation, screenshots, scraping, or local workspace control.",
+      "prefer": "Local Execution and Automation"
+    },
+    {
+      "condition": "A server manages tasks, todos, tickets, calendars, meetings, reminders, email, chat, team messages, or workflow coordination.",
+      "prefer": "Task and Schedule Management"
+    },
+    {
+      "condition": "A server handles payments, orders, invoices, banking, trading, portfolios, ecommerce, wallets, smart contracts, tokens, NFTs, or on-chain data.",
+      "prefer": "Financial and Blockchain Services"
+    },
+    {
+      "condition": "A server performs computation, statistics, analysis, reporting, visualization, media generation/editing, design, transcription, QR generation, camera/hardware/peripheral interaction, or AI generation that is not primarily knowledge retrieval.",
+      "prefer": "Analytics and Peripheral Tools"
+    },
+    {
+      "condition": "A server performs vulnerability scanning, penetration testing, CVE/threat intelligence, security audit, IAM, secrets, vaults, policy, permissions, compliance, or access-control management.",
+      "prefer": "Security, Access Control, and Scanning"
+    }
+  ],
+  "categories": [
+    {
+      "id": "P01",
+      "name": "Data and Public Content Access",
+      "short_description": "Retrieval of data, knowledge, and public content.",
+      "definition": "Servers whose primary function is to retrieve, query, search, summarize, or expose structured data, documents, knowledge bases, web content, public content, or SaaS records.",
+      "include": [
+        "Database and warehouse querying: SQL, Postgres, MySQL, SQLite, MongoDB, Elasticsearch, BigQuery, Snowflake, Supabase, Kusto, Redis query interfaces",
+        "Knowledge and document retrieval: documentation, files-as-knowledge, PDFs, papers, arXiv, wiki, Notion, Obsidian, Confluence, Google Drive/Docs read access",
+        "Web and public-content search: Google/Bing/Brave/Exa search, browserless content fetching, RSS, news, Wikipedia, YouTube transcript retrieval, public social content lookup",
+        "SaaS record lookup where the primary operation is read/search/list rather than task workflow or state-changing collaboration",
+        "RAG, embeddings, semantic search, memory, or vector search when the exposed capability is retrieving knowledge/context"
+      ],
+      "exclude": [
+        "Repository operations such as commits, branches, PRs, merge requests, repository files, releases, or code review",
+        "Cloud/database administration, deployments, container operations, gateway/proxy management, or observability operations",
+        "Financial trading, payments, ecommerce order/customer/product management, wallets, smart contracts, or on-chain analysis",
+        "Security scanning, CVE lookup, pentesting, IAM, secrets, policy, permission audit, or compliance",
+        "Local browser control, scraping automation, shell execution, or filesystem editing where automation/control is the main value",
+        "Computation, visualization, report generation, media processing, image/audio/video/design tools"
+      ],
+      "strong_signals": [
+        "search",
+        "query",
+        "retrieve",
+        "get_document",
+        "read_document",
+        "list_records",
+        "sql",
+        "database",
+        "postgres",
+        "mysql",
+        "mongodb",
+        "elasticsearch",
+        "knowledge base",
+        "documentation",
+        "notion",
+        "obsidian",
+        "confluence",
+        "wikipedia",
+        "arxiv",
+        "rss",
+        "news",
+        "web search",
+        "semantic search",
+        "rag query",
+        "embedding search"
+      ],
+      "positive_examples": [
+        "A PostgreSQL MCP server exposing list_tables and query tools",
+        "A Notion or Obsidian MCP server exposing page search and document retrieval",
+        "A Brave Search or Wikipedia MCP server exposing web/public content lookup",
+        "A RAG documentation server exposing semantic search over local or hosted docs"
+      ],
+      "negative_examples": [
+        "A GitHub MCP server that reads repository files and creates pull requests: Source Control and Collaboration",
+        "A Stripe MCP server that retrieves customers and creates payments: Financial and Blockchain Services",
+        "A Playwright server that fetches pages through browser automation: Local Execution and Automation",
+        "A dashboard generator that computes and plots metrics: Analytics and Peripheral Tools"
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "Infrastructure and Gateway Services",
+      "short_description": "Container orchestration, infrastructure operations, and gateway proxying.",
+      "definition": "Servers whose primary function is to administer infrastructure, cloud resources, containers, deployments, service lifecycle, observability, gateways, proxies, or MCP/server orchestration.",
+      "include": [
+        "Cloud administration: AWS, Azure, GCP, Cloudflare, Alibaba Cloud, Vercel, Netlify, Supabase management, DNS, certificates, storage buckets, serverless resources",
+        "Containers and orchestration: Docker, Docker Compose, Kubernetes, Helm, Terraform, container registries, image build/push, deployment lifecycle",
+        "DevOps and CI/CD operations when the server manages builds, pipelines, environments, deployments, releases, infrastructure state, or service operations",
+        "Observability and incident operations: logs, metrics, traces, monitoring, alerts, dashboards for service health, incident response",
+        "Gateways, proxies, routers, API gateways, MCP aggregators, MCP registries, tool routers, service mesh, request forwarding"
+      ],
+      "exclude": [
+        "Docker/CI/deployment text that appears only in installation instructions",
+        "Local shell execution or filesystem/browser automation without infrastructure control",
+        "Repository PR/commit/branch workflows without infrastructure operations",
+        "Task orchestration in project-management tools such as Jira, Linear, Trello, or calendars",
+        "Security audit of infrastructure when the main exposed function is vulnerability or compliance assessment"
+      ],
+      "strong_signals": [
+        "docker",
+        "container",
+        "kubernetes",
+        "k8s",
+        "helm",
+        "terraform",
+        "aws",
+        "azure",
+        "gcp",
+        "cloudflare",
+        "vercel",
+        "netlify",
+        "deploy",
+        "deployment",
+        "pipeline",
+        "ci/cd",
+        "monitoring",
+        "logs",
+        "metrics",
+        "traces",
+        "gateway",
+        "proxy",
+        "router",
+        "aggregator",
+        "registry",
+        "service lifecycle"
+      ],
+      "positive_examples": [
+        "A Kubernetes MCP server exposing create_deployment, list_pods, and get_logs",
+        "A Cloudflare MCP server managing DNS records, certificates, and workers",
+        "An MCP gateway that routes tools across multiple backend MCP servers",
+        "A Grafana/Prometheus server exposing logs, metrics, and incident operations"
+      ],
+      "negative_examples": [
+        "A package with a Dockerfile only for installation: classify by exposed tools, not Infrastructure",
+        "A local command runner that happens to run docker commands supplied by the user: Local Execution and Automation",
+        "A GitHub Actions PR helper focused on repository workflows: Source Control and Collaboration",
+        "A security compliance scanner for cloud resources: Security, Access Control, and Scanning"
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "Source Control and Collaboration",
+      "short_description": "Repository management and collaborative development workflows.",
+      "definition": "Servers whose primary function is to manage source-code repositories and developer collaboration around code, including Git operations, repository files, branches, commits, pull/merge requests, code review, issues tied to repositories, and releases.",
+      "include": [
+        "GitHub, GitLab, Bitbucket, Gitea, Forgejo, Sourcegraph, or Azure DevOps repository APIs",
+        "Git operations: status, log, diff, add, checkout, branch, clone, commit, merge, pull, push, reset",
+        "Repository file workflows: create/update/delete/read repository files, compare diffs, list commits, browse repository trees",
+        "Pull request and merge request workflows: create, list, comment, review, approve, merge, decline, fetch diffs",
+        "Code review, PR description generation, commit message generation, repository release/tag management",
+        "Issue/project operations only when tightly coupled to repository collaboration or source-hosting platforms"
+      ],
+      "exclude": [
+        "Generic GitHub repository URL, homepage, badges, bugs link, or contribution instructions",
+        "Jira, Linear, Trello, Asana, or project-management tickets without repository operations",
+        "Cloud deployment or CI/CD service operations where infrastructure lifecycle is dominant",
+        "Security scanning of repositories, dependencies, secrets, or code vulnerabilities",
+        "Local filesystem editing or shell command execution unless it is specifically Git/source-control workflow"
+      ],
+      "strong_signals": [
+        "github api",
+        "gitlab api",
+        "bitbucket",
+        "azure devops repository",
+        "git status",
+        "git log",
+        "git diff",
+        "git add",
+        "git branch",
+        "git checkout",
+        "git clone",
+        "git commit",
+        "git push",
+        "git pull",
+        "pull request",
+        "pull_request",
+        "merge request",
+        "merge_request",
+        "code review",
+        "create_pull_request",
+        "create_merge_request",
+        "create_branch",
+        "list_branches",
+        "get_repository",
+        "list_repositories",
+        "create_repository",
+        "get_commit",
+        "list_commits",
+        "get_file_contents",
+        "create_release"
+      ],
+      "positive_examples": [
+        "A GitHub server exposing create_pull_request, list_repositories, and get_file_contents",
+        "A GitLab MR review server exposing get_merge_request_diff and post_review_comment",
+        "A local Git assistant exposing git_diff, git_commit, git_push, and branch operations",
+        "A Bitbucket MCP server exposing PR comments, repository files, and commit history"
+      ],
+      "negative_examples": [
+        "A README says contributions are welcome on GitHub but tools are weather lookup: Data and Public Content Access",
+        "A Snyk server scans GitHub repositories for vulnerabilities: Security, Access Control, and Scanning",
+        "A Vercel server deploys a GitHub repo to production: Infrastructure and Gateway Services",
+        "A Jira-only issue tracker: Task and Schedule Management"
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "Local Execution and Automation",
+      "short_description": "Local command execution, script running, and automation.",
+      "definition": "Servers whose primary function is to execute commands, run scripts, manipulate local files/workspaces, automate browsers/desktops/UIs, capture screenshots, scrape via controlled browsers, or operate local development environments.",
+      "include": [
+        "Shell, terminal, command execution, subprocess execution, Python/Node script execution, build/test/run command helpers",
+        "Filesystem operations: read/write/move/delete/search local files, directory trees, workspace context, local project editing",
+        "Browser and UI automation: Playwright, Puppeteer, Selenium, browser clicks, screenshots, forms, crawler, page interaction",
+        "Desktop or OS automation: clipboard, keyboard/mouse, window/app control, local environment detection, command syntax helpers",
+        "Local development automation not specifically tied to repository collaboration or cloud infrastructure"
+      ],
+      "exclude": [
+        "Cloud/container/service lifecycle management: Infrastructure and Gateway Services",
+        "Git PR/commit/branch/repository collaboration: Source Control and Collaboration",
+        "Public web search without browser/UI control: Data and Public Content Access",
+        "Security scanning using local tools when the dominant goal is vulnerability/security assessment",
+        "Task/calendar/email/chat workflow coordination"
+      ],
+      "strong_signals": [
+        "execute command",
+        "run command",
+        "shell",
+        "terminal",
+        "subprocess",
+        "script",
+        "filesystem",
+        "read_file",
+        "write_file",
+        "edit_file",
+        "workspace",
+        "directory_tree",
+        "browser",
+        "playwright",
+        "puppeteer",
+        "selenium",
+        "screenshot",
+        "scrape",
+        "crawler",
+        "clipboard",
+        "desktop",
+        "environment detection"
+      ],
+      "positive_examples": [
+        "A filesystem MCP server exposing read_file and write_file",
+        "A terminal MCP server exposing run_command or execute_shell",
+        "A Playwright MCP server exposing browser_click, browser_fill_form, and screenshot",
+        "A development environment copilot that detects OS/shell and formats local commands"
+      ],
+      "negative_examples": [
+        "A Kubernetes server that executes kubectl-like cluster operations: Infrastructure and Gateway Services",
+        "A Git helper focused on commits and branches: Source Control and Collaboration",
+        "A web search API wrapper: Data and Public Content Access",
+        "An Nmap security scanner: Security, Access Control, and Scanning"
+      ]
+    },
+    {
+      "id": "P05",
+      "name": "Task and Schedule Management",
+      "short_description": "Task orchestration, workflow coordination, and scheduling.",
+      "definition": "Servers whose primary function is to manage tasks, todos, calendars, schedules, reminders, meetings, tickets, project boards, email, team communication, or workflow coordination.",
+      "include": [
+        "Tasks, todos, reminders, checklists, personal productivity, project boards, and workflow state",
+        "Calendar and scheduling: events, meetings, availability, free/busy, reminders, time slots, agenda management",
+        "Ticket and project-management systems: Jira, Linear, Trello, Asana, ClickUp, Monday, Taskwarrior, GitHub Projects when used as project management",
+        "Communication and collaboration: email, Gmail, Slack, Discord, Telegram, WhatsApp, Teams, message sending/reading, meeting notes",
+        "Workflow orchestration when the workflow is human/team/task coordination rather than infrastructure deployment"
+      ],
+      "exclude": [
+        "Repository commits, branches, pull/merge requests, code review, or repository releases",
+        "Public social-media search or content retrieval without user/team communication actions",
+        "Infrastructure workflow orchestration such as deployments, pipelines, service incidents, or cloud operations",
+        "Financial order/payment/customer workflows",
+        "Security incident, audit, or compliance workflows when security is dominant"
+      ],
+      "strong_signals": [
+        "task",
+        "todo",
+        "reminder",
+        "calendar",
+        "schedule",
+        "meeting",
+        "event",
+        "freebusy",
+        "availability",
+        "email",
+        "gmail",
+        "slack",
+        "discord",
+        "telegram",
+        "whatsapp",
+        "teams",
+        "jira",
+        "linear",
+        "trello",
+        "asana",
+        "taskwarrior",
+        "project board",
+        "ticket",
+        "workflow coordination"
+      ],
+      "positive_examples": [
+        "A Google Calendar server exposing create_event and list_events",
+        "A Gmail or Slack server exposing send_message and search_messages",
+        "A Jira or Linear server exposing create_issue, assign_task, and update_status",
+        "A Taskwarrior server exposing add_task and list_tasks"
+      ],
+      "negative_examples": [
+        "A GitHub PR server with issue comments and repository branches: Source Control and Collaboration",
+        "A Twitter/X public search server: Data and Public Content Access",
+        "A CI/CD deployment workflow server: Infrastructure and Gateway Services",
+        "A Stripe order/payment workflow server: Financial and Blockchain Services"
+      ]
+    },
+    {
+      "id": "P06",
+      "name": "Financial and Blockchain Services",
+      "short_description": "Financial transactions, market data access, and blockchain analysis.",
+      "definition": "Servers whose primary function is financial data, transactions, trading, payments, ecommerce operations, accounting, invoices, banking, cryptocurrency, wallets, smart contracts, tokens, NFTs, or blockchain/on-chain analysis.",
+      "include": [
+        "Market and financial data: stocks, prices, portfolio, trading signals, exchanges, yFinance, Alpha Vantage, Tradovate",
+        "Trading and banking operations: place/cancel orders, account balances, banking transactions, invoices, accounting",
+        "Payments and ecommerce: Stripe, PayPal, Shopify, WooCommerce, products, carts, customers, orders, storefront operations",
+        "Blockchain and crypto: Ethereum, Bitcoin, Solana, Starknet, EVM, wallets, addresses, tokens, NFTs, smart contracts, transactions, blocks, on-chain analytics",
+        "Finance-specific AI/agent tools when exposed operations are finance, trading, payment, ecommerce, or blockchain oriented"
+      ],
+      "exclude": [
+        "Generic company/economic data retrieval without financial operation semantics",
+        "Blockchain or finance documentation retrieval without wallet, transaction, market, or smart-contract operations",
+        "Security scanning of smart contracts or crypto projects when vulnerability/security audit is dominant",
+        "Generic token, API token, auth token, or OAuth token setup",
+        "Repository operations for crypto projects"
+      ],
+      "strong_signals": [
+        "trading",
+        "trade",
+        "order",
+        "market data",
+        "stock",
+        "portfolio",
+        "bank",
+        "account balance",
+        "invoice",
+        "payment",
+        "stripe",
+        "paypal",
+        "shopify",
+        "woocommerce",
+        "ecommerce",
+        "crypto",
+        "blockchain",
+        "wallet",
+        "ethereum",
+        "bitcoin",
+        "solana",
+        "starknet",
+        "smart contract",
+        "token",
+        "nft",
+        "on-chain",
+        "transaction",
+        "block"
+      ],
+      "positive_examples": [
+        "A Binance or yFinance server exposing price and portfolio tools",
+        "A Stripe server exposing create_payment and list_customers",
+        "A Shopify server exposing products, orders, and customers",
+        "An Ethereum wallet/on-chain analysis server exposing address and transaction tools"
+      ],
+      "negative_examples": [
+        "A database of public company profiles with read-only search: Data and Public Content Access",
+        "A smart-contract vulnerability scanner: Security, Access Control, and Scanning",
+        "A blockchain documentation RAG server: Data and Public Content Access",
+        "A GitHub repo manager for a crypto project: Source Control and Collaboration"
+      ]
+    },
+    {
+      "id": "P07",
+      "name": "Analytics and Peripheral Tools",
+      "short_description": "Computational analysis, visualization, and peripheral interaction.",
+      "definition": "Servers whose primary function is computation, analysis, statistics, visualization, reporting, simulation, optimization, creative/media generation or editing, design tools, transcription, QR generation, hardware, camera, sensor, or other peripheral/tool utilities.",
+      "include": [
+        "Math, statistics, symbolic computation, numeric computation, simulation, optimization, calculators",
+        "Data analysis and visualization: charts, plots, dashboards, reports, notebooks, spreadsheets, CSV/Excel processing",
+        "Media and creative tools: image, video, audio, music, TTS/STT, transcription, Figma, Blender, Unity, design, drawing, QR codes",
+        "Peripheral/hardware utilities: camera, OpenCV, sensors, IoT-style device interaction when not primarily infrastructure or security",
+        "AI generation/model wrappers when the main exposed output is generated media, text, analysis, transformation, or creative/computational output rather than data retrieval"
+      ],
+      "exclude": [
+        "Simple database, document, web, or public-content retrieval without meaningful computation/transformation",
+        "Financial/blockchain analytics with trading, wallet, payment, token, or on-chain semantics",
+        "Security analysis, vulnerability scanning, CVE lookup, pentesting, or compliance audit",
+        "Browser automation where UI control/screenshot/scraping is the primary operation",
+        "Repository code review, PR analysis, commit analysis, or source-control workflows"
+      ],
+      "strong_signals": [
+        "analysis",
+        "analytics",
+        "compute",
+        "calculator",
+        "math",
+        "statistics",
+        "simulation",
+        "optimization",
+        "plot",
+        "chart",
+        "visualization",
+        "dashboard",
+        "report",
+        "notebook",
+        "excel",
+        "csv",
+        "image",
+        "video",
+        "audio",
+        "tts",
+        "transcription",
+        "figma",
+        "blender",
+        "unity",
+        "design",
+        "qrcode",
+        "qr code",
+        "camera",
+        "opencv",
+        "sensor",
+        "hardware",
+        "peripheral"
+      ],
+      "positive_examples": [
+        "A calculator/statistics MCP server exposing compute and plot tools",
+        "A Figma/Blender/Unity server exposing design or scene editing tools",
+        "A TTS/transcription/audio server exposing media transformation tools",
+        "A QR/camera/OpenCV server exposing peripheral or image-processing tools"
+      ],
+      "negative_examples": [
+        "A SQL query server returning rows without analysis: Data and Public Content Access",
+        "A crypto market analytics server tied to wallets/trading: Financial and Blockchain Services",
+        "A CVE analysis or dependency vulnerability scanner: Security, Access Control, and Scanning",
+        "A Playwright screenshot/browser automation server: Local Execution and Automation"
+      ]
+    },
+    {
+      "id": "P08",
+      "name": "Security, Access Control, and Scanning",
+      "short_description": "Access control, security auditing, and scanning.",
+      "definition": "Servers whose primary function is vulnerability scanning, security auditing, penetration testing, threat intelligence, CVE analysis, IAM, identity, secrets, permissions, policies, compliance, access control, or security-focused audit of systems, repositories, dependencies, infrastructure, or applications.",
+      "include": [
+        "Vulnerability scanning, dependency scanning, CVE lookup, threat intelligence, pentesting, exploit/security assessment",
+        "Network/security scanning: Nmap, port scanning, host discovery, fingerprinting, web security scanning",
+        "Identity and access control: IAM, permissions, roles, users, groups, access policies, Lake Formation, Keycloak, authz management",
+        "Secrets and policy management: vaults, secret scanning, credential audit, compliance checks, policy-as-code",
+        "Security-focused repository, browser extension, infrastructure, cloud, package, or smart-contract audit"
+      ],
+      "exclude": [
+        "Generic OAuth/API key configuration needed to call another service",
+        "General GitHub/GitLab repository operations without security/audit focus",
+        "General infrastructure operations without security/audit/compliance objective",
+        "Local filesystem tools with names like secure or safe but no security scanning/access-control capability",
+        "Financial/blockchain services unless the exposed operation is security scanning or audit"
+      ],
+      "strong_signals": [
+        "security",
+        "vulnerability",
+        "vuln",
+        "scan",
+        "scanner",
+        "nmap",
+        "pentest",
+        "cve",
+        "threat",
+        "malware",
+        "exploit",
+        "dependency scan",
+        "secret scan",
+        "compliance",
+        "permission",
+        "access control",
+        "iam",
+        "identity",
+        "role",
+        "policy",
+        "vault",
+        "secret",
+        "audit",
+        "attestation"
+      ],
+      "positive_examples": [
+        "An Nmap MCP server exposing port_scan and host_discovery",
+        "A Vault/secrets MCP server exposing read_secret and create_policy",
+        "A Snyk/dependency scanner exposing scan_project and vulnerability reports",
+        "An IAM or permission audit server exposing list_roles and access_audit"
+      ],
+      "negative_examples": [
+        "A Gmail server requiring OAuth: Task and Schedule Management",
+        "A GitHub server creating pull requests: Source Control and Collaboration",
+        "A Cloudflare server managing DNS and certificates without audit focus: Infrastructure and Gateway Services",
+        "A filesystem server named secure but only reading/writing files: Local Execution and Automation"
+      ]
+    }
+  ],
+  "llm_output_schema": {
+    "server_name": "string",
+    "category": "one of allowed_categories",
+    "confidence": "high | medium | low",
+    "secondary_category": "one of allowed_categories or null",
+    "decision_basis": "short explanation grounded in provided evidence",
+    "evidence": ["short evidence snippets or tool names used for the decision"],
+    "ambiguity_notes": "short note if evidence is sparse or categories are close"
+  }
+}

@@ -1,0 +1,70 @@
+source,target,value
+Static Token or API Key,Data and Public Content Access,792
+No Authorization,Data and Public Content Access,544
+Static Token or API Key,Infrastructure and Gateway Services,332
+Static Token or API Key,Source Control and Collaboration,303
+No Authorization,Local Execution and Automation,207
+No Authorization,Infrastructure and Gateway Services,199
+No Authorization,Source Control and Collaboration,199
+Static Token or API Key,Task and Schedule Management,170
+No Authorization,Task and Schedule Management,146
+Static Token or API Key,Local Execution and Automation,114
+Static Username or Password,Data and Public Content Access,108
+Static Token or API Key,Financial and Blockchain Services,81
+No Authorization,Analytics and Peripheral Tools,69
+OAuth 2.0 or OIDC Flow,Task and Schedule Management,55
+Static Username or Password,Infrastructure and Gateway Services,50
+OAuth 2.0 or OIDC Flow,Data and Public Content Access,48
+Static Token or API Key,Analytics and Peripheral Tools,43
+No Authorization,Financial and Blockchain Services,42
+Runtime Injection,Infrastructure and Gateway Services,36
+Delegated Role-Scoped Token,Data and Public Content Access,35
+Runtime Injection,Data and Public Content Access,35
+No Authorization,"Security, Access Control, and Scanning",34
+Static Token or API Key,"Security, Access Control, and Scanning",32
+OAuth 2.0 or OIDC Flow,Infrastructure and Gateway Services,27
+Static Username or Password,Task and Schedule Management,26
+Static Username or Password,Source Control and Collaboration,25
+Delegated Role-Scoped Token,Infrastructure and Gateway Services,23
+Multi-Credential,Data and Public Content Access,22
+Static Username or Password,Local Execution and Automation,21
+Capability Artifact,Data and Public Content Access,19
+Runtime Injection,Source Control and Collaboration,19
+OAuth 2.0 or OIDC Flow,Source Control and Collaboration,17
+Runtime Injection,Local Execution and Automation,15
+Runtime Injection,Task and Schedule Management,14
+Capability Artifact,Infrastructure and Gateway Services,12
+Multi-Credential,Infrastructure and Gateway Services,10
+Delegated Role-Scoped Token,Source Control and Collaboration,9
+Multi-Credential,Source Control and Collaboration,9
+Static Username or Password,Analytics and Peripheral Tools,9
+Capability Artifact,Source Control and Collaboration,7
+Delegated Role-Scoped Token,Task and Schedule Management,7
+OAuth 2.0 or OIDC Flow,"Security, Access Control, and Scanning",7
+Static Username or Password,Financial and Blockchain Services,7
+Capability Artifact,Task and Schedule Management,6
+Multi-Credential,Task and Schedule Management,6
+Delegated Role-Scoped Token,Local Execution and Automation,5
+Capability Artifact,Local Execution and Automation,4
+Multi-Credential,Financial and Blockchain Services,4
+OAuth 2.0 or OIDC Flow,Financial and Blockchain Services,4
+OAuth 2.0 or OIDC Flow,Local Execution and Automation,4
+Other,Data and Public Content Access,4
+Multi-Credential,Local Execution and Automation,3
+Other,Infrastructure and Gateway Services,3
+Runtime Injection,Analytics and Peripheral Tools,3
+Runtime Injection,Financial and Blockchain Services,3
+Runtime Injection,"Security, Access Control, and Scanning",3
+Capability Artifact,Analytics and Peripheral Tools,2
+Capability Artifact,"Security, Access Control, and Scanning",2
+OAuth 2.0 or OIDC Flow,Analytics and Peripheral Tools,2
+Other,Local Execution and Automation,2
+Static Username or Password,"Security, Access Control, and Scanning",2
+Capability Artifact,Financial and Blockchain Services,1
+Delegated Role-Scoped Token,Analytics and Peripheral Tools,1
+Delegated Role-Scoped Token,Financial and Blockchain Services,1
+Delegated Role-Scoped Token,"Security, Access Control, and Scanning",1
+Multi-Credential,Analytics and Peripheral Tools,1
+Multi-Credential,"Security, Access Control, and Scanning",1
+Other,Source Control and Collaboration,1
+Other,Task and Schedule Management,1

@@ -1,0 +1,127 @@
+{
+  "source_intersection_csv": "/home/lls/MCP_Analyze/tool_analyzer/deepseek_qwen_hidden_api_cache_entry_intersection.csv",
+  "unique_definition": "A unique external API is one concrete api_cache.json entry with external_api=true, identified as language::api_name. The plotted set is the DeepSeek V4 Pro and Qwen 3.7 Plus shared external-API set from the Venn diagram.",
+  "total_shared_cache_entries": 1349,
+  "filter": "Only api_cache.json entries with external_api=true are counted.",
+  "category_source": "api_cache.json category field; no permission fallback or pseudo-category is used.",
+  "missing_api_category_entries": 0,
+  "unexpected_api_category_entries": 0,
+  "total_shared_unique_api_cache_entries": 1349,
+  "plot_policy": "All plotted slices are shared hidden external APIs and use the formal api_cache.json category field directly.",
+  "plot_category_counts": [
+    {
+      "category": "System Command Execution",
+      "shared_unique_api_cache_entries": 424,
+      "percent": 31.430689399555227
+    },
+    {
+      "category": "Database Management",
+      "shared_unique_api_cache_entries": 257,
+      "percent": 19.05114899925871
+    },
+    {
+      "category": "Project Management Services",
+      "shared_unique_api_cache_entries": 54,
+      "percent": 4.002965159377316
+    },
+    {
+      "category": "Browser Automation and Web Interaction",
+      "shared_unique_api_cache_entries": 149,
+      "percent": 11.045218680504076
+    },
+    {
+      "category": "Financial and Blockchain Services",
+      "shared_unique_api_cache_entries": 52,
+      "percent": 3.85470719051149
+    },
+    {
+      "category": "File System Operations",
+      "shared_unique_api_cache_entries": 135,
+      "percent": 10.007412898443292
+    },
+    {
+      "category": "Specialized Domain Data Services",
+      "shared_unique_api_cache_entries": 121,
+      "percent": 8.969607116382505
+    },
+    {
+      "category": "Cloud Infrastructure Management",
+      "shared_unique_api_cache_entries": 106,
+      "percent": 7.857672349888807
+    },
+    {
+      "category": "AI and Machine Learning Services",
+      "shared_unique_api_cache_entries": 46,
+      "percent": 3.40993328391401
+    },
+    {
+      "category": "Identity and Access Management",
+      "shared_unique_api_cache_entries": 5,
+      "percent": 0.37064492216456635
+    }
+  ],
+  "callout_categories": [
+    {
+      "category": "Identity and Access Management",
+      "shared_unique_api_cache_entries": 5,
+      "percent": 0.37064492216456635
+    },
+    {
+      "category": "AI and Machine Learning Services",
+      "shared_unique_api_cache_entries": 46,
+      "percent": 3.40993328391401
+    }
+  ],
+  "category_counts": [
+    {
+      "category": "System Command Execution",
+      "shared_unique_api_cache_entries": 424,
+      "percent": 31.430689399555227
+    },
+    {
+      "category": "Database Management",
+      "shared_unique_api_cache_entries": 257,
+      "percent": 19.05114899925871
+    },
+    {
+      "category": "Browser Automation and Web Interaction",
+      "shared_unique_api_cache_entries": 149,
+      "percent": 11.045218680504076
+    },
+    {
+      "category": "File System Operations",
+      "shared_unique_api_cache_entries": 135,
+      "percent": 10.007412898443292
+    },
+    {
+      "category": "Specialized Domain Data Services",
+      "shared_unique_api_cache_entries": 121,
+      "percent": 8.969607116382505
+    },
+    {
+      "category": "Cloud Infrastructure Management",
+      "shared_unique_api_cache_entries": 106,
+      "percent": 7.857672349888807
+    },
+    {
+      "category": "Project Management Services",
+      "shared_unique_api_cache_entries": 54,
+      "percent": 4.002965159377316
+    },
+    {
+      "category": "Financial and Blockchain Services",
+      "shared_unique_api_cache_entries": 52,
+      "percent": 3.85470719051149
+    },
+    {
+      "category": "AI and Machine Learning Services",
+      "shared_unique_api_cache_entries": 46,
+      "percent": 3.40993328391401
+    },
+    {
+      "category": "Identity and Access Management",
+      "shared_unique_api_cache_entries": 5,
+      "percent": 0.37064492216456635
+    }
+  ]
+}

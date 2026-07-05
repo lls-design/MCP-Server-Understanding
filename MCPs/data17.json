@@ -1,0 +1,2502 @@
+[
+  {
+    "name": "arockwell_mcp-commands",
+    "repo_url": "https://github.com/arockwell/mcp-commands",
+    "stars": 0
+  },
+  {
+    "name": "manpreet2000_mcp-database-server",
+    "repo_url": "https://github.com/manpreet2000/mcp-database-server",
+    "stars": 0
+  },
+  {
+    "name": "rmcendarfer2017_MCP-image-gen",
+    "repo_url": "https://github.com/rmcendarfer2017/MCP-image-gen",
+    "stars": 0
+  },
+  {
+    "name": "inakitka_trello-claude-integration",
+    "repo_url": "https://github.com/inakitka/trello-claude-integration",
+    "stars": 0
+  },
+  {
+    "name": "mahenderkunchala22_mcp-server",
+    "repo_url": "https://github.com/mahenderkunchala22/mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "lqycoding_morsecode-mcp-server",
+    "repo_url": "https://github.com/lqycoding/morsecode-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "fredrikp999_mcp-sse-langchain-example",
+    "repo_url": "https://github.com/fredrikp999/mcp-sse-langchain-example",
+    "stars": 0
+  },
+  {
+    "name": "usrrname_worldtime-mcp-server",
+    "repo_url": "https://github.com/usrrname/worldtime-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "derbenoo_fiberflow-mcp-gateway",
+    "repo_url": "https://github.com/derbenoo/fiberflow-mcp-gateway",
+    "stars": 0
+  },
+  {
+    "name": "psaboia_PinThePiece",
+    "repo_url": "https://github.com/psaboia/PinThePiece",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_GreptimeTeam_greptimedb-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/GreptimeTeam_greptimedb-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_GaplyDev01_coingecko-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/GaplyDev01_coingecko-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "parasjain2426_mcp_server_client_impl",
+    "repo_url": "https://github.com/parasjain2426/mcp_server_client_impl",
+    "stars": 0
+  },
+  {
+    "name": "arbuthnot-eth_simpleMCP",
+    "repo_url": "https://github.com/arbuthnot-eth/simpleMCP",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_georgejeffers_gemini-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/georgejeffers_gemini-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "scarqin_mcp-apikit",
+    "repo_url": "https://github.com/scarqin/mcp-apikit",
+    "stars": 0
+  },
+  {
+    "name": "wwei1101_test-repo",
+    "repo_url": "https://github.com/wwei1101/test-repo",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_MrunmayS_exa-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/MrunmayS_exa-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_amitdeshmukh_stdout-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/amitdeshmukh_stdout-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MediFinderBot_medifinder-mcp",
+    "repo_url": "https://github.com/MediFinderBot/medifinder-mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_SirTenzin_autumn-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/SirTenzin_autumn-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "jeongjisung690_Moodle---MCP-server",
+    "repo_url": "https://github.com/jeongjisung690/Moodle---MCP-server",
+    "stars": 0
+  },
+  {
+    "name": "chromewillow_repo-to-txt-mcp",
+    "repo_url": "https://github.com/chromewillow/repo-to-txt-mcp",
+    "stars": 0
+  },
+  {
+    "name": "ualUsham_mcp-github",
+    "repo_url": "https://github.com/ualUsham/mcp-github",
+    "stars": 0
+  },
+  {
+    "name": "Abhid14_neo4j-mcp-chainlit",
+    "repo_url": "https://github.com/Abhid14/neo4j-mcp-chainlit",
+    "stars": 0
+  },
+  {
+    "name": "RyosukeTanaka_mcp-mysql",
+    "repo_url": "https://github.com/RyosukeTanaka/mcp-mysql",
+    "stars": 0
+  },
+  {
+    "name": "AryanK1511_custom-mcp-servers",
+    "repo_url": "https://github.com/AryanK1511/custom-mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_cr7258_higress-ai-search-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/cr7258_higress-ai-search-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_chris-miaskowski_custom-gitlab-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/chris-miaskowski_custom-gitlab-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MiguelAngelGutierrezMaya_local-mcp",
+    "repo_url": "https://github.com/MiguelAngelGutierrezMaya/local-mcp",
+    "stars": 0
+  },
+  {
+    "name": "scopweb_github-go-server-mcp",
+    "repo_url": "https://github.com/scopweb/github-go-server-mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Beyond-Network-AI_beyond-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Beyond-Network-AI_beyond-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "aymaneELHICHAMI_mcp-server-demo",
+    "repo_url": "https://github.com/aymaneELHICHAMI/mcp-server-demo",
+    "stars": 0
+  },
+  {
+    "name": "nikolausm_pdf-co-mcp-server",
+    "repo_url": "https://github.com/nikolausm/pdf-co-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "myonathanlinkedin_mcp-llm-auto-email-registration",
+    "repo_url": "https://github.com/myonathanlinkedin/mcp-llm-auto-email-registration",
+    "stars": 0
+  },
+  {
+    "name": "Tyru5_linear-mcp",
+    "repo_url": "https://github.com/Tyru5/linear-mcp",
+    "stars": 0
+  },
+  {
+    "name": "NetworkNerd1337_rcs_quikmail",
+    "repo_url": "https://github.com/NetworkNerd1337/rcs_quikmail",
+    "stars": 0
+  },
+  {
+    "name": "yuanbaobaoo_mcp-server-spring-demo",
+    "repo_url": "https://github.com/yuanbaobaoo/mcp-server-spring-demo",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_fleagne_backlog-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/fleagne_backlog-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Cyreslab-AI_burpsuite-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Cyreslab-AI_burpsuite-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_elijahdev0_mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/elijahdev0_mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_anandkumarpatel_remote-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/anandkumarpatel_remote-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "drewstaylor_rust-mcp-example",
+    "repo_url": "https://github.com/drewstaylor/rust-mcp-example",
+    "stars": 0
+  },
+  {
+    "name": "whmyb6666_my_mcp",
+    "repo_url": "https://github.com/whmyb6666/my_mcp",
+    "stars": 0
+  },
+  {
+    "name": "Sumedh1599_mcp_prompt_mapper",
+    "repo_url": "https://github.com/Sumedh1599/mcp_prompt_mapper",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_drapon_claude-mcp-servers",
+    "repo_url": "https://github.com/MCP-Mirror/drapon_claude-mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Cyreslab-AI_wayback-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Cyreslab-AI_wayback-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_floodfx_mcp-server-linear",
+    "repo_url": "https://github.com/MCP-Mirror/floodfx_mcp-server-linear",
+    "stars": 0
+  },
+  {
+    "name": "blumareks_mcp-test-openshift",
+    "repo_url": "https://github.com/blumareks/mcp-test-openshift",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Cyreslab-AI_marinetraffic-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Cyreslab-AI_marinetraffic-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_arjshiv_localutils-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/arjshiv_localutils-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_datalayer_earthdata-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/datalayer_earthdata-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_anshumax_world_bank_mcp_server",
+    "repo_url": "https://github.com/MCP-Mirror/anshumax_world_bank_mcp_server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_cristip73_mcp-server-asana",
+    "repo_url": "https://github.com/MCP-Mirror/cristip73_mcp-server-asana",
+    "stars": 0
+  },
+  {
+    "name": "Prashanth684_skopeo-mcp-server",
+    "repo_url": "https://github.com/Prashanth684/skopeo-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "ugundhar_mcp-server",
+    "repo_url": "https://github.com/ugundhar/mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "TalaoDAO_verifier",
+    "repo_url": "https://github.com/TalaoDAO/verifier",
+    "stars": 0
+  },
+  {
+    "name": "almas7202_MCPTest",
+    "repo_url": "https://github.com/almas7202/MCPTest",
+    "stars": 0
+  },
+  {
+    "name": "appositeit_PromptManager",
+    "repo_url": "https://github.com/appositeit/PromptManager",
+    "stars": 0
+  },
+  {
+    "name": "samehjarour_crewai-enterprise-mcp-actor",
+    "repo_url": "https://github.com/samehjarour/crewai-enterprise-mcp-actor",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Cam10001110101_mcp-server-ollama-deep-researcher",
+    "repo_url": "https://github.com/MCP-Mirror/Cam10001110101_mcp-server-ollama-deep-researcher",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_artillect_mtg-mcp-servers",
+    "repo_url": "https://github.com/MCP-Mirror/artillect_mtg-mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "prosandmusic_Instadev",
+    "repo_url": "https://github.com/prosandmusic/Instadev",
+    "stars": 0
+  },
+  {
+    "name": "Alexander-Nestor-Bergmann_agents-mcp-demo",
+    "repo_url": "https://github.com/Alexander-Nestor-Bergmann/agents-mcp-demo",
+    "stars": 0
+  },
+  {
+    "name": "shipdocs_vibe-coding-mcp-end-2-end-testing",
+    "repo_url": "https://github.com/shipdocs/vibe-coding-mcp-end-2-end-testing",
+    "stars": 0
+  },
+  {
+    "name": "giehlman_hello-claude-mcp-server-nodejs",
+    "repo_url": "https://github.com/giehlman/hello-claude-mcp-server-nodejs",
+    "stars": 0
+  },
+  {
+    "name": "abel9851_quckstart-mcp-server",
+    "repo_url": "https://github.com/abel9851/quckstart-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "pangeacyber_pangea-mcp-server",
+    "repo_url": "https://github.com/pangeacyber/pangea-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "robcerda_tesla-mcp-server",
+    "repo_url": "https://github.com/robcerda/tesla-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "zalogarcia_hyros-mcp-server",
+    "repo_url": "https://github.com/zalogarcia/hyros-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "encoreshao_weather-mcp",
+    "repo_url": "https://github.com/encoreshao/weather-mcp",
+    "stars": 0
+  },
+  {
+    "name": "agxmbhir_tally-erp-mcp",
+    "repo_url": "https://github.com/agxmbhir/tally-erp-mcp",
+    "stars": 0
+  },
+  {
+    "name": "nabadeep25_mcp-server-nodejs",
+    "repo_url": "https://github.com/nabadeep25/mcp-server-nodejs",
+    "stars": 0
+  },
+  {
+    "name": "omni-ai-nodes_omni-mcp-app",
+    "repo_url": "https://github.com/omni-ai-nodes/omni-mcp-app",
+    "stars": 0
+  },
+  {
+    "name": "KimiJL_fastapi-mcp",
+    "repo_url": "https://github.com/KimiJL/fastapi-mcp",
+    "stars": 0
+  },
+  {
+    "name": "gamhoi_mcp-ffmpeg-tools",
+    "repo_url": "https://github.com/gamhoi/mcp-ffmpeg-tools",
+    "stars": 0
+  },
+  {
+    "name": "oneinstepGO_mcp-server-demo",
+    "repo_url": "https://github.com/oneinstepGO/mcp-server-demo",
+    "stars": 0
+  },
+  {
+    "name": "danielscholl_mvn-mcp-server",
+    "repo_url": "https://github.com/danielscholl/mvn-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "zx8086_mcp-server-elasticsearch",
+    "repo_url": "https://github.com/zx8086/mcp-server-elasticsearch",
+    "stars": 0
+  },
+  {
+    "name": "xarical_mcp-on-vercel",
+    "repo_url": "https://github.com/xarical/mcp-on-vercel",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_sugarforever_amap-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/sugarforever_amap-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "kleonai_bio-mcp-servers",
+    "repo_url": "https://github.com/kleonai/bio-mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "AndyLeong33dev_METAESTETICS-ClinicManagement-Platform-By-Blackcode",
+    "repo_url": "https://github.com/AndyLeong33dev/METAESTETICS-ClinicManagement-Platform-By-Blackcode",
+    "stars": 0
+  },
+  {
+    "name": "abhilashsahoo_fastmcp-weather-server",
+    "repo_url": "https://github.com/abhilashsahoo/fastmcp-weather-server",
+    "stars": 0
+  },
+  {
+    "name": "AndyLeong33dev_AIOS-source-code-for-MVP",
+    "repo_url": "https://github.com/AndyLeong33dev/AIOS-source-code-for-MVP",
+    "stars": 0
+  },
+  {
+    "name": "bigbugAi_bigbugai",
+    "repo_url": "https://github.com/bigbugAi/bigbugai-mcp",
+    "stars": 0
+  },
+  {
+    "name": "HamdanRaza309_TweetPilot",
+    "repo_url": "https://github.com/HamdanRaza309/TweetPilot",
+    "stars": 0
+  },
+  {
+    "name": "LaserFocused-ee_ai-docs-mcp",
+    "repo_url": "https://github.com/LaserFocused-ee/ai-docs-mcp",
+    "stars": 0
+  },
+  {
+    "name": "inomata137_mcp_rs",
+    "repo_url": "https://github.com/inomata137/mcp_rs",
+    "stars": 0
+  },
+  {
+    "name": "Raghvendra-Raghuvanshi_selenium-mcp-server",
+    "repo_url": "https://github.com/Raghvendra-Raghuvanshi/selenium-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "unitythemaker_domain-checker-mcp",
+    "repo_url": "https://github.com/unitythemaker/domain-checker-mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_ibrooksSDX_mcp-server-opensearch",
+    "repo_url": "https://github.com/MCP-Mirror/ibrooksSDX_mcp-server-opensearch",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_hkk101_mcp-server-mysql",
+    "repo_url": "https://github.com/MCP-Mirror/hkk101_mcp-server-mysql",
+    "stars": 0
+  },
+  {
+    "name": "chiefnamingofficer_TalkO11yToMe",
+    "repo_url": "https://github.com/chiefnamingofficer/TalkO11yToMe",
+    "stars": 0
+  },
+  {
+    "name": "ranjeet-floyd_spring-mcp-demo",
+    "repo_url": "https://github.com/ranjeet-floyd/spring-mcp-demo",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_hesreallyhim_mcp-server-isitdown",
+    "repo_url": "https://github.com/MCP-Mirror/hesreallyhim_mcp-server-isitdown",
+    "stars": 0
+  },
+  {
+    "name": "sagarnildass_MCP-server-udemy",
+    "repo_url": "https://github.com/sagarnildass/MCP-server-udemy",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Infisical_infisical-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Infisical_infisical-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "a6b8_flowMCP",
+    "repo_url": "https://github.com/a6b8/flowMCP",
+    "stars": 0
+  },
+  {
+    "name": "DuckDs-C-Adventures_Whisper_King",
+    "repo_url": "https://github.com/DuckDs-C-Adventures/Whisper_King",
+    "stars": 0
+  },
+  {
+    "name": "nicoaguerrero_myanimelist-mcp-server",
+    "repo_url": "https://github.com/nicoaguerrero/myanimelist-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "celo-org_composer-kit-mcp",
+    "repo_url": "https://github.com/celo-org/composer-kit-mcp",
+    "stars": 0
+  },
+  {
+    "name": "huangxinping_huggingface-daily-paper-mcp",
+    "repo_url": "https://github.com/huangxinping/huggingface-daily-paper-mcp",
+    "stars": 0
+  },
+  {
+    "name": "dustinbturner_resume-ai-demo",
+    "repo_url": "https://github.com/dustinbturner/resume-ai-demo",
+    "stars": 0
+  },
+  {
+    "name": "httpsxiao_mcp-client-server",
+    "repo_url": "https://github.com/httpsxiao/mcp-client-server",
+    "stars": 0
+  },
+  {
+    "name": "flavioaraujosilva_supabase-mcp-server",
+    "repo_url": "https://github.com/flavioaraujosilva/supabase-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "jihot2000_simple-mcp-server",
+    "repo_url": "https://github.com/jihot2000/simple-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "bitibi_OpenAI-WebSearch-MCP-Server",
+    "repo_url": "https://github.com/bitibi/OpenAI-WebSearch-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "mattjoyce_senechal-mcp",
+    "repo_url": "https://github.com/mattjoyce/senechal-mcp",
+    "stars": 0
+  },
+  {
+    "name": "hirotoe0112_mcp-server-docker",
+    "repo_url": "https://github.com/hirotoe0112/mcp-server-docker",
+    "stars": 0
+  },
+  {
+    "name": "jackypanster_cline-mcp-example",
+    "repo_url": "https://github.com/jackypanster/cline-mcp-example",
+    "stars": 0
+  },
+  {
+    "name": "6_mcp-server-rubygems",
+    "repo_url": "https://github.com/6/mcp-server-rubygems",
+    "stars": 0
+  },
+  {
+    "name": "barreiros_mcp-server-basic",
+    "repo_url": "https://github.com/barreiros/mcp-server-basic",
+    "stars": 0
+  },
+  {
+    "name": "anishgowda21_mcp-local-servers",
+    "repo_url": "https://github.com/anishgowda21/mcp-local-servers",
+    "stars": 0
+  },
+  {
+    "name": "cnosuke_mcp-meilisearch",
+    "repo_url": "https://github.com/cnosuke/mcp-meilisearch",
+    "stars": 0
+  },
+  {
+    "name": "OneofGods_mcp-github-mapper-troubleshooting",
+    "repo_url": "https://github.com/OneofGods/mcp-github-mapper-troubleshooting",
+    "stars": 0
+  },
+  {
+    "name": "Awshux_mcp-custom-servers",
+    "repo_url": "https://github.com/Awshux/mcp-custom-servers",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_champierre_image-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/champierre_image-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Sunwood-ai-labs_ideagram-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Sunwood-ai-labs_ideagram-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Chrusic_todoist-mcp-server-extended",
+    "repo_url": "https://github.com/MCP-Mirror/Chrusic_todoist-mcp-server-extended",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_apappascs_mcp-servers-hub",
+    "repo_url": "https://github.com/MCP-Mirror/apappascs_mcp-servers-hub",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_nahmanmate_code-research-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/nahmanmate_code-research-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Albiemark_dbx-mcp-server",
+    "repo_url": "https://github.com/Albiemark/dbx-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "iAbdelRahim_mcp_chat",
+    "repo_url": "https://github.com/iAbdelRahim/mcp_chat",
+    "stars": 0
+  },
+  {
+    "name": "crazyrabbitLTC_mcp-snapshot-server",
+    "repo_url": "https://github.com/crazyrabbitLTC/mcp-snapshot-server",
+    "stars": 0
+  },
+  {
+    "name": "u10-github_mcp-servers-config",
+    "repo_url": "https://github.com/u10-github/mcp-servers-config",
+    "stars": 0
+  },
+  {
+    "name": "teamcurri_mcp-linear",
+    "repo_url": "https://github.com/teamcurri/mcp-linear",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_d-kimuson_esa-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/d-kimuson_esa-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Toowiredd_chatgpt-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Toowiredd_chatgpt-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "nengelmann_my-mcp-servers",
+    "repo_url": "https://github.com/nengelmann/my-mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "MASAKASUNO1_mcp-imagen-server",
+    "repo_url": "https://github.com/MASAKASUNO1/mcp-imagen-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_nahmanmate_better-auth-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/nahmanmate_better-auth-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_psaboia_mcp-server-example",
+    "repo_url": "https://github.com/MCP-Mirror/psaboia_mcp-server-example",
+    "stars": 0
+  },
+  {
+    "name": "5amfung_mcp-tools",
+    "repo_url": "https://github.com/5amfung/mcp-tools",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_ducthinh993_mcp-server-endoflife",
+    "repo_url": "https://github.com/MCP-Mirror/ducthinh993_mcp-server-endoflife",
+    "stars": 0
+  },
+  {
+    "name": "runekaagaard_aterm",
+    "repo_url": "https://github.com/runekaagaard/aterm",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_HarshJ23_deepseek-claude-MCP-server",
+    "repo_url": "https://github.com/MCP-Mirror/HarshJ23_deepseek-claude-MCP-server",
+    "stars": 0
+  },
+  {
+    "name": "xkiranj_playwright-universal-mcp",
+    "repo_url": "https://github.com/xkiranj/playwright-universal-mcp",
+    "stars": 0
+  },
+  {
+    "name": "Cleversoft-IT_drupal-tools-mcp",
+    "repo_url": "https://github.com/Cleversoft-IT/drupal-tools-mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Msparihar_mcp-server-firecrawl",
+    "repo_url": "https://github.com/MCP-Mirror/Msparihar_mcp-server-firecrawl",
+    "stars": 0
+  },
+  {
+    "name": "expo-starter_cli",
+    "repo_url": "https://github.com/expo-starter/cli",
+    "stars": 0
+  },
+  {
+    "name": "myownipgit_esignatures-nda-tutorial",
+    "repo_url": "https://github.com/myownipgit/esignatures-nda-tutorial",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_HeatherFlux_github-issue-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/HeatherFlux_github-issue-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Zate_mcp_servers",
+    "repo_url": "https://github.com/Zate/mcp_servers",
+    "stars": 0
+  },
+  {
+    "name": "maikmetzger_TestMcpServer",
+    "repo_url": "https://github.com/maikmetzger/TestMcpServer",
+    "stars": 0
+  },
+  {
+    "name": "ggg555mc_Telegram-bot-rcon-for-mcpe-servers",
+    "repo_url": "https://github.com/ggg555mc/Telegram-bot-rcon-for-mcpe-servers",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_HatriGt_hana-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/HatriGt_hana-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "codejie_MCP-Server-DS",
+    "repo_url": "https://github.com/codejie/MCP-Server-DS",
+    "stars": 0
+  },
+  {
+    "name": "jasondsmith72_jason-mcp-servers",
+    "repo_url": "https://github.com/jasondsmith72/jason-mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "andrewdmontgomery_mcp-server-gravatar",
+    "repo_url": "https://github.com/andrewdmontgomery/mcp-server-gravatar",
+    "stars": 0
+  },
+  {
+    "name": "prithviraj_vc-mcp",
+    "repo_url": "https://github.com/prithviraj/vc-mcp",
+    "stars": 0
+  },
+  {
+    "name": "xiaoliwe_mcp-server-curio",
+    "repo_url": "https://github.com/xiaoliwe/mcp-server-curio",
+    "stars": 0
+  },
+  {
+    "name": "algonacci_mcp-tavily-search",
+    "repo_url": "https://github.com/algonacci/mcp-tavily-search",
+    "stars": 0
+  },
+  {
+    "name": "MinjetTech_domain-lookup-mcp",
+    "repo_url": "https://github.com/MinjetTech/domain-lookup-mcp",
+    "stars": 0
+  },
+  {
+    "name": "jobworkerp-rs_jobworkerp-mcp-proxy",
+    "repo_url": "https://github.com/jobworkerp-rs/jobworkerp-mcp-proxy",
+    "stars": 0
+  },
+  {
+    "name": "Lipdog_lipsky-memory",
+    "repo_url": "https://github.com/Lipdog/lipsky-memory",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_stevennevins_mcp-server-template",
+    "repo_url": "https://github.com/MCP-Mirror/stevennevins_mcp-server-template",
+    "stars": 0
+  },
+  {
+    "name": "GrandMasterK414_mcp-servers",
+    "repo_url": "https://github.com/GrandMasterK414/mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "candy12t_mcp",
+    "repo_url": "https://github.com/candy12t/mcp",
+    "stars": 0
+  },
+  {
+    "name": "sshimomu2k2_mcp-test-repo",
+    "repo_url": "https://github.com/sshimomu2k2/mcp-test-repo",
+    "stars": 0
+  },
+  {
+    "name": "Muskan244_File_Summarizer_MCP_Server",
+    "repo_url": "https://github.com/Muskan244/File_Summarizer_MCP_Server",
+    "stars": 0
+  },
+  {
+    "name": "kun-g_VC-Buddy-MCP",
+    "repo_url": "https://github.com/kun-g/VC-Buddy-MCP",
+    "stars": 0
+  },
+  {
+    "name": "hardiksharmmaaaa_MCP_Servers_",
+    "repo_url": "https://github.com/hardiksharmmaaaa/MCP_Servers_",
+    "stars": 0
+  },
+  {
+    "name": "angreal_angreal-mcp",
+    "repo_url": "https://github.com/angreal/angreal-mcp",
+    "stars": 0
+  },
+  {
+    "name": "droidnext_mcp_dev_docs_server",
+    "repo_url": "https://github.com/droidnext/mcp_dev_docs_server",
+    "stars": 0
+  },
+  {
+    "name": "box_box",
+    "repo_url": "https://github.com/box/mcp-server-box-remote",
+    "stars": 0
+  },
+  {
+    "name": "RRonCChen_node-red-mcp-go",
+    "repo_url": "https://github.com/RRonCChen/node-red-mcp-go",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_isaacwasserman_mcp-snowflake-server",
+    "repo_url": "https://github.com/MCP-Mirror/isaacwasserman_mcp-snowflake-server",
+    "stars": 0
+  },
+  {
+    "name": "micahman33_VonageAICodeAssist",
+    "repo_url": "https://github.com/micahman33/VonageAICodeAssist",
+    "stars": 0
+  },
+  {
+    "name": "SeriaWei_MCP-Developer-Name",
+    "repo_url": "https://github.com/SeriaWei/MCP-Developer-Name",
+    "stars": 0
+  },
+  {
+    "name": "Wan-Hao_mcp-server-k8s",
+    "repo_url": "https://github.com/Wan-Hao/mcp-server-k8s",
+    "stars": 0
+  },
+  {
+    "name": "bymcs_mssql-mcp",
+    "repo_url": "https://github.com/bymcs/mssql-mcp",
+    "stars": 0
+  },
+  {
+    "name": "OpenWorkspace-o1_aws-ow-pgvector-mcp",
+    "repo_url": "https://github.com/OpenWorkspace-o1/aws-ow-pgvector-mcp",
+    "stars": 0
+  },
+  {
+    "name": "wubbyweb_MCP-template",
+    "repo_url": "https://github.com/wubbyweb/MCP-template",
+    "stars": 0
+  },
+  {
+    "name": "moncho_bitcoin-mcp",
+    "repo_url": "https://github.com/moncho/bitcoin-mcp",
+    "stars": 0
+  },
+  {
+    "name": "doronaviguy_mpc-0x",
+    "repo_url": "https://github.com/doronaviguy/mpc-0x",
+    "stars": 0
+  },
+  {
+    "name": "ds231_MCP-server",
+    "repo_url": "https://github.com/ds231/MCP-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_hellokaton_unsplash-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/hellokaton_unsplash-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "mcp-ruah_mcp-server",
+    "repo_url": "https://github.com/mcp-ruah/mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_box-community_mcp-server-box",
+    "repo_url": "https://github.com/MCP-Mirror/box-community_mcp-server-box",
+    "stars": 0
+  },
+  {
+    "name": "emresahna_docker-container-mcp",
+    "repo_url": "https://github.com/emresahna/docker-container-mcp",
+    "stars": 0
+  },
+  {
+    "name": "DevOpsDynamoHub_mcp-file-summarizer",
+    "repo_url": "https://github.com/DevOpsDynamoHub/mcp-file-summarizer",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_orbit-logistics_notion-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/orbit-logistics_notion-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_emmett-deen_Linear-MCP-Server",
+    "repo_url": "https://github.com/MCP-Mirror/emmett-deen_Linear-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_MadeByNando_mcp-postgres-server",
+    "repo_url": "https://github.com/MCP-Mirror/MadeByNando_mcp-postgres-server",
+    "stars": 0
+  },
+  {
+    "name": "jmcentire_mcp",
+    "repo_url": "https://github.com/jmcentire/mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_StarRocks_mcp-server-starrocks",
+    "repo_url": "https://github.com/MCP-Mirror/StarRocks_mcp-server-starrocks",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Rootly-AI-Labs_Rootly-MCP-server",
+    "repo_url": "https://github.com/MCP-Mirror/Rootly-AI-Labs_Rootly-MCP-server",
+    "stars": 0
+  },
+  {
+    "name": "Arkyapatwa_Google-Calendar-MCP-Server",
+    "repo_url": "https://github.com/Arkyapatwa/Google-Calendar-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "flipthedog_yfinance-mcp",
+    "repo_url": "https://github.com/flipthedog/yfinance-mcp",
+    "stars": 0
+  },
+  {
+    "name": "scottschreckengaust_mcpmonorepo",
+    "repo_url": "https://github.com/scottschreckengaust/mcpmonorepo",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Faucet94_super-win-cli-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Faucet94_super-win-cli-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "willyii_PersonalMcp",
+    "repo_url": "https://github.com/willyii/PersonalMcp",
+    "stars": 0
+  },
+  {
+    "name": "carbonin_assisted-service-mcp",
+    "repo_url": "https://github.com/carbonin/assisted-service-mcp",
+    "stars": 0
+  },
+  {
+    "name": "zusdn90_mcp-server",
+    "repo_url": "https://github.com/zusdn90/mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "firattamur_spotify-mcp",
+    "repo_url": "https://github.com/firattamur/spotify-mcp",
+    "stars": 0
+  },
+  {
+    "name": "help116114_fofa-mcp-server",
+    "repo_url": "https://github.com/help116114/fofa-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "shettysaish20_MCP-Server-V3",
+    "repo_url": "https://github.com/shettysaish20/MCP-Server-V3",
+    "stars": 0
+  },
+  {
+    "name": "yufule_mcp-kafka-server",
+    "repo_url": "https://github.com/yufule/mcp-kafka-server",
+    "stars": 0
+  },
+  {
+    "name": "nexpando-com_open-api-mcp",
+    "repo_url": "https://github.com/nexpando-com/open-api-mcp",
+    "stars": 0
+  },
+  {
+    "name": "abhishek9909_mcp-server-trfrmarket",
+    "repo_url": "https://github.com/abhishek9909/mcp-server-trfrmarket",
+    "stars": 0
+  },
+  {
+    "name": "VedantRGosavi_fridayAI",
+    "repo_url": "https://github.com/VedantRGosavi/fridayAI",
+    "stars": 0
+  },
+  {
+    "name": "RahulRana0707_mcp-server",
+    "repo_url": "https://github.com/RahulRana0707/mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "sadiuysal_mem0-mcp-server-ts",
+    "repo_url": "https://github.com/sadiuysal/mem0-mcp-server-ts",
+    "stars": 0
+  },
+  {
+    "name": "erer92_mcp-server-config",
+    "repo_url": "https://github.com/erer92/mcp-server-config",
+    "stars": 0
+  },
+  {
+    "name": "leejss_mcp-playground",
+    "repo_url": "https://github.com/leejss/mcp-playground",
+    "stars": 0
+  },
+  {
+    "name": "Ivor_unix-timestamps-mcp",
+    "repo_url": "https://github.com/Ivor/unix-timestamps-mcp",
+    "stars": 0
+  },
+  {
+    "name": "amarpreetbhatia_carsmcpserver",
+    "repo_url": "https://github.com/amarpreetbhatia/carsmcpserver",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_chima-org_jira-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/chima-org_jira-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_syucream_holaspirit-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/syucream_holaspirit-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_kurtseifried_mcp-servers-kurtseifried",
+    "repo_url": "https://github.com/MCP-Mirror/kurtseifried_mcp-servers-kurtseifried",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_syucream_lightdash-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/syucream_lightdash-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_hekmon8_Homeassistant-server-mcp",
+    "repo_url": "https://github.com/MCP-Mirror/hekmon8_Homeassistant-server-mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_prasanthmj_primitive-go-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/prasanthmj_primitive-go-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "eagurin_mymcpserv",
+    "repo_url": "https://github.com/eagurin/mymcpserv",
+    "stars": 0
+  },
+  {
+    "name": "FluentData_fluent_mcp",
+    "repo_url": "https://github.com/FluentData/fluent_mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_diegofornalha_mcp-server-trello",
+    "repo_url": "https://github.com/MCP-Mirror/diegofornalha_mcp-server-trello",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_f4ww4z_mcp-mysql-server",
+    "repo_url": "https://github.com/MCP-Mirror/f4ww4z_mcp-mysql-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_esign-cn-open-source_mcp-server-esign",
+    "repo_url": "https://github.com/MCP-Mirror/esign-cn-open-source_mcp-server-esign",
+    "stars": 0
+  },
+  {
+    "name": "popand_workflows-mcp-server",
+    "repo_url": "https://github.com/popand/workflows-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "utkarshagawade17_CampusLostFoundMCP",
+    "repo_url": "https://github.com/utkarshagawade17/CampusLostFoundMCP",
+    "stars": 0
+  },
+  {
+    "name": "Creodot_plane-mcp-server",
+    "repo_url": "https://github.com/Creodot/plane-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "ryaker_mongodb-mcp-server",
+    "repo_url": "https://github.com/ryaker/mongodb-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "under-doc_expense-management",
+    "repo_url": "https://github.com/under-doc/expense-management",
+    "stars": 0
+  },
+  {
+    "name": "aswinthulasir_mcp-selenium",
+    "repo_url": "https://github.com/aswinthulasir/mcp-selenium",
+    "stars": 0
+  },
+  {
+    "name": "simplelocalize_simplelocalize-mcp-server",
+    "repo_url": "https://github.com/simplelocalize/simplelocalize-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "runninghare_rest-to-postman",
+    "repo_url": "https://github.com/runninghare/rest-to-postman",
+    "stars": 0
+  },
+  {
+    "name": "galaxyxyz5_langgraph-mcp",
+    "repo_url": "https://github.com/galaxyxyz5/langgraph-mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_QAInsights_k6-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/QAInsights_k6-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "maxmurphySF_arc-mcp-server",
+    "repo_url": "https://github.com/maxmurphySF/arc-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "recallnet_trading-simulator-mcp",
+    "repo_url": "https://github.com/recallnet/trading-simulator-mcp",
+    "stars": 0
+  },
+  {
+    "name": "jasona7_mcp_github_discussions",
+    "repo_url": "https://github.com/jasona7/mcp_github_discussions",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_JackKuo666_Weather-MCP-Server",
+    "repo_url": "https://github.com/MCP-Mirror/JackKuo666_Weather-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "suchetaslalom-sf_mcp-key-server",
+    "repo_url": "https://github.com/suchetaslalom-sf/mcp-key-server",
+    "stars": 0
+  },
+  {
+    "name": "edrigu1989_slack-mcp-server",
+    "repo_url": "https://github.com/edrigu1989/slack-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_YiyangLi_sms-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/YiyangLi_sms-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "danielscholl_maven-mcp-server",
+    "repo_url": "https://github.com/danielscholl/maven-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "amurata_MCPServer",
+    "repo_url": "https://github.com/amurata/MCPServer",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_playcanvas_editor-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/playcanvas_editor-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "VyacheslavVanin_mcp-http-host",
+    "repo_url": "https://github.com/VyacheslavVanin/mcp-http-host",
+    "stars": 0
+  },
+  {
+    "name": "awmatheson_redis-mcp-server",
+    "repo_url": "https://github.com/awmatheson/redis-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "aarthiem_MCPServerTest",
+    "repo_url": "https://github.com/aarthiem/MCPServerTest",
+    "stars": 0
+  },
+  {
+    "name": "scriptstar_mcp-starter-kit-node",
+    "repo_url": "https://github.com/scriptstar/mcp-starter-kit-node",
+    "stars": 0
+  },
+  {
+    "name": "getHarshOnline_jarvisMCP",
+    "repo_url": "https://github.com/getHarshOnline/jarvisMCP",
+    "stars": 0
+  },
+  {
+    "name": "AFAN-LIFE_mcp-changtianML",
+    "repo_url": "https://github.com/AFAN-LIFE/mcp-changtianML",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_SpringMT_microcms-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/SpringMT_microcms-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "mmokarzel_brand-to-theme-mcp-server",
+    "repo_url": "https://github.com/mmokarzel/brand-to-theme-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "erhwenkuo_mcp-searxng-tool",
+    "repo_url": "https://github.com/erhwenkuo/mcp-searxng-tool",
+    "stars": 0
+  },
+  {
+    "name": "saptechengineer_mcp",
+    "repo_url": "https://github.com/saptechengineer/mcp",
+    "stars": 0
+  },
+  {
+    "name": "jalateras_weather",
+    "repo_url": "https://github.com/jalateras/weather",
+    "stars": 0
+  },
+  {
+    "name": "JuanLadeira_mcp_learning",
+    "repo_url": "https://github.com/JuanLadeira/mcp_learning",
+    "stars": 0
+  },
+  {
+    "name": "gergelyszerovay_mcp-server-qdrant-retrive",
+    "repo_url": "https://github.com/gergelyszerovay/mcp-server-qdrant-retrive",
+    "stars": 0
+  },
+  {
+    "name": "natapone_simple_agent_api_tool",
+    "repo_url": "https://github.com/natapone/simple_agent_api_tool",
+    "stars": 0
+  },
+  {
+    "name": "kabragaurav_MCP-Server",
+    "repo_url": "https://github.com/kabragaurav/MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "luis1232023_nest-llm-aigent",
+    "repo_url": "https://github.com/luis1232023/nest-llm-aigent",
+    "stars": 0
+  },
+  {
+    "name": "tkc_notion-mcp",
+    "repo_url": "https://github.com/tkc/notion-mcp",
+    "stars": 0
+  },
+  {
+    "name": "JavaProgrammerLB_mcp_hello_world",
+    "repo_url": "https://github.com/JavaProgrammerLB/mcp_hello_world",
+    "stars": 0
+  },
+  {
+    "name": "PaymanAI_payman-doc-mcp-server",
+    "repo_url": "https://github.com/PaymanAI/payman-doc-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "FixingPixels_aegis-github-integration-test",
+    "repo_url": "https://github.com/FixingPixels/aegis-github-integration-test",
+    "stars": 0
+  },
+  {
+    "name": "pgpt-dev_MCP-Server-for-MAS-Developments",
+    "repo_url": "https://github.com/pgpt-dev/MCP-Server-for-MAS-Developments",
+    "stars": 0
+  },
+  {
+    "name": "xenoailimited_mavae-image-toolbox",
+    "repo_url": "https://github.com/xenoailimited/mcp-mavae",
+    "stars": 0
+  },
+  {
+    "name": "jhillbht_Organized-AI",
+    "repo_url": "https://github.com/jhillbht/Organized-AI",
+    "stars": 0
+  },
+  {
+    "name": "munishm_azure-devops-mcp-server",
+    "repo_url": "https://github.com/munishm/azure-devops-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "aovabo_nyt-mcp-server",
+    "repo_url": "https://github.com/aovabo/nyt-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "1999AZZAR_mcp-client",
+    "repo_url": "https://github.com/1999AZZAR/mcp-client",
+    "stars": 0
+  },
+  {
+    "name": "CodeHalwell_gradio-mcp-agent-hack",
+    "repo_url": "https://github.com/CodeHalwell/gradio-mcp-agent-hack",
+    "stars": 0
+  },
+  {
+    "name": "yellnuts_mcp-mem0",
+    "repo_url": "https://github.com/yellnuts/mcp-mem0",
+    "stars": 0
+  },
+  {
+    "name": "Meeting-Baas_speaking-bots-mcp",
+    "repo_url": "https://github.com/Meeting-Baas/speaking-bots-mcp",
+    "stars": 0
+  },
+  {
+    "name": "2252_supreme-potato",
+    "repo_url": "https://github.com/2252/supreme-potato",
+    "stars": 0
+  },
+  {
+    "name": "AlejandroVelezGuillermo_registry",
+    "repo_url": "https://github.com/AlejandroVelezGuillermo/registry",
+    "stars": 0
+  },
+  {
+    "name": "eoinmooremath_school-db-mcp-server",
+    "repo_url": "https://github.com/eoinmooremath/school-db-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Aryan-Jhaveri_mcp-foodguidecanada",
+    "repo_url": "https://github.com/Aryan-Jhaveri/mcp-foodguidecanada",
+    "stars": 0
+  },
+  {
+    "name": "edlingao_example-mcp-server-with-go",
+    "repo_url": "https://github.com/edlingao/example-mcp-server-with-go",
+    "stars": 0
+  },
+  {
+    "name": "SKWK_stocks-mcp",
+    "repo_url": "https://github.com/SKWK/stocks-mcp",
+    "stars": 0
+  },
+  {
+    "name": "kentyler_pattern-cognition-mcp",
+    "repo_url": "https://github.com/kentyler/pattern-cognition-mcp",
+    "stars": 0
+  },
+  {
+    "name": "KabakaWilliam_berserk-chapter-mcp",
+    "repo_url": "https://github.com/KabakaWilliam/berserk-chapter-mcp",
+    "stars": 0
+  },
+  {
+    "name": "kumartheashwani_paypal-java-mcp-server",
+    "repo_url": "https://github.com/kumartheashwani/paypal-java-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "algonacci_mcp-tavily-extract",
+    "repo_url": "https://github.com/algonacci/mcp-tavily-extract",
+    "stars": 0
+  },
+  {
+    "name": "dotnet-demos_mcp-server-iis",
+    "repo_url": "https://github.com/dotnet-demos/mcp-server-iis",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_tadasant_mcp-server-ssh-rails-runner",
+    "repo_url": "https://github.com/MCP-Mirror/tadasant_mcp-server-ssh-rails-runner",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_xianzong85_mysql-server-MCP-Server",
+    "repo_url": "https://github.com/MCP-Mirror/xianzong85_mysql-server-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_amir-bengherbi_shopify-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/amir-bengherbi_shopify-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_EyevinnOSC_mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/EyevinnOSC_mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Vostos007_useful-mcp-servers",
+    "repo_url": "https://github.com/Vostos007/useful-mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_horizondatawave_hdw-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/horizondatawave_hdw-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_peterparker57_cpp-builder-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/peterparker57_cpp-builder-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_descope-sample-apps_descope-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/descope-sample-apps_descope-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_mtane0412_ghost-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/mtane0412_ghost-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_tatn_mcp-server-fetch-typescript",
+    "repo_url": "https://github.com/MCP-Mirror/tatn_mcp-server-fetch-typescript",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_peteknowsai_remote-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/peteknowsai_remote-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Hawstein_mcp-server-reddit",
+    "repo_url": "https://github.com/MCP-Mirror/Hawstein_mcp-server-reddit",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_isaacwasserman_mcp_cube_server",
+    "repo_url": "https://github.com/MCP-Mirror/isaacwasserman_mcp_cube_server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_cyanheads_mentor-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/cyanheads_mentor-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_stefanskiasan_semgrep-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/stefanskiasan_semgrep-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "TeglonLabs_coin-flip-mcp",
+    "repo_url": "https://github.com/TeglonLabs/coin-flip-mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_delorenj_mcp-server-ticketmaster",
+    "repo_url": "https://github.com/MCP-Mirror/delorenj_mcp-server-ticketmaster",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_giovannicocco_mcp-server-postman-tool-generation",
+    "repo_url": "https://github.com/MCP-Mirror/giovannicocco_mcp-server-postman-tool-generation",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_KorigamiK_markitdown_mcp_server",
+    "repo_url": "https://github.com/MCP-Mirror/KorigamiK_markitdown_mcp_server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_jakeyShakey_umami_mcp_server",
+    "repo_url": "https://github.com/MCP-Mirror/jakeyShakey_umami_mcp_server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_crazyrabbitLTC_mcp-morpho-server",
+    "repo_url": "https://github.com/MCP-Mirror/crazyrabbitLTC_mcp-morpho-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_mathd_govee_mcp_server",
+    "repo_url": "https://github.com/MCP-Mirror/mathd_govee_mcp_server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_aldrin-labs_metaplex-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/aldrin-labs_metaplex-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "luis1232023_nest-llm-argent",
+    "repo_url": "https://github.com/luis1232023/nest-llm-argent",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_spragginsdesigns_perplexity-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/spragginsdesigns_perplexity-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_c0h1b4_mssql-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/c0h1b4_mssql-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_ThetaBird_mcp-server-axiom-js",
+    "repo_url": "https://github.com/MCP-Mirror/ThetaBird_mcp-server-axiom-js",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_cr7258_elasticsearch-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/cr7258_elasticsearch-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_smithery-ai_COLUMBIA-MCP-SERVERS",
+    "repo_url": "https://github.com/MCP-Mirror/smithery-ai_COLUMBIA-MCP-SERVERS",
+    "stars": 0
+  },
+  {
+    "name": "greenrush21_demicode",
+    "repo_url": "https://github.com/greenrush21/demicode",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_merajmehrabi_puppeteer-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/merajmehrabi_puppeteer-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "HEXING19_bilibii-mcp-server",
+    "repo_url": "https://github.com/HEXING19/bilibii-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "neoforge-dev_neoforge-mcp-server",
+    "repo_url": "https://github.com/neoforge-dev/neoforge-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_manpreet2000_mcp-database-server",
+    "repo_url": "https://github.com/MCP-Mirror/manpreet2000_mcp-database-server",
+    "stars": 0
+  },
+  {
+    "name": "ankitmishralive_Hands-on-MCP",
+    "repo_url": "https://github.com/ankitmishralive/Hands-on-MCP",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_captain-blue210_anki-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/captain-blue210_anki-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "y7ut_mcp-tavily-search",
+    "repo_url": "https://github.com/y7ut/mcp-tavily-search",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_shibuiwilliam_mcp-server-zenn",
+    "repo_url": "https://github.com/MCP-Mirror/shibuiwilliam_mcp-server-zenn",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_prajwalnayak7_mcp-server-redis",
+    "repo_url": "https://github.com/MCP-Mirror/prajwalnayak7_mcp-server-redis",
+    "stars": 0
+  },
+  {
+    "name": "yhwancha_mylocation-mcp",
+    "repo_url": "https://github.com/yhwancha/mylocation-mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_JavaProgrammerLB_zoom-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/JavaProgrammerLB_zoom-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "ivanbtrujillo_mcp-server-spike",
+    "repo_url": "https://github.com/ivanbtrujillo/mcp-server-spike",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_bsmi021_mcp-file-operations-server",
+    "repo_url": "https://github.com/MCP-Mirror/bsmi021_mcp-file-operations-server",
+    "stars": 0
+  },
+  {
+    "name": "675256493_sms-mcp-server",
+    "repo_url": "https://github.com/675256493/sms-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_t3ta_sql-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/t3ta_sql-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "aaronbassett_Personas-MCP-Server",
+    "repo_url": "https://github.com/aaronbassett/Personas-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "frocher_botnbot_mcp",
+    "repo_url": "https://github.com/frocher/botnbot_mcp",
+    "stars": 0
+  },
+  {
+    "name": "HappyAny_secure-command-executor-mcp-server",
+    "repo_url": "https://github.com/HappyAny/secure-command-executor-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_awwaiid_mcp-server-taskwarrior",
+    "repo_url": "https://github.com/MCP-Mirror/awwaiid_mcp-server-taskwarrior",
+    "stars": 0
+  },
+  {
+    "name": "victorzxj_coderider-mcp",
+    "repo_url": "https://github.com/victorzxj/coderider-mcp",
+    "stars": 0
+  },
+  {
+    "name": "mikecreighton_mikecreighton-dot-com-content-mcp",
+    "repo_url": "https://github.com/mikecreighton/mikecreighton-dot-com-content-mcp",
+    "stars": 0
+  },
+  {
+    "name": "angrysky56_workspace-db-manager",
+    "repo_url": "https://github.com/angrysky56/workspace-db-manager",
+    "stars": 0
+  },
+  {
+    "name": "KairavA_mcp_server",
+    "repo_url": "https://github.com/KairavA/mcp_server",
+    "stars": 0
+  },
+  {
+    "name": "brukhabtu_github-mcp-server",
+    "repo_url": "https://github.com/brukhabtu/github-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Sunwood-ai-labs_command-executor-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Sunwood-ai-labs_command-executor-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_csonigo_datagouv-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/csonigo_datagouv-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "boostspace_integrator-mcp-server",
+    "repo_url": "https://github.com/boostspace/integrator-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_ParasSolanki_jira-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/ParasSolanki_jira-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_shreyansh-ghl_mysql-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/shreyansh-ghl_mysql-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "RRRoger_mcp-box",
+    "repo_url": "https://github.com/RRRoger/mcp-box",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_leonardsellem_n8n-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/leonardsellem_n8n-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "nitishsharma25_mysql-kusto-mcp",
+    "repo_url": "https://github.com/nitishsharma25/mysql-kusto-mcp",
+    "stars": 0
+  },
+  {
+    "name": "seanofahey_mcp-noaa-tides",
+    "repo_url": "https://github.com/seanofahey/mcp-noaa-tides",
+    "stars": 0
+  },
+  {
+    "name": "Lucasdoreac_php-mcp-protocol-server",
+    "repo_url": "https://github.com/Lucasdoreac/php-mcp-protocol-server",
+    "stars": 0
+  },
+  {
+    "name": "bxmzero_mcp-spring",
+    "repo_url": "https://github.com/bxmzero/mcp-spring",
+    "stars": 0
+  },
+  {
+    "name": "besthand_mcp-server-taiwan-aqi",
+    "repo_url": "https://github.com/besthand/mcp-server-taiwan-aqi",
+    "stars": 0
+  },
+  {
+    "name": "mows21_claude-desktop-mcp-server",
+    "repo_url": "https://github.com/mows21/claude-desktop-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MananShahTR_azure-devops-mcp-server",
+    "repo_url": "https://github.com/MananShahTR/azure-devops-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "tiagodread_mcp-servers",
+    "repo_url": "https://github.com/tiagodread/mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "fist-maestro_mcp-servers",
+    "repo_url": "https://github.com/fist-maestro/mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "Ganapathi-AJ_mcp-server-test",
+    "repo_url": "https://github.com/Ganapathi-AJ/mcp-server-test",
+    "stars": 0
+  },
+  {
+    "name": "manstis_mcp-openapi",
+    "repo_url": "https://github.com/manstis/mcp-openapi",
+    "stars": 0
+  },
+  {
+    "name": "hitechdk_weather-ai-agent",
+    "repo_url": "https://github.com/hitechdk/weather-ai-agent",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_mkc909_agent-communication-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/mkc909_agent-communication-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "SegaraRai_mcp-server-librarian",
+    "repo_url": "https://github.com/SegaraRai/mcp-server-librarian",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Cyreslab-AI_flightradar-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Cyreslab-AI_flightradar-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Ryuzaki1415_MCP-SERVER-YOUTUBE",
+    "repo_url": "https://github.com/Ryuzaki1415/MCP-SERVER-YOUTUBE",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_win4r_browser-use-MCP-Server",
+    "repo_url": "https://github.com/MCP-Mirror/win4r_browser-use-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "nitheish-ss_ui-builder",
+    "repo_url": "https://github.com/nitheish-ss/ui-builder",
+    "stars": 0
+  },
+  {
+    "name": "AIMIZING_mcp-naver-weather",
+    "repo_url": "https://github.com/AIMIZING/mcp-naver-weather",
+    "stars": 0
+  },
+  {
+    "name": "MisterCommand_mcp-canvas-lms",
+    "repo_url": "https://github.com/MisterCommand/mcp-canvas-lms",
+    "stars": 0
+  },
+  {
+    "name": "wusiyaodiudiu_gitlab-mcp-server",
+    "repo_url": "https://github.com/wusiyaodiudiu/gitlab-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "ChrisMethsillo_ReyxGPT",
+    "repo_url": "https://github.com/ChrisMethsillo/ReyxGPT",
+    "stars": 0
+  },
+  {
+    "name": "rectalogic_blender-mcp",
+    "repo_url": "https://github.com/rectalogic/blender-mcp",
+    "stars": 0
+  },
+  {
+    "name": "Buu-AI_buu_mcp_server",
+    "repo_url": "https://github.com/Buu-AI/buu-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "ChaitanyaK77_MCP-Client-and-Server-Demo",
+    "repo_url": "https://github.com/ChaitanyaK77/MCP-Client-and-Server-Demo",
+    "stars": 0
+  },
+  {
+    "name": "elementalcollision_vast-db-mcp",
+    "repo_url": "https://github.com/elementalcollision/vast-db-mcp",
+    "stars": 0
+  },
+  {
+    "name": "sakshiglaze_Quantumcompute_mcp",
+    "repo_url": "https://github.com/sakshiglaze/Quantumcompute_mcp",
+    "stars": 0
+  },
+  {
+    "name": "MCPBus_k8s-mcp-server",
+    "repo_url": "https://github.com/MCPBus/k8s-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "trieloff_unread-mcp",
+    "repo_url": "https://github.com/trieloff/unread-mcp",
+    "stars": 0
+  },
+  {
+    "name": "navayuvan-gallabox_gallabox-mcp-server",
+    "repo_url": "https://github.com/navayuvan-gallabox/gallabox-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "manojshipra_MCP-Model-Context-Protocol-Projects",
+    "repo_url": "https://github.com/manojshipra/MCP-Model-Context-Protocol-Projects",
+    "stars": 0
+  },
+  {
+    "name": "AndreaGriffiths11_mcptesting",
+    "repo_url": "https://github.com/AndreaGriffiths11/mcptesting",
+    "stars": 0
+  },
+  {
+    "name": "jasoet_sample-mcp",
+    "repo_url": "https://github.com/jasoet/sample-mcp",
+    "stars": 0
+  },
+  {
+    "name": "Aryan-Jhaveri_mcp-brockevents",
+    "repo_url": "https://github.com/Aryan-Jhaveri/mcp-brockevents",
+    "stars": 0
+  },
+  {
+    "name": "ThomasVuNguyen_simple-mcp",
+    "repo_url": "https://github.com/ThomasVuNguyen/simple-mcp",
+    "stars": 0
+  },
+  {
+    "name": "AminKhorramii_data-viz-mcp-server",
+    "repo_url": "https://github.com/AminKhorramii/data-viz-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_pansila_mcp_server_gdb",
+    "repo_url": "https://github.com/MCP-Mirror/pansila_mcp_server_gdb",
+    "stars": 0
+  },
+  {
+    "name": "SilasReinagel_SecureSshMcp",
+    "repo_url": "https://github.com/SilasReinagel/SecureSshMcp",
+    "stars": 0
+  },
+  {
+    "name": "degentics-ai_mcp-recipes",
+    "repo_url": "https://github.com/degentics-ai/mcp-recipes",
+    "stars": 0
+  },
+  {
+    "name": "junchenfeng_cursor_agents",
+    "repo_url": "https://github.com/junchenfeng/cursor_agents",
+    "stars": 0
+  },
+  {
+    "name": "wonderlanddevtools_monite-mcp-server-v2",
+    "repo_url": "https://github.com/wonderlanddevtools/monite-mcp-server-v2",
+    "stars": 0
+  },
+  {
+    "name": "enriquetecfan11_myfirstmcpserver",
+    "repo_url": "https://github.com/enriquetecfan11/myfirstmcpserver",
+    "stars": 0
+  },
+  {
+    "name": "jaimealruiz_proyecto-tfg",
+    "repo_url": "https://github.com/jaimealruiz/proyecto-tfg",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_baryhuang_mcp-server-aws-resources-python",
+    "repo_url": "https://github.com/MCP-Mirror/baryhuang_mcp-server-aws-resources-python",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_ariunbolor_nsaf-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/ariunbolor_nsaf-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_dcSpark_mcp-server-jupiter",
+    "repo_url": "https://github.com/MCP-Mirror/dcSpark_mcp-server-jupiter",
+    "stars": 0
+  },
+  {
+    "name": "JustTryAI_databricks-permissions-mcp-server",
+    "repo_url": "https://github.com/JustTryAI/databricks-permissions-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "berkayderin_mcp-base",
+    "repo_url": "https://github.com/berkayderin/mcp-base",
+    "stars": 0
+  },
+  {
+    "name": "JackKuo666_pdffigures2-MCP-Server",
+    "repo_url": "https://github.com/JackKuo666/pdffigures2-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_bart6114_my-bear-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/bart6114_my-bear-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "mcp-agents_model-context-protocol",
+    "repo_url": "https://github.com/mcp-agents/model-context-protocol",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_christian561_gel-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/christian561_gel-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "rhitune2_mock-data-mcp",
+    "repo_url": "https://github.com/rhitune2/mock-data-mcp",
+    "stars": 0
+  },
+  {
+    "name": "Abiorh001_mcp_ev_assistant_server",
+    "repo_url": "https://github.com/Abiorh001/mcp_ev_assistant_server",
+    "stars": 0
+  },
+  {
+    "name": "RyanLisse_whoop-mcp-server",
+    "repo_url": "https://github.com/RyanLisse/whoop-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "PsychArch_caiyun-mcp-tools",
+    "repo_url": "https://github.com/PsychArch/caiyun-mcp-tools",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_misterboe_strapi-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/misterboe_strapi-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_m0xai_trello-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/m0xai_trello-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "rubaiat-hossain_MCP-server-basic",
+    "repo_url": "https://github.com/rubaiat-hossain/MCP-server-basic",
+    "stars": 0
+  },
+  {
+    "name": "unravel-team_example-cool-mcp-server",
+    "repo_url": "https://github.com/unravel-team/example-cool-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "vishymakthal_mcp",
+    "repo_url": "https://github.com/vishymakthal/mcp",
+    "stars": 0
+  },
+  {
+    "name": "3dyuval_mcp-template",
+    "repo_url": "https://github.com/3dyuval/mcp-template",
+    "stars": 0
+  },
+  {
+    "name": "Seung-9_mcp-server",
+    "repo_url": "https://github.com/Seung-9/mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "mike-holcomb_fhir-mcp-server-medagentbench",
+    "repo_url": "https://github.com/mike-holcomb/fhir-mcp-server-medagentbench",
+    "stars": 0
+  },
+  {
+    "name": "FiveOhhWon_perspective-mcp",
+    "repo_url": "https://github.com/FiveOhhWon/perspective-mcp",
+    "stars": 0
+  },
+  {
+    "name": "metacontract_mc-mcp",
+    "repo_url": "https://github.com/metacontract/mc-mcp",
+    "stars": 0
+  },
+  {
+    "name": "PrajwalDhiwar_github-mcp-server",
+    "repo_url": "https://github.com/PrajwalDhiwar/github-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Himank-J_Gmail-MCP-Server",
+    "repo_url": "https://github.com/Himank-J/Gmail-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_neondatabase-labs_mcp-server-neon",
+    "repo_url": "https://github.com/MCP-Mirror/neondatabase-labs_mcp-server-neon",
+    "stars": 0
+  },
+  {
+    "name": "zubhav_mcp-server-typescript-template",
+    "repo_url": "https://github.com/zubhav/mcp-server-typescript-template",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_hedera-dev_hedera-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/hedera-dev_hedera-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "shridharMe_mcp-server-with-amazon-bedrock-agent",
+    "repo_url": "https://github.com/shridharMe/mcp-server-with-amazon-bedrock-agent",
+    "stars": 0
+  },
+  {
+    "name": "rajiverpai_nyaypalak-core",
+    "repo_url": "https://github.com/rajiverpai/nyaypalak-core",
+    "stars": 0
+  },
+  {
+    "name": "tmw397_github-checkout-commit-tools",
+    "repo_url": "https://github.com/tmw397/github-checkout-commit-tools",
+    "stars": 0
+  },
+  {
+    "name": "hoangndst_mcp-server-danchoicloud",
+    "repo_url": "https://github.com/hoangndst/mcp-server-danchoicloud",
+    "stars": 0
+  },
+  {
+    "name": "yutonishi_sample-mcp-server",
+    "repo_url": "https://github.com/yutonishi/sample-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Flight-Health_mcp-search-and-create-task",
+    "repo_url": "https://github.com/Flight-Health/mcp-search-and-create-task",
+    "stars": 0
+  },
+  {
+    "name": "gkushang_hello-mcp-server",
+    "repo_url": "https://github.com/gkushang/hello-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Xeonice_mcp-depedencies-install",
+    "repo_url": "https://github.com/Xeonice/mcp-depedencies-install",
+    "stars": 0
+  },
+  {
+    "name": "diml-dev_mcp-servers",
+    "repo_url": "https://github.com/diml-dev/mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "mcprepository_mcp-index",
+    "repo_url": "https://github.com/mcprepository/mcp-index",
+    "stars": 0
+  },
+  {
+    "name": "jeroensmink98_tenderned-mcp",
+    "repo_url": "https://github.com/jeroensmink98/tenderned-mcp",
+    "stars": 0
+  },
+  {
+    "name": "rbctmz_mcp-server-strava",
+    "repo_url": "https://github.com/rbctmz/mcp-server-strava",
+    "stars": 0
+  },
+  {
+    "name": "kao73_github-mcp",
+    "repo_url": "https://github.com/kao73/github-mcp",
+    "stars": 0
+  },
+  {
+    "name": "tleguen833_arxiv-mcp-server",
+    "repo_url": "https://github.com/tleguen833/arxiv-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "aycher2000_justdopeshop",
+    "repo_url": "https://github.com/aycher2000/justdopeshop",
+    "stars": 0
+  },
+  {
+    "name": "arkapatra31_model-context-protocol",
+    "repo_url": "https://github.com/arkapatra31/model-context-protocol",
+    "stars": 0
+  },
+  {
+    "name": "DerSmartContract_TheQ",
+    "repo_url": "https://github.com/DerSmartContract/TheQ",
+    "stars": 0
+  },
+  {
+    "name": "rectalogic_toolchat",
+    "repo_url": "https://github.com/rectalogic/toolchat",
+    "stars": 0
+  },
+  {
+    "name": "Jackson88_google-calendar-mcp",
+    "repo_url": "https://github.com/Jackson88/google-calendar-mcp",
+    "stars": 0
+  },
+  {
+    "name": "SageChisanga_MCPTutorial",
+    "repo_url": "https://github.com/SageChisanga/MCPTutorial",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_CodeLogicIncEngineering_codelogic-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/CodeLogicIncEngineering_codelogic-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "sawantudayan_document-search-mcp-server",
+    "repo_url": "https://github.com/sawantudayan/document-search-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "GsusFC_MCP-Notion",
+    "repo_url": "https://github.com/GsusFC/MCP-Notion",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_deshartman_twilio-messaging-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/deshartman_twilio-messaging-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "kaneyxx_weekly-report-mcp",
+    "repo_url": "https://github.com/kaneyxx/weekly-report-mcp",
+    "stars": 0
+  },
+  {
+    "name": "sosanzma_SmartCityMCP",
+    "repo_url": "https://github.com/sosanzma/SmartCityMCP",
+    "stars": 0
+  },
+  {
+    "name": "gfhe_mcp-pdf2pics",
+    "repo_url": "https://github.com/gfhe/mcp-pdf2pics",
+    "stars": 0
+  },
+  {
+    "name": "kirikoko1213_kr-mcp-server",
+    "repo_url": "https://github.com/kirikoko1213/kr-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "Chenlong-Tao_MCPFastDemo",
+    "repo_url": "https://github.com/Chenlong-Tao/MCPFastDemo",
+    "stars": 0
+  },
+  {
+    "name": "jpan8866_mcp-weather",
+    "repo_url": "https://github.com/jpan8866/mcp-weather",
+    "stars": 0
+  },
+  {
+    "name": "mcdickenson_mcp-demo-aviation-weather",
+    "repo_url": "https://github.com/mcdickenson/mcp-demo-aviation-weather",
+    "stars": 0
+  },
+  {
+    "name": "GolderBrother_mcp-server-flomo",
+    "repo_url": "https://github.com/GolderBrother/mcp-server-flomo",
+    "stars": 0
+  },
+  {
+    "name": "whitmo_progmo-mcp-server",
+    "repo_url": "https://github.com/whitmo/progmo-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "YELANDAOKONG_LibraryAI",
+    "repo_url": "https://github.com/YELANDAOKONG/LibraryAI",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_PsiACE_nebulagraph-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/PsiACE_nebulagraph-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_BrockReece_whimsical-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/BrockReece_whimsical-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "tjjd4_simple-mcp-test",
+    "repo_url": "https://github.com/tjjd4/simple-mcp-test",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_JackKuo666_bioRxiv-MCP-Server",
+    "repo_url": "https://github.com/MCP-Mirror/JackKuo666_bioRxiv-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "Kushal1306_Model-Context-Protocol",
+    "repo_url": "https://github.com/Kushal1306/Model-Context-Protocol",
+    "stars": 0
+  },
+  {
+    "name": "YassoKang_mcp-server-test",
+    "repo_url": "https://github.com/YassoKang/mcp-server-test",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Gitmaxd_dubco-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Gitmaxd_dubco-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_GongRzhe_Image-Generation-MCP-Server",
+    "repo_url": "https://github.com/MCP-Mirror/GongRzhe_Image-Generation-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Atomzzm_mcp-mysql-server",
+    "repo_url": "https://github.com/MCP-Mirror/Atomzzm_mcp-mysql-server",
+    "stars": 0
+  },
+  {
+    "name": "propenster_unity-mcp-server",
+    "repo_url": "https://github.com/propenster/unity-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_gemini-dk_mcp-server-firebase",
+    "repo_url": "https://github.com/MCP-Mirror/gemini-dk_mcp-server-firebase",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Fujitsu-AI_MCP-Server-for-MAS-Developments",
+    "repo_url": "https://github.com/MCP-Mirror/Fujitsu-AI_MCP-Server-for-MAS-Developments",
+    "stars": 0
+  },
+  {
+    "name": "michael7736_weather-mcp-server",
+    "repo_url": "https://github.com/michael7736/weather-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_AnuragRai017_python-docs-server-MCP-Server",
+    "repo_url": "https://github.com/MCP-Mirror/AnuragRai017_python-docs-server-MCP-Server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Geeksfino_kb-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Geeksfino_kb-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_AgentWong_optimized-memory-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/AgentWong_optimized-memory-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_AdamPippert_multi-service-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/AdamPippert_multi-service-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_CamdenClark_anki-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/CamdenClark_anki-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Dataring-engineering_mcp-server-trino",
+    "repo_url": "https://github.com/MCP-Mirror/Dataring-engineering_mcp-server-trino",
+    "stars": 0
+  },
+  {
+    "name": "deepsuthar496_Remote-Command-MCP",
+    "repo_url": "https://github.com/deepsuthar496/Remote-Command-MCP",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_Handwriting-OCR_handwriting-ocr-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/Handwriting-OCR_handwriting-ocr-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_eno-graph_mcp-server-google-analytics",
+    "repo_url": "https://github.com/MCP-Mirror/eno-graph_mcp-server-google-analytics",
+    "stars": 0
+  },
+  {
+    "name": "phoenine_Notion-MCP",
+    "repo_url": "https://github.com/phoenine/Notion-MCP",
+    "stars": 0
+  },
+  {
+    "name": "etoxin_untapped-mcp",
+    "repo_url": "https://github.com/etoxin/untapped-mcp",
+    "stars": 0
+  },
+  {
+    "name": "DeJungTseng_MCP_Server_try_python",
+    "repo_url": "https://github.com/DeJungTseng/MCP_Server_try_python",
+    "stars": 0
+  },
+  {
+    "name": "hebra_ahemseepee",
+    "repo_url": "https://github.com/hebra/ahemseepee",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_OpenLinkSoftware_mcp-jdbc-server",
+    "repo_url": "https://github.com/MCP-Mirror/OpenLinkSoftware_mcp-jdbc-server",
+    "stars": 0
+  },
+  {
+    "name": "stuliston_up-bank-mcp",
+    "repo_url": "https://github.com/stuliston/up-bank-mcp",
+    "stars": 0
+  },
+  {
+    "name": "OneofGods_vegalite-mcp-troubleshooting",
+    "repo_url": "https://github.com/OneofGods/vegalite-mcp-troubleshooting",
+    "stars": 0
+  },
+  {
+    "name": "Tlazypanda_aptos-mcp-server",
+    "repo_url": "https://github.com/Tlazypanda/aptos-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "filipecalegario_mcp-server-strateegia",
+    "repo_url": "https://github.com/filipecalegario/mcp-server-strateegia",
+    "stars": 0
+  },
+  {
+    "name": "nicekon_zendesk-mcp-server-kon",
+    "repo_url": "https://github.com/nicekon/zendesk-mcp-server-kon",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_openbnb-org_mcp-server-airbnb",
+    "repo_url": "https://github.com/MCP-Mirror/openbnb-org_mcp-server-airbnb",
+    "stars": 0
+  },
+  {
+    "name": "hrushik-reddy_mcp-claude",
+    "repo_url": "https://github.com/hrushik-reddy/mcp-claude",
+    "stars": 0
+  },
+  {
+    "name": "rt96-hub_prompt-tester",
+    "repo_url": "https://github.com/rt96-hub/prompt-tester",
+    "stars": 0
+  },
+  {
+    "name": "groovyBugify_mcp-server",
+    "repo_url": "https://github.com/groovyBugify/mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "anton-107_server-run-commands",
+    "repo_url": "https://github.com/anton-107/server-run-commands",
+    "stars": 0
+  },
+  {
+    "name": "zhangzhongnan928_mcp-coinbase-commerce",
+    "repo_url": "https://github.com/zhangzhongnan928/mcp-coinbase-commerce",
+    "stars": 0
+  },
+  {
+    "name": "hjfender_demo-mcp-server",
+    "repo_url": "https://github.com/hjfender/demo-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "cremerf_my-mcp-servers",
+    "repo_url": "https://github.com/cremerf/my-mcp-servers",
+    "stars": 0
+  },
+  {
+    "name": "yangsenessa_mcp_server_memory",
+    "repo_url": "https://github.com/yangsenessa/mcp_server_memory",
+    "stars": 0
+  },
+  {
+    "name": "natapone_simple_mcp_server",
+    "repo_url": "https://github.com/natapone/simple_mcp_server",
+    "stars": 0
+  },
+  {
+    "name": "MCP-Mirror_jaipandya_producthunt-mcp-server",
+    "repo_url": "https://github.com/MCP-Mirror/jaipandya_producthunt-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "offeka_CodeContextMCP",
+    "repo_url": "https://github.com/offeka/CodeContextMCP",
+    "stars": 0
+  },
+  {
+    "name": "clpublic_mcp-server-cloudbrowser",
+    "repo_url": "https://github.com/clpublic/mcp-server-cloudbrowser",
+    "stars": 0
+  },
+  {
+    "name": "boyso_Awesome-Claude-MCP-Servers-List",
+    "repo_url": "https://github.com/boyso/Awesome-Claude-MCP-Servers-List",
+    "stars": 0
+  },
+  {
+    "name": "qingjiuzhubei_toprankagent",
+    "repo_url": "https://github.com/qingjiuzhubei/toprankagent",
+    "stars": 0
+  },
+  {
+    "name": "monotykamary_think-tool-mcp",
+    "repo_url": "https://github.com/monotykamary/think-tool-mcp",
+    "stars": 0
+  },
+  {
+    "name": "DISHANK-PATEL_Broker-Inbox",
+    "repo_url": "https://github.com/DISHANK-PATEL/Broker-Inbox",
+    "stars": 0
+  },
+  {
+    "name": "acro5piano_yagms",
+    "repo_url": "https://github.com/acro5piano/yagms",
+    "stars": 0
+  },
+  {
+    "name": "tlaukkanen_azure-iothub-mcp-server",
+    "repo_url": "https://github.com/tlaukkanen/azure-iothub-mcp-server",
+    "stars": 0
+  },
+  {
+    "name": "nohe427_firebase-docs-mcp",
+    "repo_url": "https://github.com/nohe427/firebase-docs-mcp",
+    "stars": 0
+  },
+  {
+    "name": "yshngg_kmcp",
+    "repo_url": "https://github.com/yshngg/kmcp",
+    "stars": 0
+  },
+  {
+    "name": "kWAYTV_my-first-mcp",
+    "repo_url": "https://github.com/kWAYTV/my-first-mcp",
+    "stars": 0
+  },
+  {
+    "name": "Pratye_MEC-Postgres",
+    "repo_url": "https://github.com/Pratye/MEC-Postgres",
+    "stars": 0
+  }
+]

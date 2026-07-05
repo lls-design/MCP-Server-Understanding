@@ -1,0 +1,212 @@
+{
+  "project_file": "/home/lls/MCP_Analyze/tool_analyzer/final_success_projects.txt",
+  "project_count": 4049,
+  "method": "count unique tool names from call_graph_labeled.json nodes whose des matches \"Source ...\" or \"Source: ...\"",
+  "total_tool_count": 35476,
+  "projects_with_zero_tools": 0,
+  "projects_with_positive_tools": 4049,
+  "missing_call_graph_labeled": [],
+  "invalid_call_graph_labeled": [],
+  "min": 1,
+  "max": 233,
+  "mean_all_projects": 8.761669548036553,
+  "median_all_projects": 4,
+  "mean_positive_projects": 8.761669548036553,
+  "median_positive_projects": 4,
+  "exact_tool_count_distribution": {
+    "1": 723,
+    "2": 586,
+    "3": 374,
+    "4": 365,
+    "5": 265,
+    "6": 220,
+    "7": 171,
+    "8": 163,
+    "9": 117,
+    "10": 136,
+    "11": 89,
+    "12": 88,
+    "13": 59,
+    "14": 61,
+    "15": 61,
+    "16": 45,
+    "17": 38,
+    "18": 46,
+    "19": 29,
+    "20": 24,
+    "21": 30,
+    "22": 34,
+    "23": 17,
+    "24": 22,
+    "25": 28,
+    "26": 19,
+    "27": 14,
+    "28": 15,
+    "29": 14,
+    "30": 13,
+    "31": 10,
+    "32": 6,
+    "33": 6,
+    "34": 7,
+    "35": 5,
+    "36": 4,
+    "37": 13,
+    "38": 7,
+    "39": 5,
+    "40": 5,
+    "41": 2,
+    "42": 7,
+    "43": 4,
+    "44": 5,
+    "45": 5,
+    "46": 6,
+    "47": 2,
+    "48": 3,
+    "49": 3,
+    "50": 6,
+    "51": 3,
+    "52": 3,
+    "53": 3,
+    "54": 2,
+    "55": 2,
+    "56": 4,
+    "57": 1,
+    "59": 2,
+    "60": 1,
+    "63": 2,
+    "64": 2,
+    "65": 1,
+    "66": 1,
+    "68": 2,
+    "69": 1,
+    "71": 1,
+    "72": 1,
+    "74": 1,
+    "75": 1,
+    "76": 4,
+    "78": 4,
+    "79": 4,
+    "83": 1,
+    "84": 1,
+    "88": 2,
+    "89": 1,
+    "90": 2,
+    "92": 1,
+    "93": 1,
+    "96": 1,
+    "103": 1,
+    "105": 2,
+    "106": 1,
+    "110": 1,
+    "119": 1,
+    "122": 1,
+    "142": 1,
+    "149": 1,
+    "154": 3,
+    "186": 1,
+    "206": 2,
+    "233": 1
+  },
+  "top_20_projects_by_tool_count": [
+    {
+      "project": "cmathgit_biblegateway-votd-mcp",
+      "tool_count": 233,
+      "source_node_count": 262
+    },
+    {
+      "project": "DynamicEndpoints_advanced-pocketbase-mcp-server",
+      "tool_count": 206,
+      "source_node_count": 323
+    },
+    {
+      "project": "DynamicEndpoints_pocketbase-mcp-server",
+      "tool_count": 206,
+      "source_node_count": 323
+    },
+    {
+      "project": "twelvedata_twelve-data",
+      "tool_count": 186,
+      "source_node_count": 188
+    },
+    {
+      "project": "MCP-Mirror_Quegenx_vercel-mcp-server",
+      "tool_count": 154,
+      "source_node_count": 154
+    },
+    {
+      "project": "shlomico-tr_etoroPortfolioMCP",
+      "tool_count": 154,
+      "source_node_count": 154
+    },
+    {
+      "project": "zxw94FE_vercel-mcp-server",
+      "tool_count": 154,
+      "source_node_count": 154
+    },
+    {
+      "project": "Antonytm_mcp-sitecore-server",
+      "tool_count": 149,
+      "source_node_count": 149
+    },
+    {
+      "project": "kazuhideoki_mcp-server-backlog",
+      "tool_count": 142,
+      "source_node_count": 142
+    },
+    {
+      "project": "vespo92_OPNSenseMCP",
+      "tool_count": 122,
+      "source_node_count": 122
+    },
+    {
+      "project": "wrenchpilot_it-tools-mcp",
+      "tool_count": 119,
+      "source_node_count": 119
+    },
+    {
+      "project": "Rahulec08_appium-mcp",
+      "tool_count": 110,
+      "source_node_count": 110
+    },
+    {
+      "project": "erickemj_BloodHound-MCP",
+      "tool_count": 106,
+      "source_node_count": 106
+    },
+    {
+      "project": "Wook133_mcp_valkey-mcp-server",
+      "tool_count": 105,
+      "source_node_count": 105
+    },
+    {
+      "project": "awslabs_mcp_valkey-mcp-server",
+      "tool_count": 105,
+      "source_node_count": 105
+    },
+    {
+      "project": "zereight_gitlab-mcp",
+      "tool_count": 103,
+      "source_node_count": 103
+    },
+    {
+      "project": "RyanCardin15_AzureDevOps-MCP",
+      "tool_count": 96,
+      "source_node_count": 96
+    },
+    {
+      "project": "DynamicEndpoints_Netlify-MCP-Server",
+      "tool_count": 93,
+      "source_node_count": 93
+    },
+    {
+      "project": "effytech_freshservice_mcp",
+      "tool_count": 92,
+      "source_node_count": 92
+    },
+    {
+      "project": "chainaimlabs_xdc-goat-mcp-server",
+      "tool_count": 90,
+      "source_node_count": 212
+    }
+  ]
+}

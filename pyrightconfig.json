@@ -1,0 +1,26 @@
+{
+  "exclude": [
+    "**/Servers",
+    "**/results",
+    "**/__pycache__",
+    "**/.git",
+    "**/node_modules",
+    "**/.venv",
+    "**/venv",
+    "**/env",
+    "**/.mypy_cache",
+    "**/.pytest_cache",
+    "**/codeql-databases",
+    "**/codeql_analyzer/codeql_queries",
+    "**/figures",
+    "**/*.log",
+    "**/tests/fixtures",
+    "**/test/fixtures",
+    "**/*large*.ipynb",
+    "**/*malformed*.ipynb"
+  ],
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "pythonVersion": "3.12"
+}
+

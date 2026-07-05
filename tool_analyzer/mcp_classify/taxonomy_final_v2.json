@@ -1,0 +1,564 @@
+{
+  "version": "mcp_server_taxonomy_final_v2",
+  "description": "Revised final candidate taxonomy for classifying MCP servers by dominant user-facing functionality. Version 2 restores source-control/software-collaboration as a recurring category after review found that GitHub/GitLab/Bitbucket servers were being scattered across unrelated categories.",
+  "assignment_policy": {
+    "label_cardinality": "single-label",
+    "primary_rule": "Assign each MCP server to the category that best captures its dominant user-facing capability, not its installation method, framework, or generic MCP protocol implementation.",
+    "evidence_priority": [
+      "tool/resource/prompt names and descriptions",
+      "README feature or capability sections",
+      "package metadata description and keywords",
+      "API/service dependencies and configuration variables",
+      "repository name only when other evidence is sparse"
+    ],
+    "noise_to_ignore": [
+      "generic MCP/Claude/Desktop setup text",
+      "installation commands such as npm install, pip install, docker run, uv run",
+      "generic build/test/lint/deploy instructions unless they are the exposed server capability",
+      "authentication setup unless identity/security is the core function"
+    ],
+    "tie_breakers": [
+      "Prefer domain-specific categories over generic data access when the server performs domain actions such as trading, payments, vulnerability scanning, or infrastructure control.",
+      "Prefer Infrastructure and Operations over Local Execution and Automation when the server manages cloud/container/service lifecycle rather than merely executing local commands.",
+      "Prefer Local Execution and Automation when the exposed capability is shell/filesystem/browser control even if the README mentions data retrieval.",
+      "Prefer Source Control and Software Collaboration when the server exposes repository, commit, branch, pull/merge request, release, issue, or code-review operations.",
+      "Prefer Agent and AI Tooling only when prompts, memory, RAG, embeddings, model routing, or agent orchestration are first-class server functions rather than marketing context.",
+      "Use Other Specialized Integrations only when evidence is sparse or the integration belongs to a long-tail domain not represented by the major categories.",
+      "Use Other Specialized Integrations only when evidence is sparse or the integration belongs to a long-tail domain not represented by the recurring categories."
+    ]
+  },
+  "categories": [
+    {
+      "id": "F01",
+      "name": "Data and Knowledge Access",
+      "description": "Retrieval, querying, search, summarization, or exposure of structured data, documents, knowledge bases, web content, and public or SaaS records.",
+      "include_criteria": [
+        "Search engines, web/content retrieval, news, RSS, social/public content lookup",
+        "Knowledge bases, documentation, wiki, papers, notes, and document retrieval",
+        "Database and data warehouse querying when the main purpose is information access",
+        "SaaS record retrieval where the server primarily reads or searches content"
+      ],
+      "exclude_criteria": [
+        "Financial, commerce, or blockchain data with trading/payment/wallet semantics",
+        "Infrastructure control-plane management of databases, cloud, or services",
+        "Substantial computation, visualization, or reporting over data",
+        "Browser automation where UI control is the primary capability",
+        "Repository, commit, branch, pull/merge request, release, or code-review operations"
+      ],
+      "positive_signals": [
+        "search",
+        "query",
+        "retrieve",
+        "document",
+        "knowledge",
+        "database",
+        "sql",
+        "postgres",
+        "mysql",
+        "mongodb",
+        "elasticsearch",
+        "notion",
+        "obsidian",
+        "wikipedia",
+        "arxiv",
+        "rss"
+      ],
+      "negative_signals": [
+        "place order",
+        "trade execution",
+        "deploy",
+        "kubernetes",
+        "execute command",
+        "browser automation",
+        "vulnerability scan",
+        "git commit",
+        "pull request",
+        "merge request",
+        "create branch",
+        "repository clone",
+        "code review"
+      ],
+      "examples": [
+        "Google/Wikipedia search servers",
+        "Notion/Obsidian/document retrieval servers",
+        "PostgreSQL/MySQL query servers"
+      ]
+    },
+    {
+      "id": "F02",
+      "name": "Agent and AI Tooling",
+      "description": "Prompting, memory, RAG, embeddings, model routing, AI generation, and agent-oriented tooling for AI assistants.",
+      "include_criteria": [
+        "Prompt libraries, prompt execution, or prompt templates exposed as server functionality",
+        "Agent memory, planning, orchestration, or agent-to-agent workflows",
+        "RAG, embeddings, vectorization, semantic search infrastructure for AI assistants",
+        "Model-provider routing or AI generation services when that is the primary function"
+      ],
+      "exclude_criteria": [
+        "Generic statements that an MCP server helps Claude or LLMs",
+        "Ordinary retrieval servers that do not expose AI/agent tooling as a primary function",
+        "Image/audio generation better classified as Analytics and Creative Tools when media production is dominant",
+        "GitHub/GitLab/Bitbucket repository automation without agent, prompt, memory, RAG, or model-routing functionality"
+      ],
+      "positive_signals": [
+        "agent",
+        "prompt",
+        "memory",
+        "rag",
+        "embedding",
+        "semantic search",
+        "model routing",
+        "openai",
+        "anthropic",
+        "gemini",
+        "ollama",
+        "langchain",
+        "llamaindex"
+      ],
+      "negative_signals": [
+        "Claude Desktop setup",
+        "LLM client compatibility",
+        "MCP protocol integration",
+        "git commit",
+        "pull request",
+        "merge request",
+        "repository operation"
+      ],
+      "examples": [
+        "Prompt/memory MCP servers",
+        "RAG and embedding servers",
+        "Agent orchestration MCP servers"
+      ]
+    },
+    {
+      "id": "F03",
+      "name": "Infrastructure and Operations",
+      "description": "Cloud resources, containers, deployments, observability, gateways, proxies, and service operations.",
+      "include_criteria": [
+        "Cloud service administration and control-plane operations",
+        "Docker, Kubernetes, container, deployment, CI/CD, or service lifecycle management",
+        "Observability, logs, metrics, monitoring, tracing, and incident operations",
+        "Gateways, API proxies, MCP aggregators, routing, and service orchestration"
+      ],
+      "exclude_criteria": [
+        "Dockerfiles or deployment instructions included only for installing the server",
+        "Local shell/filesystem automation without service or infrastructure management",
+        "Source repository workflows such as commits and pull requests"
+      ],
+      "positive_signals": [
+        "docker",
+        "container",
+        "kubernetes",
+        "helm",
+        "terraform",
+        "aws",
+        "azure",
+        "gcp",
+        "cloudflare",
+        "deploy",
+        "ci/cd",
+        "monitoring",
+        "logs",
+        "gateway",
+        "proxy",
+        "orchestration"
+      ],
+      "negative_signals": [
+        "docker run installation",
+        "npm run build",
+        "local command execution",
+        "git commit",
+        "pull request"
+      ],
+      "examples": [
+        "Docker/Kubernetes management servers",
+        "AWS/Azure/GCP operation servers",
+        "MCP gateway and proxy servers"
+      ]
+    },
+    {
+      "id": "F04",
+      "name": "Productivity and Communication",
+      "description": "Tasks, calendars, messaging, email, meetings, tickets, project boards, and workflow coordination.",
+      "include_criteria": [
+        "Task, todo, reminder, project board, ticket, and workflow management",
+        "Calendar, scheduling, meetings, availability, and event management",
+        "Email, messaging, team chat, and social communication integrations",
+        "Developer issue tracking when the dominant purpose is task/work coordination rather than repository operations"
+      ],
+      "exclude_criteria": [
+        "Git commits, branches, pull requests, or code review as dominant functionality",
+        "Public social-media search or content retrieval without communication/workflow actions",
+        "Infrastructure workflow orchestration"
+      ],
+      "positive_signals": [
+        "task",
+        "todo",
+        "calendar",
+        "schedule",
+        "meeting",
+        "event",
+        "email",
+        "gmail",
+        "slack",
+        "discord",
+        "telegram",
+        "whatsapp",
+        "jira",
+        "linear",
+        "trello",
+        "asana"
+      ],
+      "negative_signals": [
+        "git commit",
+        "pull request",
+        "repository clone",
+        "search public posts"
+      ],
+      "examples": [
+        "Google Calendar/Gmail servers",
+        "Taskwarrior/Jira/Linear/Trello servers",
+        "Slack/Discord/WhatsApp communication servers"
+      ]
+    },
+    {
+      "id": "F05",
+      "name": "Financial and Blockchain Services",
+      "description": "Financial data, trading, payments, ecommerce, crypto, wallets, smart contracts, and on-chain analysis.",
+      "include_criteria": [
+        "Market data, trading, portfolio, banking, accounting, invoices, and payments",
+        "Ecommerce operations such as products, orders, customers, and storefront actions",
+        "Cryptocurrency, wallets, smart contracts, tokens, NFTs, and blockchain analytics"
+      ],
+      "exclude_criteria": [
+        "Generic company or economic data retrieval without financial operations",
+        "Blockchain development documentation retrieval without wallet/on-chain functionality",
+        "Security scanning of blockchain code when security is dominant"
+      ],
+      "positive_signals": [
+        "trading",
+        "market data",
+        "portfolio",
+        "stock",
+        "payment",
+        "stripe",
+        "paypal",
+        "shopify",
+        "woocommerce",
+        "crypto",
+        "blockchain",
+        "wallet",
+        "ethereum",
+        "bitcoin",
+        "solana",
+        "token",
+        "nft",
+        "on-chain"
+      ],
+      "negative_signals": [
+        "generic token authentication",
+        "api token setup",
+        "security token scan"
+      ],
+      "examples": [
+        "Binance/CoinMarketCap/yFinance servers",
+        "Stripe/Shopify/WooCommerce servers",
+        "Ethereum/Solana wallet and on-chain analysis servers"
+      ]
+    },
+    {
+      "id": "F06",
+      "name": "Analytics and Creative Tools",
+      "description": "Computation, analytics, visualization, media generation, design, and peripheral utilities.",
+      "include_criteria": [
+        "Math, statistics, computation, simulation, optimization, analysis, and visualization",
+        "Charts, dashboards, reports, notebooks, spreadsheets, CSV/Excel analysis",
+        "Image, video, audio, design, drawing, transcription, QR, camera, hardware, and peripheral utility tools"
+      ],
+      "exclude_criteria": [
+        "Simple data retrieval without computation or transformation",
+        "Financial or blockchain analytics with domain-specific wallet/trading semantics",
+        "Browser automation when UI control rather than media output is dominant",
+        "Source-control analytics or code-review workflows where repository collaboration is dominant"
+      ],
+      "positive_signals": [
+        "analysis",
+        "analytics",
+        "compute",
+        "math",
+        "statistics",
+        "plot",
+        "chart",
+        "visualization",
+        "report",
+        "notebook",
+        "excel",
+        "csv",
+        "image",
+        "video",
+        "audio",
+        "figma",
+        "design",
+        "qrcode",
+        "camera",
+        "opencv"
+      ],
+      "negative_signals": [
+        "search only",
+        "database query only",
+        "place order",
+        "security scan",
+        "pull request",
+        "merge request",
+        "git commit",
+        "code review"
+      ],
+      "examples": [
+        "Calculator/statistics/chart servers",
+        "Figma/image/video/audio servers",
+        "QR/camera/hardware utility servers"
+      ]
+    },
+    {
+      "id": "F07",
+      "name": "Local Execution and Automation",
+      "description": "Local command execution, filesystem operations, browser automation, and workspace control.",
+      "include_criteria": [
+        "Executing local shell, terminal, Python/Node snippets, or OS commands",
+        "Reading, writing, moving, or searching local files and directories",
+        "Browser, UI, webpage, screenshot, scraping, crawler, or web-app automation",
+        "Workspace and desktop automation"
+      ],
+      "exclude_criteria": [
+        "Cloud/container infrastructure management",
+        "Repository collaboration as a Git workflow",
+        "Public web search where browser control is not the core exposed capability"
+      ],
+      "positive_signals": [
+        "execute command",
+        "shell",
+        "terminal",
+        "filesystem",
+        "read_file",
+        "write_file",
+        "workspace",
+        "browser",
+        "playwright",
+        "puppeteer",
+        "selenium",
+        "screenshot",
+        "scraping",
+        "crawler"
+      ],
+      "negative_signals": [
+        "docker deployment",
+        "cloud service",
+        "pull request",
+        "calendar event"
+      ],
+      "examples": [
+        "Filesystem MCP servers",
+        "Terminal/shell execution servers",
+        "Playwright/Puppeteer/browser automation servers"
+      ]
+    },
+    {
+      "id": "F08",
+      "name": "Security and Access Control",
+      "description": "Vulnerability scanning, security auditing, identity, secrets, permissions, policy, and compliance.",
+      "include_criteria": [
+        "Security scanning, vulnerability detection, penetration testing, threat intelligence, and CVE analysis",
+        "Access control, IAM, identity, permissions, secrets, vaults, policies, and compliance",
+        "Security-focused audit of systems, dependencies, browser extensions, repositories, or infrastructure"
+      ],
+      "exclude_criteria": [
+        "Authentication required merely to access another service",
+        "Generic OAuth setup for a productivity/data/infrastructure server",
+        "General infrastructure management without security/audit focus",
+        "General repository operations that are not security audit, secret scanning, policy, or vulnerability analysis"
+      ],
+      "positive_signals": [
+        "security",
+        "vulnerability",
+        "scan",
+        "nmap",
+        "pentest",
+        "cve",
+        "threat",
+        "compliance",
+        "permission",
+        "access control",
+        "iam",
+        "secret",
+        "vault",
+        "policy"
+      ],
+      "negative_signals": [
+        "oauth setup only",
+        "api key configuration",
+        "secure connection",
+        "general github operations",
+        "create pull request",
+        "git branch"
+      ],
+      "examples": [
+        "Nmap/pentest servers",
+        "Vault/secrets servers",
+        "Permission/compliance audit servers"
+      ]
+    },
+    {
+      "id": "F09",
+      "name": "Source Control and Software Collaboration",
+      "description": "Source-code repository operations, including Git hosting APIs, commits, branches, pull/merge requests, code review, releases, and repository-file workflows.",
+      "include_criteria": [
+        "Exposed tools call GitHub, GitLab, Bitbucket, Gitea, Forgejo, Sourcegraph, or Azure DevOps repository APIs",
+        "The server creates, updates, lists, or reviews commits, branches, repository files, pull requests, merge requests, diffs, releases, or tags",
+        "Issue workflows are included only when they are part of repository collaboration rather than general task management"
+      ],
+      "exclude_criteria": [
+        "Generic mention of a GitHub repository as project hosting only",
+        "Jira/Linear/Trello issue workflows without repository operations",
+        "Infrastructure deployment from repositories when deployment or cloud operations are dominant",
+        "Security scans of repositories when vulnerability/security auditing is dominant"
+      ],
+      "positive_signals": [
+        "github api",
+        "github mcp",
+        "github server",
+        "github-mcp",
+        "github_server",
+        "github_create",
+        "github_get",
+        "github_list",
+        "github_update",
+        "github_delete",
+        "gitlab api",
+        "gitlab mcp",
+        "gitlab server",
+        "gitlab-mcp",
+        "gitlab_create",
+        "gitlab_get",
+        "gitlab_list",
+        "gitlab_update",
+        "gitlab_delete",
+        "bitbucket api",
+        "bitbucket mcp",
+        "bitbucket server",
+        "bitbucket-mcp",
+        "bb_add_pr",
+        "bb_clone_repo",
+        "bb_diff",
+        "bb_get_commit",
+        "bb_add_branch",
+        "gitea api",
+        "gitea mcp",
+        "forgejo api",
+        "sourcegraph api",
+        "azure-devops-mcp",
+        "azure devops repository",
+        "git status",
+        "git log",
+        "git diff",
+        "git add",
+        "git branch",
+        "git checkout",
+        "git clone",
+        "git commit",
+        "git push",
+        "git pull",
+        "git merge",
+        "pull request",
+        "pull_request",
+        "merge request",
+        "merge_request",
+        "code review",
+        "create_review_comment",
+        "review_comment",
+        "create_pull_request",
+        "create_merge_request",
+        "get_pull_request",
+        "get_merge_request",
+        "list_pull_requests",
+        "list_merge_requests",
+        "create_branch",
+        "delete_branch",
+        "list_branches",
+        "get_branch",
+        "compare_branches",
+        "create_repository",
+        "get_repository",
+        "list_repositories",
+        "delete_repository",
+        "clone_repo",
+        "clone repository",
+        "create_commit",
+        "get_commit",
+        "list_commits",
+        "commit_history",
+        "diff_commits",
+        "get_file_contents",
+        "create_file",
+        "update_file",
+        "delete_file",
+        "create_release",
+        "get_release",
+        "list_releases",
+        "create_tag",
+        "list_tags"
+      ],
+      "negative_signals": [
+        "github repository hosting only",
+        "git clone installation",
+        "clone this repository",
+        "install from github",
+        "jira only",
+        "linear only",
+        "deploy from git",
+        "secret scan",
+        "vulnerability scan"
+      ],
+      "examples": [
+        "GitHub/GitLab/Bitbucket MCP servers",
+        "repository file and branch management servers",
+        "pull-request and code-review workflow servers"
+      ]
+    },
+    {
+      "id": "F10",
+      "name": "Other Specialized Integrations",
+      "description": "Long-tail domain-specific MCP servers that do not fall into the major recurring categories.",
+      "include_criteria": [
+        "Weather, maps, travel, games, education, smart home, IoT, and other specialized domains when no major category dominates",
+        "Sparse or template-like repositories where evidence is insufficient for confident classification",
+        "Low-frequency integrations that are too small to justify a top-level category"
+      ],
+      "exclude_criteria": [
+        "Any server with clear evidence for one of the eight major categories",
+        "A server should not be assigned here solely because it is unusual if its dominant function matches another category"
+      ],
+      "positive_signals": [
+        "weather",
+        "maps",
+        "travel",
+        "game",
+        "education",
+        "smart home",
+        "iot",
+        "sensor",
+        "domain-specific",
+        "template",
+        "example"
+      ],
+      "negative_signals": [
+        "clear category-specific tool names",
+        "strong recurring domain signals"
+      ],
+      "examples": [
+        "Weather-only demo servers",
+        "Small educational or game-specific integrations",
+        "Template/example servers with insufficient functional evidence"
+      ]
+    }
+  ]
+}

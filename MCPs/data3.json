@@ -1,0 +1,502 @@
+[
+  {
+    "name": "Azure-Samples_model-routing",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/model-routing",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_openai-agents",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/openai-agents",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_private-connectivity",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/private-connectivity",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_realtime-audio",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/realtime-audio",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_realtime-mcp-agents",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/realtime-mcp-agents",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_secure-responses-api",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/secure-responses-api",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_semantic-caching",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/semantic-caching",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_session-awareness",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/session-awareness",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_slm-self-hosting",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/slm-self-hosting",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_token-metrics-emitting",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/token-metrics-emitting",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_token-rate-limiting",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/token-rate-limiting",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_vector-searching",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/vector-searching",
+    "stars": 797
+  },
+  {
+    "name": "Azure-Samples_zero-to-production",
+    "repo_url": "https://github.com/Azure-Samples/AI-Gateway/tree/main/labs/zero-to-production",
+    "stars": 797
+  },
+  {
+    "name": "splx-ai_agentic-radar",
+    "repo_url": "https://github.com/splx-ai/agentic-radar",
+    "stars": 796
+  },
+  {
+    "name": "mongodb-labs_atlas-mcp-server",
+    "repo_url": "https://github.com/mongodb-labs/atlas-mcp-server",
+    "stars": 795
+  },
+  {
+    "name": "neo4j-contrib_mcp-neo4j",
+    "repo_url": "https://github.com/neo4j-contrib/mcp-neo4j/",
+    "stars": 795
+  },
+  {
+    "name": "golf-mcp_golf",
+    "repo_url": "https://github.com/golf-mcp/golf",
+    "stars": 794
+  },
+  {
+    "name": "svnscha_mcp-windbg",
+    "repo_url": "https://github.com/svnscha/mcp-windbg",
+    "stars": 790
+  },
+  {
+    "name": "pathintegral-institute_mcpm.sh",
+    "repo_url": "https://github.com/pathintegral-institute/mcpm.sh",
+    "stars": 790
+  },
+  {
+    "name": "mongodb-js_mongodb-mcp-server",
+    "repo_url": "https://github.com/mongodb-js/mongodb-mcp-server",
+    "stars": 785
+  },
+  {
+    "name": "ankorstore_yokai",
+    "repo_url": "https://github.com/ankorstore/yokai",
+    "stars": 780
+  },
+  {
+    "name": "co-browser_browser-use-mcp-server",
+    "repo_url": "https://github.com/co-browser/browser-use-mcp-server",
+    "stars": 766
+  },
+  {
+    "name": "php-mcp_server",
+    "repo_url": "https://github.com/php-mcp/server",
+    "stars": 765
+  },
+  {
+    "name": "AIDC-AI_pixelle-mcp",
+    "repo_url": "https://github.com/AIDC-AI/Pixelle-MCP",
+    "stars": 758
+  },
+  {
+    "name": "datalayer_jupyter-mcp-server",
+    "repo_url": "https://github.com/datalayer/jupyter-mcp-server",
+    "stars": 757
+  },
+  {
+    "name": "syedazharmbnr1_claude-chatgpt-mcp",
+    "repo_url": "https://github.com/syedazharmbnr1/claude-chatgpt-mcp",
+    "stars": 757
+  },
+  {
+    "name": "manusa_kubernetes-mcp-server",
+    "repo_url": "https://github.com/manusa/kubernetes-mcp-server",
+    "stars": 757
+  },
+  {
+    "name": "alioshr_memory-bank-mcp",
+    "repo_url": "https://github.com/alioshr/memory-bank-mcp",
+    "stars": 749
+  },
+  {
+    "name": "derisk-ai_derisk",
+    "repo_url": "https://github.com/derisk-ai/derisk",
+    "stars": 748
+  },
+  {
+    "name": "arabold_docs-mcp-server",
+    "repo_url": "https://github.com/arabold/docs-mcp-server",
+    "stars": 747
+  },
+  {
+    "name": "ref-tools_ref",
+    "repo_url": "https://github.com/ref-tools/ref-tools-mcp",
+    "stars": 745
+  },
+  {
+    "name": "nspady_google-calendar-mcp",
+    "repo_url": "https://github.com/nspady/google-calendar-mcp",
+    "stars": 736
+  },
+  {
+    "name": "cline_mcp-marketplace",
+    "repo_url": "https://github.com/cline/mcp-marketplace",
+    "stars": 724
+  },
+  {
+    "name": "steipete_Peekaboo",
+    "repo_url": "https://github.com/steipete/Peekaboo",
+    "stars": 721
+  },
+  {
+    "name": "zereight_gitlab-mcp",
+    "repo_url": "https://github.com/zereight/gitlab-mcp",
+    "stars": 705
+  },
+  {
+    "name": "heurist-network_heurist-agent-framework",
+    "repo_url": "https://github.com/heurist-network/heurist-agent-framework/tree/main/mesh",
+    "stars": 693
+  },
+  {
+    "name": "jjsantos01_qgis_mcp",
+    "repo_url": "https://github.com/jjsantos01/qgis_mcp",
+    "stars": 690
+  },
+  {
+    "name": "duaraghav8_MCPJungle",
+    "repo_url": "https://github.com/duaraghav8/MCPJungle",
+    "stars": 685
+  },
+  {
+    "name": "financial-datasets_mcp-server",
+    "repo_url": "https://github.com/financial-datasets/mcp-server",
+    "stars": 684
+  },
+  {
+    "name": "GreatScottyMac_context-portal",
+    "repo_url": "https://github.com/GreatScottyMac/context-portal",
+    "stars": 676
+  },
+  {
+    "name": "disler_just-prompt",
+    "repo_url": "https://github.com/disler/just-prompt",
+    "stars": 675
+  },
+  {
+    "name": "mcpjungle_MCPJungle",
+    "repo_url": "https://github.com/mcpjungle/MCPJungle",
+    "stars": 661
+  },
+  {
+    "name": "ckreiling_mcp-server-docker",
+    "repo_url": "https://github.com/ckreiling/mcp-server-docker",
+    "stars": 647
+  },
+  {
+    "name": "worryzyy_howtocook-mcp",
+    "repo_url": "https://github.com/worryzyy/HowToCook-mcp",
+    "stars": 646
+  },
+  {
+    "name": "Joooook_12306-mcp",
+    "repo_url": "https://github.com/Joooook/12306-mcp",
+    "stars": 640
+  },
+  {
+    "name": "Automattic_wordpress-mcp",
+    "repo_url": "https://github.com/Automattic/wordpress-mcp",
+    "stars": 640
+  },
+  {
+    "name": "zcaceres_fetch-mcp",
+    "repo_url": "https://github.com/zcaceres/fetch-mcp",
+    "stars": 635
+  },
+  {
+    "name": "hyperbrowserai_mcp",
+    "repo_url": "https://github.com/hyperbrowserai/mcp",
+    "stars": 634
+  },
+  {
+    "name": "planetscale_cli",
+    "repo_url": "https://github.com/planetscale/cli",
+    "stars": 628
+  },
+  {
+    "name": "nickclyde_duckduckgo-mcp-server",
+    "repo_url": "https://github.com/nickclyde/duckduckgo-mcp-server",
+    "stars": 625
+  },
+  {
+    "name": "rusiaaman_wcgw",
+    "repo_url": "https://github.com/rusiaaman/wcgw",
+    "stars": 616
+  },
+  {
+    "name": "semgrep_mcp",
+    "repo_url": "https://github.com/semgrep/mcp",
+    "stars": 607
+  },
+  {
+    "name": "coleam00_mcp-mem0",
+    "repo_url": "https://github.com/coleam00/mcp-mem0",
+    "stars": 600
+  },
+  {
+    "name": "minhalvp_android-mcp-server",
+    "repo_url": "https://github.com/minhalvp/android-mcp-server",
+    "stars": 587
+  },
+  {
+    "name": "ClickHouse_mcp-clickhouse",
+    "repo_url": "https://github.com/ClickHouse/mcp-clickhouse",
+    "stars": 581
+  },
+  {
+    "name": "demcp_awesome-web3-mcp-servers",
+    "repo_url": "https://github.com/demcp/awesome-web3-mcp-servers",
+    "stars": 577
+  },
+  {
+    "name": "kimsungwhee_apple-docs-mcp",
+    "repo_url": "https://github.com/kimsungwhee/apple-docs-mcp",
+    "stars": 575
+  },
+  {
+    "name": "browser-use_vibetest-use",
+    "repo_url": "https://github.com/browser-use/vibetest-use",
+    "stars": 574
+  },
+  {
+    "name": "StevenStavrakis_obsidian-mcp",
+    "repo_url": "https://github.com/StevenStavrakis/obsidian-mcp",
+    "stars": 573
+  },
+  {
+    "name": "automation-ai-labs_mcp-link",
+    "repo_url": "https://github.com/automation-ai-labs/mcp-link",
+    "stars": 571
+  },
+  {
+    "name": "bgauryy_octocode",
+    "repo_url": "https://github.com/bgauryy/octocode-mcp",
+    "stars": 570
+  },
+  {
+    "name": "TBXark_mcp-proxy",
+    "repo_url": "https://github.com/TBXark/mcp-proxy",
+    "stars": 568
+  },
+  {
+    "name": "wgpsec_cloudsword",
+    "repo_url": "https://github.com/wgpsec/cloudsword",
+    "stars": 563
+  },
+  {
+    "name": "LSTM-Kirigaya_openmcp-client",
+    "repo_url": "https://github.com/LSTM-Kirigaya/openmcp-client/",
+    "stars": 561
+  },
+  {
+    "name": "baidubce_app-builder",
+    "repo_url": "https://github.com/baidubce/app-builder/tree/master/python/mcp_server/ai_search",
+    "stars": 558
+  },
+  {
+    "name": "stickerdaniel_linkedin-mcp-server",
+    "repo_url": "https://github.com/stickerdaniel/linkedin-mcp-server",
+    "stars": 550
+  },
+  {
+    "name": "mark3labs_mcp-filesystem-server",
+    "repo_url": "https://github.com/mark3labs/mcp-filesystem-server",
+    "stars": 543
+  },
+  {
+    "name": "saidsurucu_yargi-mcp",
+    "repo_url": "https://github.com/saidsurucu/yargi-mcp",
+    "stars": 542
+  },
+  {
+    "name": "elastic_mcp-server-elasticsearch",
+    "repo_url": "https://github.com/elastic/mcp-server-elasticsearch",
+    "stars": 533
+  },
+  {
+    "name": "apify_apify-mcp-server",
+    "repo_url": "https://github.com/apify/apify-mcp-server",
+    "stars": 531
+  },
+  {
+    "name": "riseandignite_mcp-shield",
+    "repo_url": "https://github.com/riseandignite/mcp-shield",
+    "stars": 529
+  },
+  {
+    "name": "varunneal_spotify-mcp",
+    "repo_url": "https://github.com/varunneal/spotify-mcp",
+    "stars": 526
+  },
+  {
+    "name": "webfansplz_vite-plugin-vue-mcp",
+    "repo_url": "https://github.com/webfansplz/vite-plugin-vue-mcp",
+    "stars": 521
+  },
+  {
+    "name": "neondatabase-labs_mcp-server-neon",
+    "repo_url": "https://github.com/neondatabase-labs/mcp-server-neon",
+    "stars": 509
+  },
+  {
+    "name": "neondatabase_neon",
+    "repo_url": "https://github.com/neondatabase/mcp-server-neon",
+    "stars": 509
+  },
+  {
+    "name": "johnhuang316_code-index-mcp",
+    "repo_url": "https://github.com/johnhuang316/code-index-mcp",
+    "stars": 508
+  },
+  {
+    "name": "reading-plus-ai_mcp-server-data-exploration",
+    "repo_url": "https://github.com/reading-plus-ai/mcp-server-data-exploration",
+    "stars": 499
+  },
+  {
+    "name": "mem0ai_mem0-mcp",
+    "repo_url": "https://github.com/mem0ai/mem0-mcp",
+    "stars": 499
+  },
+  {
+    "name": "IvanMurzak_Unity-MCP",
+    "repo_url": "https://github.com/IvanMurzak/Unity-MCP",
+    "stars": 498
+  },
+  {
+    "name": "centralmind_gateway",
+    "repo_url": "https://github.com/centralmind/gateway",
+    "stars": 497
+  },
+  {
+    "name": "rekog-labs_MCP-Nest",
+    "repo_url": "https://github.com/rekog-labs/MCP-Nest",
+    "stars": 496
+  },
+  {
+    "name": "Canner_wren-engine",
+    "repo_url": "https://github.com/Canner/wren-engine",
+    "stars": 494
+  },
+  {
+    "name": "line_line-bot-mcp-server",
+    "repo_url": "https://github.com/line/line-bot-mcp-server",
+    "stars": 491
+  },
+  {
+    "name": "web-agent-master_google-search",
+    "repo_url": "https://github.com/web-agent-master/google-search",
+    "stars": 487
+  },
+  {
+    "name": "xing5_mcp-google-sheets",
+    "repo_url": "https://github.com/xing5/mcp-google-sheets",
+    "stars": 483
+  },
+  {
+    "name": "OTA-Tech-AI_web-agent-protocol",
+    "repo_url": "https://github.com/OTA-Tech-AI/web-agent-protocol",
+    "stars": 480
+  },
+  {
+    "name": "ferrislucas_iterm-mcp",
+    "repo_url": "https://github.com/ferrislucas/iterm-mcp",
+    "stars": 479
+  },
+  {
+    "name": "Arodoid_UnityMCP",
+    "repo_url": "https://github.com/Arodoid/UnityMCP",
+    "stars": 478
+  },
+  {
+    "name": "TensorBlock_awesome-mcp-servers",
+    "repo_url": "https://github.com/TensorBlock/awesome-mcp-servers",
+    "stars": 471
+  },
+  {
+    "name": "tevonsb_homeassistant-mcp",
+    "repo_url": "https://github.com/tevonsb/homeassistant-mcp",
+    "stars": 463
+  },
+  {
+    "name": "arangodb_python-arango",
+    "repo_url": "https://github.com/arangodb/python-arango",
+    "stars": 462
+  },
+  {
+    "name": "jasonjmcghee_claude-debugs-for-you",
+    "repo_url": "https://github.com/jasonjmcghee/claude-debugs-for-you",
+    "stars": 461
+  },
+  {
+    "name": "vercel_mcp-adapter",
+    "repo_url": "https://github.com/vercel/mcp-adapter",
+    "stars": 461
+  },
+  {
+    "name": "MarkusPfundstein_mcp-gsuite",
+    "repo_url": "https://github.com/MarkusPfundstein/mcp-gsuite",
+    "stars": 457
+  },
+  {
+    "name": "harsha-iiiv_openapi-mcp-generator",
+    "repo_url": "https://github.com/harsha-iiiv/openapi-mcp-generator",
+    "stars": 447
+  },
+  {
+    "name": "TaazKareem_clickup-mcp-server",
+    "repo_url": "https://github.com/TaazKareem/clickup-mcp-server",
+    "stars": 446
+  },
+  {
+    "name": "GoogleCloudPlatform_cloud-run-mcp",
+    "repo_url": "https://github.com/GoogleCloudPlatform/cloud-run-mcp",
+    "stars": 446
+  },
+  {
+    "name": "vivekVells_mcp-pandoc",
+    "repo_url": "https://github.com/vivekVells/mcp-pandoc",
+    "stars": 445
+  },
+  {
+    "name": "smithery-ai_cli",
+    "repo_url": "https://github.com/smithery-ai/cli",
+    "stars": 433
+  },
+  {
+    "name": "jacksteamdev_obsidian-mcp-tools",
+    "repo_url": "https://github.com/jacksteamdev/obsidian-mcp-tools",
+    "stars": 432
+  }
+]

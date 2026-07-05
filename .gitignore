@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+.history/
+*.bqrs
+
+mcp/
+Servers/
+codeql_analyzer/codeql-engine/
+results/
+results_backup_*.tar.gz
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Node.js/TypeScript
+node_modules/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Build
+/build/
+
+# Output
+*.out
+
+# OS generated
+Thumbs.db
+Desktop.ini
+
+# Misc
+workdir/
+
+
+open_coding_data/
+__pycache__/
+.venv/
+.env
+.git_backup/
+*.pyc

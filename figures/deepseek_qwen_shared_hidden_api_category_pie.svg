@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="285.608124pt" height="209.52pt" viewBox="0 0 285.608124 209.52" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-30T23:51:15.279573</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.5.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 209.52 
+L 285.608124 209.52 
+L 285.608124 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 221.927309 102.666122 
+C 221.927309 89.159207 218.576206 75.860952 212.175307 63.967036 
+C 205.774407 52.07312 196.521478 41.951026 185.248473 34.510857 
+C 173.975468 27.070688 161.030687 22.542321 147.578026 21.332912 
+C 134.125365 20.123504 120.580468 22.270421 108.161191 27.580629 
+L 140.266084 102.666122 
+L 221.927309 102.666122 
+z
+" style="fill: #f7c98e; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 108.161191 27.580629 
+C 93.070522 34.033064 80.269912 44.887431 71.437737 58.72054 
+C 62.605562 72.553649 58.145479 88.733283 58.642281 105.13802 
+L 140.266084 102.666122 
+L 108.161191 27.580629 
+z
+" style="fill: #ee9c98; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 58.642281 105.13802 
+C 58.745934 108.560731 59.064771 111.973537 59.596901 115.356218 
+C 60.129032 118.7389 60.873404 122.084764 61.825608 125.37399 
+L 140.266084 102.666122 
+L 58.642281 105.13802 
+z
+" style="fill: #d7a6e6; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 61.825608 125.37399 
+C 64.45869 134.469526 68.653825 143.038165 74.223129 150.696151 
+C 79.792433 158.354137 86.651505 164.985416 94.493154 170.292999 
+L 140.266084 102.666122 
+L 61.825608 125.37399 
+z
+" style="fill: #fbe6a3; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 94.493154 170.292999 
+C 97.223841 172.141252 100.063969 173.822417 102.997933 175.327257 
+C 105.931897 176.832098 108.954315 178.157853 112.048582 179.29724 
+L 140.266084 102.666122 
+L 94.493154 170.292999 
+z
+" style="fill: #f6c5a6; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 112.048582 179.29724 
+C 120.095824 182.260436 128.55983 183.937629 137.128966 184.267067 
+C 145.698102 184.596504 154.265893 183.574092 162.516884 181.237475 
+L 140.266084 102.666122 
+L 112.048582 179.29724 
+z
+" style="fill: #c9d5ee; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 162.516884 181.237475 
+C 169.90924 179.144017 176.969298 176.017736 183.48796 171.951222 
+C 190.006623 167.884708 195.918892 162.918509 201.049664 157.199709 
+L 140.266084 102.666122 
+L 162.516884 181.237475 
+z
+" style="fill: #dceed0; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 201.049664 157.199709 
+C 205.542668 152.19177 209.399597 146.647705 212.532675 140.693684 
+C 215.665754 134.739663 218.051033 128.421198 219.634229 121.882082 
+L 140.266084 102.666122 
+L 201.049664 157.199709 
+z
+" style="fill: #bfe7ee; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 219.634229 121.882082 
+C 220.320571 119.047268 220.854542 116.177718 221.233847 113.28577 
+C 221.613152 110.393822 221.837246 107.483629 221.905165 104.567703 
+L 140.266084 102.666122 
+L 219.634229 121.882082 
+z
+" style="fill: #cbebdd; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 221.905165 104.567703 
+C 221.912546 104.25083 221.918082 103.933916 221.921773 103.616978 
+C 221.925463 103.30004 221.927309 102.983083 221.927309 102.666124 
+L 140.266084 102.666122 
+L 221.905165 104.567703 
+z
+" style="fill: #e6d8c8; stroke: #ffffff; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 222.73833 103.626487 
+L 226.638533 91.673265 
+" clip-path="url(#p4ca7eab5f6)" style="fill: none; stroke: #000000; stroke-width: 0.38; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font: 7.4px 'serif'" transform="translate(158.106927 65.95751)">424</text>
+    <text style="font: 7.4px 'serif'" transform="translate(154.099942 72.052196)">31.4%</text>
+   </g>
+   <g id="text_2">
+    <text style="font: 7.4px 'serif'" transform="translate(98.925344 78.546545)">257</text>
+    <text style="font: 7.4px 'serif'" transform="translate(94.918359 84.641231)">19.1%</text>
+   </g>
+   <g id="text_3">
+    <text style="font: 6.3px 'serif'" transform="translate(78.227581 110.850486)">54</text>
+    <text style="font: 6.3px 'serif'" transform="translate(74.816229 116.039205)">4.0%</text>
+   </g>
+   <g id="text_4">
+    <text style="font: 7.4px 'serif'" transform="translate(100.373747 126.373863)">149</text>
+    <text style="font: 7.4px 'serif'" transform="translate(96.366763 132.468549)">11.0%</text>
+   </g>
+   <g id="text_5">
+    <text style="font: 6.3px 'serif'" transform="translate(109.910334 154.629344)">52</text>
+    <text style="font: 6.3px 'serif'" transform="translate(106.498982 159.818064)">3.9%</text>
+   </g>
+   <g id="text_6">
+    <text style="font: 7.4px 'serif'" transform="translate(133.084783 143.830739)">135</text>
+    <text style="font: 7.4px 'serif'" transform="translate(129.077798 149.925425)">10.0%</text>
+   </g>
+   <g id="text_7">
+    <text style="font: 6.8px 'serif'" transform="translate(162.828085 145.843512)">121</text>
+    <text style="font: 6.8px 'serif'" transform="translate(160.845991 151.444035)">9.0%</text>
+   </g>
+   <g id="text_8">
+    <text style="font: 6.8px 'serif'" transform="translate(181.416702 125.838688)">106</text>
+    <text style="font: 6.8px 'serif'" transform="translate(179.434609 131.43921)">7.9%</text>
+   </g>
+   <g id="text_9">
+    <text style="font: 6.3px 'serif'" transform="translate(196.222551 109.339059)">46</text>
+    <text style="font: 6.3px 'serif'" transform="translate(192.8112 114.527778)">3.4%</text>
+   </g>
+   <g id="text_10">
+    <text style="font: 8.2px 'serif'" transform="translate(196.800778 30.171613)">System Command</text>
+    <text style="font: 8.2px 'serif'" transform="translate(196.800778 36.720646)">Execution</text>
+   </g>
+   <g id="text_11">
+    <text style="font: 8.2px 'serif'" transform="translate(36.928651 56.345083)">Database</text>
+    <text style="font: 8.2px 'serif'" transform="translate(24.172526 62.871053)">Management</text>
+   </g>
+   <g id="text_12">
+    <text style="font: 8.2px 'serif'" transform="translate(2.728917 114.962123)">Project Manage</text>
+    <text style="font: 8.2px 'serif'" transform="translate(26.637042 121.511155)">Services</text>
+   </g>
+   <g id="text_13">
+    <text style="font: 8.2px 'serif'" transform="translate(2.16 152.674981)">Browser Automation</text>
+    <text style="font: 8.2px 'serif'" transform="translate(4.233063 159.200951)">and Web Interaction</text>
+   </g>
+   <g id="text_14">
+    <text style="font: 8.2px 'serif'" transform="translate(61.52925 188.2709)">Financial and</text>
+    <text style="font: 8.2px 'serif'" transform="translate(50.143422 194.79687)">Blockchain Services</text>
+   </g>
+   <g id="text_15">
+    <text style="font: 8.2px 'serif'" transform="translate(121.836101 190.353246)">File System</text>
+    <text style="font: 8.2px 'serif'" transform="translate(123.322992 196.902278)">Operations</text>
+   </g>
+   <g id="text_16">
+    <text style="font: 8.2px 'serif'" transform="translate(182.143635 177.801512)">Specialized Domain</text>
+    <text style="font: 8.2px 'serif'" transform="translate(182.143635 184.327482)">Data Services</text>
+   </g>
+   <g id="text_17">
+    <text style="font: 8.2px 'serif'" transform="translate(211.457921 146.381817)">Cloud Infrastructure</text>
+    <text style="font: 8.2px 'serif'" transform="translate(211.457921 152.907787)">Management</text>
+   </g>
+   <g id="text_18">
+    <text style="font: 8.2px 'serif'" transform="translate(224.021186 113.926715)">AI and Machine</text>
+    <text style="font: 8.2px 'serif'" transform="translate(224.021186 120.452685)">Learning Services</text>
+   </g>
+   <g id="text_19">
+    <text style="font: 7.4px 'serif'" transform="translate(229.25588 81.797685)">Identity and</text>
+    <text style="font: 7.4px 'serif'" transform="translate(229.25588 87.707787)">Access Manage</text>
+   </g>
+   <g id="text_20">
+    <text style="font: 7.4px 'serif'; text-anchor: start" x="229.25588" y="95.546612" transform="rotate(-0, 229.25588, 95.546612)">5 (0.4%)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4ca7eab5f6">
+   <rect x="27.196696" y="2.16" width="236.608163" height="205.2"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,8 @@
+---
+library: true
+warnOnImplicitThis: true
+compileForOverlayEval: false
+name: python-analyzer
+version: 0.0.1
+dependencies:
+  codeql/python-all: 2.6.7

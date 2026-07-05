@@ -1,0 +1,21 @@
+Category,Count,Description,Examples,Share
+"Specialized Domain Data Services","8309","Access domain-specific external data.","GoogleMaps.geocode()
+YouTube.videos.list()","30.25%"
+"Project Management Services","3736","Manage issues, tasks, and repositories.","JIRA.create_issue()
+GitHub.createPullRequest()","13.60%"
+"Database Management","3209","Query, modify, or administer databases.","SQLite.execute()
+PostgreSQL.query()","11.68%"
+"Cloud Infrastructure Management","3035","Provision or manage cloud resources.","EC2.describe_volumes()
+Kubernetes.list_pod()","11.05%"
+"System Command Execution","2202","Run local commands or scripts.","subprocess.run()
+child_process.spawn()","8.02%"
+"Financial and Blockchain Services","1899","Process financial or blockchain transactions.","Stripe.paymentIntents.create()
+viem.sendTransaction()","6.91%"
+"Identity and Access Management","1695","Authenticate users and manage access.","OAuth.run_server()
+Credentials.refresh()","6.17%"
+"File System Operations","1563","Read, write, or transfer files.","os.remove()
+fs.writeFile()","5.69%"
+"AI and Machine Learning Services","1000","Invoke AI/ML models or services.","OpenAI.chat.create()
+OpenAI.embeddings()","3.64%"
+"Browser Automation and Web Interaction","817","Automate browsers and web pages.","Puppeteer.waitForSelector()
+Playwright.goto()","2.97%"

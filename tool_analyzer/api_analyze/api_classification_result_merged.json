@@ -1,0 +1,495 @@
+{
+    "total_rounds": 80,
+    "total_categories_processed": 800,
+    "total_categories_after_merge": 10,
+    "merged_categories": {
+        "Specialized Domain Data Services": {
+            "category_name": "Specialized Domain Data Services",
+            "category_definition": "Generic HTTP client APIs used to fetch or post data to various external endpoints, including axios.get, fetch, httpx, and custom fetcher functions. Requires network access and often authentication tokens. Security implications involve data exfiltration and unauthorized service access. Distinguished as the only permitted use of 'Specialized Domain Data Services' — strictly for HTTP client wrappers, not domain-specific services like healthcare or finance.",
+            "frequency": 134,
+            "merged_from": [
+                "Financial Market Data Services",
+                "Media and Entertainment Metadata Services",
+                "Chemical and Biomedical Data Services",
+                "Academic and Research Data Services",
+                "Healthcare and Fitness Data Services",
+                "Healthcare and Biometric Data Services",
+                "Research and Academic Data Services",
+                "Health and Fitness Data Services",
+                "Transportation and Geospatial Data Services",
+                "Email Services",
+                "Academic Research Data Services",
+                "Weather and Environmental Services",
+                "Network Communication and Socket Operations",
+                "Healthcare Data Services",
+                "HTTP Client Operations",
+                "Healthcare and Medical Systems",
+                "Analytics and Monitoring Services",
+                "Network Service and Discovery Management",
+                "Healthcare and Regulatory Data Services",
+                "Web Scraping and Search Services",
+                "Healthcare and Medical Data Services",
+                "Search and Information Retrieval Services",
+                "Messaging and Queue Services"
+            ]
+        },
+        "Cloud Infrastructure Management": {
+            "category_name": "Cloud Infrastructure Management",
+            "category_definition": "APIs that manage cloud computing and virtualization resources such as Kubernetes clusters, persistent volumes, virtual machines, object storage buckets, and cluster configurations. Includes providers like Azure VM services, Kubernetes Python client, Tencent Object Storage (TOS), Alibaba Cloud RDS, Bauplan (S3-based), and Files.com. These APIs require IAM roles, service account credentials, API keys, or OAuth tokens with administrative privileges to provision, modify, list, or delete infrastructure components. Security risks include resource exhaustion, privilege escalation, and unauthorized infrastructure modification. Differentiated from 'Database Management' by operating at the infrastructure provisioning layer (e.g., managing clusters, VMs, storage buckets) rather than the data access or query layer within databases.",
+            "frequency": 124,
+            "merged_from": [
+                "Cloud Infrastructure Management",
+                "Cloud Infrastructure and Virtualization Management",
+                "Analytics and Monitoring Services",
+                "Media Management",
+                "Media and Scientific Visualization Services",
+                "Media Server Management",
+                "Email Services",
+                "Distributed Systems and Service Coordination",
+                "Messaging and Queue Services",
+                "Integration Platform Services",
+                "Communication Platform Management",
+                "Content and Media Management",
+                "Network Testing and Infrastructure Management",
+                "Vulnerability and Security Analytics Services",
+                "Cloud Tenant and Resource Management",
+                "Cloud Telephony Services",
+                "Configuration Management Services",
+                "Industrial and Robotics Control",
+                "Cloud Storage Services",
+                "Cloud Infrastructure and Container Management",
+                "File Sharing and Transfer Services",
+                "Enterprise Application Integration",
+                "Security and Threat Intelligence Services",
+                "Messaging and Event Streaming Services"
+            ]
+        },
+        "System Command Execution": {
+            "category_name": "System Command Execution",
+            "category_definition": "APIs that spawn subprocesses, execute shell commands, or interact with low-level system interfaces such as Python's subprocess module, Frida's spawn, GDB register access, and AutoIt initialization. Requires high-privilege system access and can compromise host security. Distinguished from 'File System Operations' by ability to execute arbitrary code rather than just access file metadata.",
+            "frequency": 116,
+            "merged_from": [
+                "Application Automation",
+                "Application-Specific Automation",
+                "Application Lifecycle Control",
+                "Reverse Engineering Tools",
+                "Reverse Engineering and Debugging Services",
+                "Reverse Engineering and Binary Analysis",
+                "Robotics and Physical System Control",
+                "Drone and Vehicle Control",
+                "Clipboard and Input Simulation Services",
+                "Development Environment Operations",
+                "Security and Penetration Testing Tools",
+                "Device and Hardware Interaction",
+                "System and Application Control",
+                "System Monitoring and Process Management",
+                "Hardware and IoT Control",
+                "Drone and Robotics Control",
+                "Application Automation and System Control",
+                "Version Control Operations",
+                "Drone and Hardware Control Services",
+                "Robotics and Hardware Control Services",
+                "Application Automation and Control",
+                "Application Integration and Automation",
+                "Application Development and Debugging Tools",
+                "Hardware and Device Control",
+                "Application Development and IDE Services",
+                "Device and System Resource Operations",
+                "OS Process Management",
+                "Hardware and Device Interface"
+            ]
+        },
+        "Project Management Services": {
+            "category_name": "Project Management Services",
+            "category_definition": "APIs that manage tasks, issues, workflows, and collaboration artifacts within productivity and team coordination platforms such as Linear, Todoist, Azure DevOps, Jira, Monday.com, Notion, Trello, Slack, and GitHub Projects. These APIs require OAuth tokens or personal access tokens with read/write permissions to modify project timelines, task assignments, issue states, comments, or board configurations. Security implications include unauthorized workflow disruption, data loss, or exfiltration of internal team communications. Distinguished from 'Code Repository Services' by focusing on task and project tracking rather than source code version control, from 'Calendar Services' by managing discrete work items instead of time-based events, and from 'Social Media Management' by targeting internal enterprise tools rather than public-facing platforms.",
+            "frequency": 112,
+            "merged_from": [
+                "Project and Task Management Services",
+                "Project and Issue Tracking Services",
+                "Project and Workflow Management Services",
+                "Application Workflow and Task Management",
+                "Collaboration and Productivity Platform Services",
+                "Project and Task Management",
+                "Project Management Services",
+                "Media Production Management",
+                "Media Production and Server Management",
+                "Media and Creative Production Services",
+                "Video Production Services",
+                "Messaging Services",
+                "Messaging and Communication Services",
+                "Email and Messaging Services",
+                "Content Collaboration Services",
+                "Content Management Services",
+                "Content Collaboration Platforms",
+                "Productivity and Collaboration Services",
+                "Customer Relationship Management Services",
+                "Workflow and Service Management",
+                "Document and Spreadsheet Management",
+                "Content Management System APIs",
+                "Messaging and Collaboration Services",
+                "Design and Styleguide Services",
+                "Collaboration Platform Services",
+                "Code Repository Services",
+                "Project and Workflow Management",
+                "Project and Content Management Services",
+                "Application Development and Project Management",
+                "Workflow and Task Management",
+                "Enterprise Application Services",
+                "Task and Productivity Services",
+                "Instant Messaging Services",
+                "Workflow Orchestration Services",
+                "Time Tracking and Productivity Services",
+                "Media Production Services",
+                "Enterprise Application Integration",
+                "Application-Specific Management",
+                "Task and Workflow Management Services",
+                "Social Media Management",
+                "Application-Specific Service Integration",
+                "Productivity and Task Management",
+                "Productivity and Collaboration Tools",
+                "Email Services",
+                "Version Control Services",
+                "Analytics and Monitoring Services",
+                "Application Integration Services",
+                "Design and Creative Tool Integration",
+                "Application Development and IDE Services",
+                "Media and Content Workflow Services",
+                "Messaging and Communication Platforms",
+                "Collaboration and Project Management Services",
+                "Content and Productivity Platform Integration",
+                "Documentation and Knowledge Management",
+                "Educational and Enterprise Application Services",
+                "Messaging and Social Platform Services",
+                "Content and Product Management Services",
+                "Calendar and Task Management Services",
+                "Workflow and Pipeline Execution Services",
+                "Safety and Compliance Platform Services",
+                "Application-Specific Automation",
+                "Enterprise Data and Content Services",
+                "Real-time Communication Management",
+                "Application Platform Services",
+                "Workflow and Automation Management",
+                "Productivity Platform Integration",
+                "Enterprise and Directory Services",
+                "Customer Relationship and Sales Services",
+                "Project and Product Management Services",
+                "Productivity Application Integration"
+            ]
+        },
+        "Identity and Access Management": {
+            "category_name": "Identity and Access Management",
+            "category_definition": "APIs that initialize authentication middleware, manage credentials, or handle session tokens such as Microsoft Graph Client initialization with middleware and environment variable retrieval for API keys. Requires handling of secrets and tokens. Security implications involve credential leakage and unauthorized resource access. Distinguished from 'Social Media Management' by focus on authentication infrastructure rather than content APIs.",
+            "frequency": 112,
+            "merged_from": [
+                "Social Media Management",
+                "Directory Services and PKI Management",
+                "Configuration and Environment Management",
+                "Email and Communication Services",
+                "Email and Messaging Services",
+                "Email Services",
+                "Secrets and Configuration Management"
+            ]
+        },
+        "Financial and Blockchain Services": {
+            "category_name": "Financial and Blockchain Services",
+            "category_definition": "APIs that interact with blockchain networks to transfer funds or manage accounts, such as Solana's SystemProgram.transfer and RecallNet's accountManager. Requires cryptographic key management and involves irreversible transactions. Security implications include permanent loss of funds if compromised. Distinguished from 'Financial Market Data Services' by direct blockchain interaction rather than traditional market data querying.",
+            "frequency": 111,
+            "merged_from": [
+                "Financial Trading Services",
+                "Financial and Trading Services",
+                "Payment Processing",
+                "Payment and Financial Transaction Services",
+                "Financial and Health Data Services",
+                "Blockchain and Cryptocurrency Services",
+                "Financial Market Data Services",
+                "Financial and Payment Services",
+                "Decentralized Computing and Blockchain Protocols",
+                "Payment and Financial Data Services"
+            ]
+        },
+        "Database Management": {
+            "category_name": "Database Management",
+            "category_definition": "APIs that create, modify, query, or manage connections to database systems including Prisma ORM, DataStax Astra DB, PostgreSQL via psycopg2, and memcached clients. Requires database credentials and affects data persistence. Security implications include potential data leakage or corruption. Distinguished from 'File System Operations' by interaction with structured database engines rather than raw filesystem.",
+            "frequency": 94,
+            "merged_from": [
+                "Healthcare Data Services",
+                "Fitness and Health Tracking Services",
+                "Healthcare and Biometric Data Services",
+                "Metadata and Lineage Services",
+                "Knowledge Base and Document Management",
+                "Knowledge and Content Retrieval",
+                "Analytics and Business Intelligence Platforms",
+                "Registry and Schema Management",
+                "Media Production Services",
+                "Analytics and Monitoring Services"
+            ]
+        },
+        "AI and Machine Learning Services": {
+            "category_name": "AI and Machine Learning Services",
+            "category_definition": "APIs that interface with AI models or structured response parsers such as OpenAI’s chat.completions.parse. Requires API keys and accesses cloud-hosted machine learning models. Security implications include prompt injection, data leakage to third-party models, and cost exposure. Distinguished from 'Specialized Domain Data Services' by direct interaction with AI inference endpoints rather than generic HTTP data fetching.",
+            "frequency": 70,
+            "merged_from": [
+                "Security Intelligence Services",
+                "Speech and Audio Processing Services",
+                "Analytics and Monitoring Services",
+                "Scientific and Visualization Tools",
+                "AI Protocol and Tool Integration",
+                "Genomic and Biomedical Analysis Services",
+                "Model Context Protocol Services"
+            ]
+        },
+        "Browser Automation and Web Interaction": {
+            "category_name": "Browser Automation and Web Interaction",
+            "category_definition": "This category includes APIs that automate browser interactions and execute JavaScript in page contexts, such as Puppeteer's evaluate method. These APIs require permissions to control browser instances and can access/manipulate web page content, cookies, and localStorage. They pose risks related to session hijacking and unauthorized web interactions. Distinguished from 'System Command Execution' by being confined to browser environments rather than full system access.",
+            "frequency": 66,
+            "merged_from": [
+                "Web Crawling and Content Extraction",
+                "Media Production Services",
+                "GUI Framework Operations",
+                "Application-Specific Automation Services",
+                "Browser and Kernel Interaction Services",
+                "Media and Audio Processing",
+                "Application-Specific Automation"
+            ]
+        },
+        "File System Operations": {
+            "category_name": "File System Operations",
+            "category_definition": "APIs that interact with the local or remote file system to retrieve metadata, open files, or manage file resources. Includes Node.js fs.stat, LeanLSPClient.open_file, and similar functions. Requires filesystem read permissions and potentially exposes sensitive file metadata. Distinguished from 'Database Management' by direct interaction with OS file systems rather than structured database systems.",
+            "frequency": 61,
+            "merged_from": [
+                "Theorem Proving and Formal Verification Systems",
+                "Configuration and Data Serialization",
+                "Remote File Transfer Services",
+                "File System and Document Operations",
+                "Media and File Transfer Services"
+            ]
+        }
+    },
+    "rounds": [
+        {
+            "round": 1,
+            "categories": [
+                {
+                    "category_name": "Social Media Management",
+                    "category_definition": "This category includes APIs that interact with social media platforms such as Instagram, Bilibili, and similar services to retrieve or manage user-generated content, followers, and trending media. These APIs require authentication tokens (often OAuth) with scopes granting access to user profiles, social graphs, and content feeds. Security implications include potential exposure of personal user data and unauthorized posting capabilities. This is distinguished from 'Identity and Access Management' by its focus on social content interaction rather than authentication or credential handling."
+                },
+                {
+                    "category_name": "Database Management",
+                    "category_definition": "This category encompasses APIs that establish connections to and execute operations against database systems, including relational databases like PostgreSQL via SQLAlchemy or cloud-based databases through Supabase. These APIs require database credentials, connection strings, and often role-based access controls. They pose risks of data leakage, SQL injection, or unauthorized data modification. Distinguished from 'File System Operations' by their interaction with structured database engines rather than raw file storage."
+                },
+                {
+                    "category_name": "Cloud Infrastructure Management",
+                    "category_definition": "This category covers APIs for provisioning, configuring, and managing cloud infrastructure resources such as Alibaba Cloud RDS instances, AWS VPC connections, and Azure Data Tables. These APIs require cloud provider IAM roles or API keys with permissions scoped to specific infrastructure actions (e.g., create instance, list knowledge bases). Security risks include misconfigured resources, excessive privileges leading to cost or data breaches. Differentiated from 'Cloud Storage Services' by focus on compute/network/database infrastructure rather than object/file storage."
+                },
+                {
+                    "category_name": "Browser Automation and Web Interaction",
+                    "category_definition": "This category includes APIs that programmatically control web browsers or interact with web page content, such as Playwright’s new_page, Puppeteer’s evaluate, and WebDriver’s takeScreenshot. These APIs require system-level access to launch browser processes and may need permissions to capture screen content or inject scripts into pages. Risks include unauthorized data scraping, session hijacking, or browser fingerprinting. Distinct from 'Specialized Domain Data Services' as it involves direct browser manipulation rather than HTTP request/response patterns."
+                },
+                {
+                    "category_name": "System Command Execution",
+                    "category_definition": "This category consists of APIs that execute shell commands or system-level programs, such as subprocess.run, child_process.exec, and related utilities that invoke external binaries like 'xctrace'. These APIs require operating system execution permissions and can access any resource the underlying process has rights to. Security implications are severe, including arbitrary code execution, privilege escalation, and system compromise. Clearly separated from 'File System Operations' by its focus on process spawning rather than file manipulation."
+                },
+                {
+                    "category_name": "File System Operations",
+                    "category_definition": "This category includes APIs that read, write, or manipulate files and directories on local or mounted filesystems, such as cmcp.managers.file_manager.read_file, os.close, and clipboard.getContent. These APIs require file descriptor or path-based access permissions and may handle sensitive user data. Risks involve unauthorized file access, data exfiltration, or corruption. Differentiated from 'Cloud Infrastructure Management' by its focus on local OS-level file resources rather than cloud-managed storage or compute."
+                },
+                {
+                    "category_name": "Identity and Access Management",
+                    "category_definition": "This category covers APIs involved in authentication, authorization, and credential handling, such as smtplib.login, find_credential_by_pattern, and getDefaultPropertyId for Google Analytics. These APIs require secrets like passwords, API keys, or OAuth tokens to establish trusted sessions. Security risks center on credential leakage, session hijacking, or privilege escalation. Distinguished from 'Social Media Management' by its focus on establishing identity and access rights rather than interacting with social content or user feeds."
+                },
+                {
+                    "category_name": "Specialized Domain Data Services",
+                    "category_definition": "This category is reserved exclusively for generic HTTP client libraries or wrappers that facilitate data retrieval from domain-specific external APIs without being tied to a particular service provider, such as urllib.request.Request, openFDA’s search_drug_recalls, and Shutterstock’s searchImages. These APIs typically require API keys or bearer tokens scoped to specific data domains (healthcare, media, research). Security considerations include improper key management and data privacy compliance. This category is explicitly permitted to use 'Specialized Domain Data Services' per classification rules and is distinct from 'System Command Execution' as it uses network protocols rather than spawning local processes."
+                },
+                {
+                    "category_name": "Blockchain and Cryptocurrency Services",
+                    "category_definition": "This category includes APIs that interact with blockchain networks or decentralized applications, such as viem’s readContract and Uniswap’s getV3CandidatePools. These APIs require RPC endpoints, wallet addresses, or private keys to query or transact on-chain. Security implications involve financial loss, smart contract exploits, or exposure of cryptographic keys. Differentiated from 'Payment Processing' by its focus on decentralized ledgers and smart contracts rather than centralized payment gateways like Stripe or PayPal."
+                },
+                {
+                    "category_name": "Messaging and Collaboration Services",
+                    "category_definition": "This category encompasses APIs for interacting with messaging, collaboration, or version control platforms such as GitLab’s get_merge_requests and RabbitMQ’s handle_list_connections. These APIs require project-scoped tokens or admin credentials to access repositories, queues, or collaboration artifacts. Risks include unauthorized code access, message interception, or service disruption. Distinct from 'Email Services' and 'Social Media Management' by its focus on developer collaboration, code management, and message queuing rather than personal communication or public social engagement."
+                }
+            ]
+        },
+        {
+            "round": 2,
+            "categories": [
+                {
+                    "category_name": "Design and Styleguide Services",
+                    "category_definition": "APIs that interact with design systems, styleguides, and UI token repositories such as Zeplin. These require authenticated access to fetch or manage design assets and tokens, often used in frontend development workflows. Distinguished from general file operations by their focus on design system metadata and integration with specific design collaboration platforms."
+                },
+                {
+                    "category_name": "System Command Execution",
+                    "category_definition": "APIs that execute commands directly on the host operating system or within managed sessions (e.g., via tmux or SSH). Includes shell command dispatchers and process controllers. Requires high-privilege access to underlying OS resources and poses significant security risks if compromised. Distinguished from file operations by active command execution rather than passive resource access."
+                },
+                {
+                    "category_name": "Identity and Access Management",
+                    "category_definition": "APIs focused on authentication, authorization, credential handling, and identity verification. Includes JWT signing, Microsoft Graph auth providers, and session token retrieval. These APIs handle cryptographic secrets and user identity assertions, requiring strict privilege controls. Distinguished from user search APIs by their core function of managing access tokens and credentials rather than querying user directories."
+                },
+                {
+                    "category_name": "Cloud Infrastructure Management",
+                    "category_definition": "APIs that interact with cloud computing platforms to manage virtual machines, services, and infrastructure components. Includes OpenStack compute services, Azure DevOps capacities, and machine state controls. Requires IAM roles or equivalent privileged credentials to modify cloud resources. Distinguished from database or storage services by focus on compute and orchestration rather than data persistence."
+                },
+                {
+                    "category_name": "Collaboration Platform Services",
+                    "category_definition": "APIs that interface with enterprise collaboration tools like Confluence, Todoist, and Apple Books for content and task management. These require user or service account authentication to read or modify collaborative content, annotations, or labels. Distinguished from social media by focus on internal team collaboration rather than public social networking, and from file systems by interacting with structured application data rather than raw filesystems."
+                },
+                {
+                    "category_name": "Database Management",
+                    "category_definition": "APIs that perform CRUD operations on structured data stores including MongoDB, Redis/Valkey, Pinecone, and Cosmos DB. These require database credentials or connection strings with specific read/write privileges. Security implications include potential data exfiltration or corruption. Distinguished from file operations by interaction with database engines rather than filesystem APIs, and from HTTP clients by using native database protocols."
+                },
+                {
+                    "category_name": "Browser Automation and Web Interaction",
+                    "category_definition": "APIs that control browser contexts, take screenshots, or locate elements on screen for automation purposes. Includes Playwright, Puppeteer, PyAutoGUI, and MSS-based screen capture. Requires accessibility permissions and can access sensitive visual content displayed on screen. Distinguished from HTTP clients by direct browser manipulation rather than network requests, and from system commands by focus on graphical interface interaction."
+                },
+                {
+                    "category_name": "Specialized Domain Data Services",
+                    "category_definition": "APIs that make HTTP requests to domain-specific external services for specialized data retrieval, including NCI biomarker data, prayer time zones, Constitutional Court records, and academic research data. These typically require API keys or OAuth tokens scoped to specific datasets. Distinguished from generic HTTP clients by their integration with particular domain-specific endpoints rather than being general-purpose request libraries."
+                },
+                {
+                    "category_name": "Financial and Trading Services",
+                    "category_definition": "APIs that interact with financial platforms for trading, order management, or account operations, such as Alpaca trading orders. Require secure authentication and handle sensitive financial data with regulatory implications. Distinguished from payment processing by focus on securities trading rather than merchant payments, and from market data services by enabling transaction execution rather than data retrieval."
+                },
+                {
+                    "category_name": "Media and Creative Production Services",
+                    "category_definition": "APIs that interface with creative software for video editing, audio production, or design asset management, such as DaVinci Resolve scripting. Require application-level permissions to access project timelines, tracks, or media assets. Distinguished from file operations by interacting with domain-specific creative applications rather than generic filesystems, and from collaboration platforms by focus on media production workflows rather than document or task management."
+                }
+            ]
+        },
+        {
+            "round": 3,
+            "categories": [
+                {
+                    "category_name": "Cloud Infrastructure Management",
+                    "category_definition": "APIs that interact with cloud computing infrastructure services such as virtual machines, container orchestration, and resource provisioning from providers like AWS, Azure, or GCP. These require IAM roles or cloud-specific credentials granting permissions to create, modify, or terminate compute resources. Security implications include potential for resource hijacking, cost exploitation, or lateral movement within cloud environments. Distinguished from 'Database Management' by focusing on compute/network resources rather than data storage systems."
+                },
+                {
+                    "category_name": "Database Management",
+                    "category_definition": "APIs that perform administrative operations on database systems such as MongoDB, PostgreSQL via Supabase, or other structured data stores. These require database credentials or connection strings with privileges to create, read, update, or delete collections/tables. Security implications involve unauthorized data access, schema manipulation, or data exfiltration. Distinguished from 'File System Operations' by interacting with managed database engines rather than raw file systems."
+                },
+                {
+                    "category_name": "System Command Execution",
+                    "category_definition": "APIs that enable execution of shell commands or direct interaction with operating system processes, such as Paramiko's invoke_shell or window management APIs that enumerate system windows. These require local system privileges or SSH access keys. Security implications include full system compromise, privilege escalation, or surveillance of user activities. Distinguished from 'Browser Automation and Web Interaction' by targeting OS-level resources rather than browser contexts."
+                },
+                {
+                    "category_name": "Blockchain and Cryptocurrency Services",
+                    "category_definition": "APIs that interact with blockchain networks like Ethereum or Solana for deploying contracts, managing validators, or querying chain state. These require wallet keys or node access with permissions to sign transactions or alter network participation. Security implications include financial loss, consensus disruption, or smart contract exploits. Distinguished from 'Payment Processing' by operating at protocol level rather than merchant payment gateways."
+                },
+                {
+                    "category_name": "Payment Processing",
+                    "category_definition": "APIs that handle financial transactions through merchant platforms like Square or Paddle, including payment creation, capture, and cancellation. These require API keys with transactional scopes and often PCI compliance. Security implications involve direct financial loss, fraud, or regulatory violations. Distinguished from 'Financial Trading Services' by focusing on consumer payments rather than securities trading."
+                },
+                {
+                    "category_name": "Project Management Services",
+                    "category_definition": "APIs that interact with issue tracking and project collaboration platforms like Linear for retrieving or modifying tasks, issues, and labels. These require OAuth tokens or API keys with project read/write permissions. Security implications include workflow disruption, data leakage of proprietary project details, or unauthorized task modification. Distinguished from 'Code Repository Services' by managing work items rather than source code artifacts."
+                },
+                {
+                    "category_name": "Code Repository Services",
+                    "category_definition": "APIs that interact with version control platforms like GitHub for operations such as merging pull requests or fetching diffs. These require repository-scoped tokens with permissions to read source code or modify branch history. Security implications include intellectual property theft, code injection, or build pipeline sabotage. Distinguished from 'Project Management Services' by focusing on source code rather than task tracking."
+                },
+                {
+                    "category_name": "Chemical and Biomedical Data Services",
+                    "category_definition": "APIs that query specialized scientific databases like ChEMBL for chemical structures, toxicity alerts, or biomedical properties. These typically require no authentication or use academic API keys with read-only access. Security implications involve misuse of sensitive compound data or IP violation in pharmaceutical research. Distinguished from 'Academic Research Data Services' by domain specificity to chemistry and pharmacology rather than general scholarly literature."
+                },
+                {
+                    "category_name": "Specialized Domain Data Services",
+                    "category_definition": "Generic HTTP client APIs such as axios.get, httpx, or fetch used to make arbitrary network requests to external endpoints. These require network access permissions and may need bearer tokens depending on target service. Security implications include SSRF attacks, credential leakage, or acting as proxy for malicious requests. Distinguished from all other categories as they represent the transport layer rather than specific application domains — permitted exception to 'Specialized' naming rule per classification guidelines."
+                },
+                {
+                    "category_name": "Identity and Access Management",
+                    "category_definition": "APIs that handle authentication workflows, domain verification, or permission grants through platforms like UseGrant or Google Identity services. These require admin-scoped OAuth tokens or service account keys with authority to modify user access rights. Security implications include account takeover, privilege escalation, or federation trust abuse. Distinguished from 'Social Media Management' by focusing on authentication infrastructure rather than content publishing."
+                }
+            ]
+        },
+        {
+            "round": 4,
+            "categories": [
+                {
+                    "category_name": "Cloud Infrastructure Management",
+                    "category_definition": "This category includes APIs that interact with cloud infrastructure services such as OpenStack Networking, AWS Redshift, Azure Blob Storage, and similar platforms. These APIs require cloud-specific authentication (IAM roles, service principals) and manage privileged resources like virtual networks, compute instances, and storage systems. Security implications include potential exposure of network configurations, data leakage from storage, or unauthorized infrastructure modifications. Distinguished from 'Database Management' by focusing on cloud resource orchestration rather than database transactions, and from 'File System Operations' by targeting cloud-hosted rather than local storage."
+                },
+                {
+                    "category_name": "Database Management",
+                    "category_definition": "This category encompasses APIs that perform direct database operations including executing SQL queries, committing transactions, and managing database connections using libraries like mysql2/promise, sqlite3, psycopg2, or boto3 for Redshift. These require database credentials or connection strings and pose risks of data exfiltration, schema manipulation, or transactional integrity compromise. Distinct from 'Cloud Infrastructure Management' as it focuses specifically on database engine interactions rather than broader cloud resource provisioning, and from 'File System Operations' as it deals with structured data stores rather than file-based storage."
+                },
+                {
+                    "category_name": "Identity and Access Management",
+                    "category_definition": "This category covers APIs related to authentication, authorization, and credential management, such as setting access tokens (Etsy), validating bearer tokens, or querying Active Directory Certificate Services. These APIs handle sensitive security artifacts like OAuth tokens, API keys, and certificate authority information. Security risks include privilege escalation, identity theft, or unauthorized system access. Distinguished from 'Social Media Management' by focusing on the mechanics of authentication rather than content interaction, and from 'Payment Processing' by handling identity tokens rather than financial instruments."
+                },
+                {
+                    "category_name": "System Command Execution",
+                    "category_definition": "This category includes APIs that execute system-level commands or interact directly with hardware and OS components, such as simulating keyboard input, taking screenshots via gnome-screenshot, capturing images via robot operators, or hiding mobile keyboards. These require elevated privileges or direct hardware access and can lead to complete system compromise, user impersonation, or physical device control. Differentiated from 'Browser Automation and Web Interaction' by targeting OS/hardware rather than browser environments, and from 'File System Operations' by performing active command execution rather than passive file access."
+                },
+                {
+                    "category_name": "Financial Trading Services",
+                    "category_definition": "This category comprises APIs that facilitate cryptocurrency trading, asset retrieval, fee queries, and invoice management through platforms like WhiteBIT, Alpaca, Square, and Alipay+. These require authenticated access to financial accounts and involve operations that can result in monetary loss or gain. Security implications include financial fraud, unauthorized trades, or exposure of sensitive financial data. Distinct from 'Payment Processing' which handles payment transactions, whereas this focuses on exchange trading and asset management; also different from 'Blockchain and Cryptocurrency Services' which interacts directly with blockchain protocols rather than exchange platforms."
+                },
+                {
+                    "category_name": "AI and Machine Learning Services",
+                    "category_definition": "This category includes APIs that interface with AI/ML platforms for tasks like image generation, chat model inference (e.g., IBM Watsonx), or intelligent query optimization. These typically require API keys for cloud-based AI services and may process sensitive user prompts or generate content with compliance implications. Risks include data leakage through model inputs, inappropriate content generation, or quota abuse. Distinguished from 'Specialized Domain Data Services' by involving computational AI models rather than simple data retrieval, and from 'Analytics and Monitoring Services' by generating outputs rather than analyzing existing data streams."
+                },
+                {
+                    "category_name": "Browser Automation and Web Interaction",
+                    "category_definition": "This category covers APIs used for browser automation, such as Selenium WebDriver's executeScript or Appium's terminateApp and hideKeyboard methods. These simulate user interactions with web or mobile applications and require permissions to control browser sessions or mobile app lifecycles. Security risks include session hijacking, unauthorized UI manipulation, or scraping of protected content. Differentiated from 'System Command Execution' by operating within browser/mobile app contexts rather than at the OS level, and from 'Specialized Domain Data Services' by automating UI interactions rather than making direct HTTP requests."
+                },
+                {
+                    "category_name": "Specialized Domain Data Services",
+                    "category_definition": "This category is strictly limited to generic HTTP client libraries (like axios.get, http requests) used to retrieve domain-specific data from external endpoints such as Figma, TestRail, openFDA, YOK Atlas, Alibaba Cloud Search, Datadog logs, Confluent Schema Registry, or financial/company data APIs. These require network access and often authentication headers or API keys. Security implications include data exfiltration, credential leakage in headers, or excessive API usage. Distinguished from 'AI and Machine Learning Services' by performing data retrieval without AI processing, and from 'Financial Trading Services' by fetching reference data rather than executing trades. This is the ONLY category where 'Specialized Domain Data Services' is permitted, exclusively for HTTP client invocations."
+                },
+                {
+                    "category_name": "Application-Specific Automation",
+                    "category_definition": "This category includes APIs that automate or interact with specific desktop or professional applications such as Rhino/Grasshopper parametric design, DaVinci Resolve video editing, Mathcad worksheet access, BinaryNinja reverse engineering, or Universal Robots controllers. These require application-level permissions or COM automation access and can modify internal application state or extract proprietary data. Security risks include intellectual property theft, workflow sabotage, or unauthorized automation of licensed software. Distinct from 'System Command Execution' by targeting specific applications rather than general OS functions, and from 'Cloud Infrastructure Management' by interacting with local/desktop software rather than cloud services."
+                },
+                {
+                    "category_name": "Knowledge and Content Retrieval",
+                    "category_definition": "This category encompasses APIs that query structured knowledge repositories such as knowledge graphs (getNodeById), academic or research databases (get_gene_summary), document splitting services, or content ingestion platforms (Graphlit). These typically require authenticated access to curated datasets and pose risks of sensitive information disclosure or quota abuse. Differentiated from 'Specialized Domain Data Services' by querying semantically organized knowledge structures rather than making generic HTTP calls, and from 'Database Management' by accessing pre-processed knowledge/content repositories rather than raw database tables."
+                }
+            ]
+        },
+        {
+            "round": 5,
+            "categories": [
+                {
+                    "category_name": "Reverse Engineering and Binary Analysis",
+                    "category_definition": "APIs that interact with binary analysis tools such as IDA Pro and Binary Ninja to retrieve or manipulate disassembled code, function names, type information, and internal structures. These require access to sensitive reverse engineering environments and often need elevated privileges within the analysis platform. Distinguished from general file operations by their focus on executable binary introspection and metadata extraction in specialized security research tools."
+                },
+                {
+                    "category_name": "Code Repository Services",
+                    "category_definition": "APIs that interface with source code hosting platforms like GitHub to create repositories, list workflows, or manage repository resources. These require OAuth tokens or personal access tokens with repo-level scopes and can affect source code integrity and CI/CD pipelines. Distinguished from project management services by their exclusive focus on version-controlled code assets rather than issue tracking or team workflows."
+                },
+                {
+                    "category_name": "Identity and Access Management",
+                    "category_definition": "APIs focused on retrieving or managing authentication tokens, access credentials, or authorization policies, such as get_access_token or Vault’s addPolicy. These typically require administrative or privileged scopes to issue, revoke, or define access control rules. Distinguished from social media or email services by their core purpose of governing permissions rather than accessing user content or communication channels."
+                },
+                {
+                    "category_name": "File System Operations",
+                    "category_definition": "APIs that check for file/directory existence, read paths, or launch files using OS-level associations (e.g., fs.existsSync, os.startfile). These require local filesystem access permissions and may expose sensitive file locations or trigger unintended program execution. Distinguished from cloud storage by operating strictly on local system resources without network interaction."
+                },
+                {
+                    "category_name": "System Command Execution",
+                    "category_definition": "APIs that spawn subprocesses or execute shell commands (e.g., subprocess.run, execAsync, cat with jq). These require unrestricted access to the underlying operating system and pose high-risk security implications including arbitrary code execution. Distinguished from process monitoring APIs by actively initiating command execution rather than passively querying system state."
+                },
+                {
+                    "category_name": "Database Management",
+                    "category_definition": "APIs that perform query execution, bulk writes, or connection management on database systems (e.g., mysql.Pool.query, @datastax/astra-db-ts.Collection.bulkWrite, pocketbase cancelRequest). These require database credentials and can modify or exfiltrate structured data at scale. Distinguished from file operations by interacting with structured query engines and transactional systems rather than raw filesystems."
+                },
+                {
+                    "category_name": "Cloud Infrastructure Management",
+                    "category_definition": "APIs that list, update, or manage cloud-based infrastructure resources such as Kubernetes namespaces, cluster operations, or workflow data (e.g., read_namespace, list_cluster_operations_v2, ivoryos_client.list_workflow_data). These require IAM roles or service account credentials with infrastructure modification rights. Distinguished from cloud storage by managing compute, orchestration, or deployment resources rather than object/file storage."
+                },
+                {
+                    "category_name": "Device and Hardware Interaction",
+                    "category_definition": "APIs that interface with physical or virtual hardware including Android devices via ADB, Bluetooth robots, macOS input events, or CPU frequency sensors (e.g., ADBClient.screenshot, pyBittle send_command_bluetooth, CGEventSetFlags, psutil.cpu_freq). These often require device pairing, USB debugging, or root access and can manipulate hardware states or capture sensitive sensor/input data. Distinguished from system commands by targeting specific hardware interfaces rather than general OS shell execution."
+                },
+                {
+                    "category_name": "Project Management Services",
+                    "category_definition": "APIs that update or retrieve project artifacts such as Jira sprints, Linear issues, or Monday.com app versions (e.g., update_sprint, LinearClient.updateIssue, API_ENDPOINTS.APP_VERSIONS.GET_BY_ID). These require project-specific OAuth scopes or API keys and can alter task states, deadlines, or team assignments. Distinguished from code repositories by managing human workflows and business logic rather than source code or build pipelines."
+                },
+                {
+                    "category_name": "Specialized Domain Data Services",
+                    "category_definition": "APIs that serve as HTTP clients or wrappers for domain-specific external services including geolocation, fitness tracking, blockchain data, AI predictions, or enterprise SaaS platforms (e.g., _get_cache with requests, garmin_client.get_training_effect, ethers.js contract functions, replicate predictions.create, Paddle products.list). These require API keys, OAuth tokens, or bearer tokens scoped to third-party domains and involve fetching or submitting data over HTTP(S). Distinguished from system operations by relying entirely on network calls to external endpoints rather than local resource access."
+                }
+            ]
+        }
+    ]
+}

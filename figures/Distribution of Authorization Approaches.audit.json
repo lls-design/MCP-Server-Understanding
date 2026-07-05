@@ -1,0 +1,29 @@
+{
+  "project_list_file": "/home/lls/MCP_Analyze/tool_analyzer/final_success_projects.txt",
+  "projects_in_list": 4049,
+  "counted_projects": 4049,
+  "missing_authorization_json": 0,
+  "missing_category_or_primary_type": 0,
+  "counts": {
+    "T0": 1440,
+    "T1": 1867,
+    "T2": 248,
+    "T3": 128,
+    "T4": 82,
+    "T5": 164,
+    "T6": 56,
+    "T7": 53,
+    "T8": 11
+  },
+  "shares": {
+    "T0": 0.3556433687330205,
+    "T1": 0.4611015065448259,
+    "T2": 0.061249691281797976,
+    "T3": 0.0316127438873796,
+    "T4": 0.020251914052852555,
+    "T5": 0.04050382810570511,
+    "T6": 0.013830575450728575,
+    "T7": 0.013089651765868116,
+    "T8": 0.002716720177821684
+  }
+}

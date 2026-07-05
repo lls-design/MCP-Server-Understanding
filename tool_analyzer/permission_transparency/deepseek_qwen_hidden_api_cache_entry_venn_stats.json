@@ -1,0 +1,359 @@
+{
+  "unique_definition": "A unique external API is one concrete api_cache.json entry with external_api=true, identified as language::api_name. The same API name in different language sections is counted as different.",
+  "filter": "Only api_cache.json entries with external_api=true are counted.",
+  "cache_file": "/home/lls/MCP_Analyze/tool_analyzer/api_cache.json",
+  "deepseek_hidden_table": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_hidden_table.csv",
+  "qwen_hidden_table": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_hidden_table.csv",
+  "deepseek_unique_external_api_cache_entries": 2372,
+  "qwen_unique_external_api_cache_entries": 3065,
+  "intersection_unique_external_api_cache_entries": 1349,
+  "deepseek_only_unique_external_api_cache_entries": 1023,
+  "qwen_only_unique_external_api_cache_entries": 1716,
+  "deepseek": {
+    "source": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_hidden_table.csv",
+    "raw_api_refs": 9035,
+    "raw_unique_api_name_strings": 2348,
+    "external_api_cache_entry_refs": 9336,
+    "unique_external_api_cache_entries": 2372,
+    "multi_cache_entry_api_refs": 301,
+    "unresolved_api_refs": 0,
+    "unresolved_examples": [],
+    "skipped_non_external_api_ref_examples": [
+      {
+        "project": "AB498_code-context-provider-mcp",
+        "tool": "get_code_context",
+        "permission": "File System Operations",
+        "api_name": "parser.parse",
+        "cache_entry_id": "Python::parser.parse",
+        "external_api": false
+      },
+      {
+        "project": "CloudSecurityAlliance_CSA-MCP-servers_src_github",
+        "tool": "create_or_update_file",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "fetch",
+        "cache_entry_id": "Python::fetch",
+        "external_api": false
+      },
+      {
+        "project": "CloudSecurityAlliance_CSA-MCP-servers_src_github",
+        "tool": "update_issue",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "fetch",
+        "cache_entry_id": "Python::fetch",
+        "external_api": false
+      },
+      {
+        "project": "DXHeroes_mcp-devtools_packages_jira",
+        "tool": "execute_jql",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "fetch",
+        "cache_entry_id": "Python::fetch",
+        "external_api": false
+      },
+      {
+        "project": "Flux159_mcp-server-kubernetes",
+        "tool": "kubectl_get",
+        "permission": "System Command Execution",
+        "api_name": "yaml.load",
+        "cache_entry_id": "Python::yaml.load",
+        "external_api": false
+      },
+      {
+        "project": "PV-Bhat_vibe-check-mcp-server",
+        "tool": "vibe_check",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "history.get",
+        "cache_entry_id": "Python::history.get",
+        "external_api": false
+      },
+      {
+        "project": "Zerg00s_SharePoint MCP Server",
+        "tool": "getGlobalNavigationLinks",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "request.get",
+        "cache_entry_id": "Python::request.get",
+        "external_api": false
+      },
+      {
+        "project": "aaronsb_google-workspace-mcp",
+        "tool": "manage_workspace_calendar_event",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "operation",
+        "cache_entry_id": "Python::operation",
+        "external_api": false
+      },
+      {
+        "project": "aindreyway_mcp-codex-keeper",
+        "tool": "add_documentation",
+        "permission": "File System Operations",
+        "api_name": "stats.mode",
+        "cache_entry_id": "Python::stats.mode",
+        "external_api": false
+      },
+      {
+        "project": "alexander-zuev_kollektiv",
+        "tool": "execute_rag_search",
+        "permission": "Browser Automation and Web Interaction",
+        "api_name": "headers",
+        "cache_entry_id": "Python::headers",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_buffer",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_buffer_save",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_buffer_switch",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_edit",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_file_open",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_fold",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_grep",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_health",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_jump",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_mark",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      }
+    ]
+  },
+  "qwen": {
+    "source": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_hidden_table.csv",
+    "raw_api_refs": 9977,
+    "raw_unique_api_name_strings": 3048,
+    "external_api_cache_entry_refs": 10269,
+    "unique_external_api_cache_entries": 3065,
+    "multi_cache_entry_api_refs": 304,
+    "unresolved_api_refs": 0,
+    "unresolved_examples": [],
+    "skipped_non_external_api_ref_examples": [
+      {
+        "project": "Flux159_mcp-server-kubernetes",
+        "tool": "kubectl_get",
+        "permission": "System Command Execution",
+        "api_name": "yaml.load",
+        "cache_entry_id": "Python::yaml.load",
+        "external_api": false
+      },
+      {
+        "project": "MCP-Mirror_heroku_heroku-mcp-server",
+        "tool": "deploy_one_off_dyno",
+        "permission": "Database Management",
+        "api_name": "finalize",
+        "cache_entry_id": "Python::finalize",
+        "external_api": false
+      },
+      {
+        "project": "MCP-Mirror_heroku_heroku-mcp-server",
+        "tool": "deploy_to_heroku",
+        "permission": "Database Management",
+        "api_name": "finalize",
+        "cache_entry_id": "Python::finalize",
+        "external_api": false
+      },
+      {
+        "project": "PaddleHQ_paddle-mcp-server",
+        "tool": "revoke_client_side_token",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "next",
+        "cache_entry_id": "Python::next",
+        "external_api": false
+      },
+      {
+        "project": "Yuchen20_memory-plus",
+        "tool": "import_file",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "QdrantClient",
+        "cache_entry_id": "TypeScript::QdrantClient",
+        "external_api": false
+      },
+      {
+        "project": "aaronsb_google-workspace-mcp",
+        "tool": "create_workspace_calendar_event",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "operation",
+        "cache_entry_id": "Python::operation",
+        "external_api": false
+      },
+      {
+        "project": "aaronsb_google-workspace-mcp",
+        "tool": "delete_workspace_calendar_event",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "operation",
+        "cache_entry_id": "Python::operation",
+        "external_api": false
+      },
+      {
+        "project": "aaronsb_google-workspace-mcp",
+        "tool": "list_workspace_calendar_events",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "operation",
+        "cache_entry_id": "Python::operation",
+        "external_api": false
+      },
+      {
+        "project": "aaronsb_google-workspace-mcp",
+        "tool": "manage_workspace_calendar_event",
+        "permission": "Specialized Domain Data Services",
+        "api_name": "operation",
+        "cache_entry_id": "Python::operation",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_buffer",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_buffer_save",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_buffer_switch",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_edit",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_file_open",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_fold",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_health",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_jump",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_mark",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_search",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      },
+      {
+        "project": "bigcodegen_mcp-neovim-server",
+        "tool": "vim_status",
+        "permission": "System Command Execution",
+        "api_name": "attach",
+        "cache_entry_id": "Python::attach",
+        "external_api": false
+      }
+    ]
+  },
+  "intersection_csv": "/home/lls/MCP_Analyze/tool_analyzer/deepseek_qwen_hidden_api_cache_entry_intersection.csv",
+  "output_png": "/home/lls/MCP_Analyze/picture/deepseek_qwen_hidden_api_cache_entry_venn.png",
+  "output_pdf": "/home/lls/MCP_Analyze/picture/deepseek_qwen_hidden_api_cache_entry_venn.pdf"
+}

@@ -1,0 +1,62 @@
+{
+  "projects_analyzed": 4049,
+  "tools_analyzed": 35476,
+  "tools_with_hidden_behavior": 4168,
+  "not_inferable_permission_count": 5097,
+  "sample_size": 4049,
+  "all_projects": true,
+  "seed": null,
+  "model": "qwen3.7-plus",
+  "population": "tool_analyzer/final_success_projects.txt",
+  "population_size_loaded": 4049,
+  "tool_results_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_tools.json",
+  "hidden_permission_cases_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_hidden_permission_cases.json",
+  "hidden_permission_cases": 4168,
+  "table_csv_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_table.csv",
+  "table_rows": 45487,
+  "hidden_table_csv_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_hidden_table.csv",
+  "hidden_table_rows": 5097,
+  "analysis_scope": "permission_categories_elevated_impact_only",
+  "num_shards_merged": 8,
+  "merged_from_shards": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "api_cache_filter": {
+    "cache_file": "/home/lls/MCP_Analyze/tool_analyzer/api_cache.json",
+    "cache_api_names": 77336,
+    "removed_actual_api_refs": 6822,
+    "removed_bucket_api_refs": 6822,
+    "removed_permission_rows": 4810
+  },
+  "hidden_api_cache_entry_stats": {
+    "unique_definition": "api_cache_entry; duplicate iff hidden API resolves to the same top-level language/API key entry in api_cache.json",
+    "cache_file": "/home/lls/MCP_Analyze/tool_analyzer/api_cache.json",
+    "raw_hidden_api_refs": 9977,
+    "raw_unique_api_name_strings": 3048,
+    "hidden_api_cache_entry_refs": 10318,
+    "unique_hidden_api_cache_entries": 3080,
+    "unique_project_cache_entry_pairs": 4486,
+    "unique_project_tool_cache_entry_triples": 10318,
+    "multi_cache_entry_api_refs": 341,
+    "unresolved_api_refs": 0,
+    "unresolved_examples": [],
+    "unique_cache_entries_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_unique_hidden_api_cache_entries.csv"
+  },
+  "multi_mcp_project_filter": {
+    "exclude_file": "/tmp/multi_server_yes_62.txt",
+    "excluded_project_count": 62,
+    "removed_project_count_in_this_result": 62,
+    "removed_tool_rows": 2552
+  },
+  "new253_merge": {
+    "merged_project_count": 253,
+    "merged_tool_rows": 2346
+  }
+}

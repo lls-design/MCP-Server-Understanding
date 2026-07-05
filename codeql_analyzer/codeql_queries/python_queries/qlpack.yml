@@ -1,0 +1,6 @@
+# This is an automatically generated file.
+name: mcp-analyzer/python-analyzer
+version: 1.0.0
+dependencies: 
+  codeql/python-all: 4.0.11
+

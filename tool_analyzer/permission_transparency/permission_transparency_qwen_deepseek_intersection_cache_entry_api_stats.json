@@ -1,0 +1,14 @@
+{
+  "unique_definition": "api_cache_entry; duplicate iff hidden API resolves to the same top-level language/API key entry in api_cache.json",
+  "cache_file": "/home/lls/MCP_Analyze/tool_analyzer/api_cache.json",
+  "raw_hidden_api_refs": 4050,
+  "raw_unique_api_name_strings": 1167,
+  "hidden_api_cache_entry_refs": 4240,
+  "unique_hidden_api_cache_entries": 1187,
+  "unique_project_cache_entry_pairs": 1937,
+  "unique_project_tool_cache_entry_triples": 4240,
+  "multi_cache_entry_api_refs": 190,
+  "unresolved_api_refs": 0,
+  "unresolved_examples": [],
+  "unique_cache_entries_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_deepseek_intersection_unique_hidden_api_cache_entries.csv"
+}
