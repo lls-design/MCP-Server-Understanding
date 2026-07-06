@@ -5,10 +5,6 @@
   "results_dir": "/home/lls/MCP_Analyze/results",
   "counting_policy": "call graph node occurrence where node (language, api_name) is external_api=true in current api_cache.json",
   "external_api_occurrences_in_projects": 79874,
-  "unique_external_api_name_count_used": 26862,
-  "unique_external_api_count_lang_api_used": 26942,
-  "projects_with_external_api_count": 3718,
-  "projects_without_external_api_count": 331,
   "by_language_occurrences": {
     "Python": 36736,
     "TypeScript": 43138
