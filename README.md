@@ -207,7 +207,7 @@ The most important reusable result files are:
 
 | File | Description |
 |---|---|
-| `tool_analyzer/api_analyze/api_classification_result.json` | Classification results for privilege-sensitive API categories. |
+| `tool_analyzer/api_analyze/category_statistics.json` | Classification results for privilege-sensitive API categories. |
 | `tool_analyzer/api_analyze/api_cache.json` | Cached API evidence used by the API and permission-transparency analyses. |
 | `tool_analyzer/authorization_analyze/authorization_summary.json` | Project-level authorization analysis results. |
 | `tool_analyzer/authorization_analyze/authorization_classified.json` | Authorization results grouped into higher-level authorization approaches. |
@@ -237,8 +237,8 @@ Paper-facing outputs are stored under `figures/`.
 
 ```bash
 wc -l tool_analyzer/final_success_projects.txt
-uv run python -m json.tool tool_analyzer/api_analyze/api_classification_result.json | head -40
 uv run python -m json.tool tool_analyzer/api_analyze/api_cache.json | head -40
+uv run python -m json.tool tool_analyzer/api_analyze/category_statistics.json | head -40
 uv run python -m json.tool tool_analyzer/authorization_analyze/authorization_summary.json | head -40
 uv run python -m json.tool tool_analyzer/authorization_analyze/authorization_classified.json | head -40
 ```
