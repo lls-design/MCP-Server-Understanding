@@ -17,21 +17,6 @@ other APIs. This artifact follows the execution path from each MCP tool to the
 downstream APIs it may invoke, then analyzes the privileges implied by those
 APIs.
 
-The analysis pipeline is:
-
-1. **Build tool-level call graphs.** For each MCP server, identify MCP tool
-   entry points and recover the functions reachable from each tool.
-2. **Collect downstream API calls.** Use the recovered call graph to collect API
-   calls reachable from MCP tools, including external service calls and local
-   resource-access APIs.
-3. **Identify and classify privilege-sensitive APIs.** Use LLM-assisted
-   analysis and cached evidence to decide whether each API is privilege
-   sensitive, then assign it to a functional permission category.
-4. **Analyze authorization behavior.** Inspect how each server obtains, stores,
-   and passes credentials or other authority when invoking external services.
-5. **Analyze permission transparency.** Compare the permissions implied by the
-   reachable APIs with the natural-language tool descriptions to find hidden or
-   understated capabilities.
 
 ## Repository Structure
 
@@ -243,20 +228,3 @@ uv run python -m json.tool tool_analyzer/authorization_analyze/authorization_sum
 uv run python -m json.tool tool_analyzer/authorization_analyze/authorization_classified.json | head -40
 ```
 
-## Artifact Notes
-
-- Full reproduction is computationally expensive because it clones thousands of
-  repositories, builds CodeQL databases, and invokes LLM services.
-- LLM-backed labels may vary across model versions. The checked-in artifacts are
-  the snapshot used for the paper-facing results.
-- Some MCP projects fail static analysis because of unsupported layouts, missing
-  entry points, or build issues. The paper analyses use the fixed final-success
-  project set listed in `tool_analyzer/final_success_projects.txt`.
-- The `Servers/` directory contains third-party repositories. Respect upstream
-  licenses and remove private credentials before distributing a public artifact.
-
-## Citation
-
-This repository accompanies an ICSE submission on privilege usage,
-authorization, and permission transparency in MCP servers. A BibTeX entry can be
-added after publication.
