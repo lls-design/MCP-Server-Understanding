@@ -10,10 +10,10 @@ from pathlib import Path
 from urllib import error, request
 
 
-DEFAULT_ROOT = Path("/home/lls/MCP_Analyze")
+DEFAULT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_QWEN_MODEL = "qwen3.7-plus"
 DEFAULT_QWEN_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-DEFAULT_PROJECTS_FILE = Path("tool_analyzer/final_success_projects.txt")
+DEFAULT_PROJECTS_FILE = Path("tool_analyzer/all_projects.txt")
 
 PERMISSION_CATEGORIES = [
     "File System Operations",
@@ -1690,7 +1690,7 @@ def main():
     parser.add_argument(
         "--projects-file",
         default=str(DEFAULT_PROJECTS_FILE),
-        help="Project list to analyze. Default is the 3858-project final success list.",
+        help="Project list to analyze. Defaults to tool_analyzer/all_projects.txt.",
     )
     parser.add_argument("--sample-size", type=int, default=30)
     parser.add_argument("--seed", type=int, default=42)

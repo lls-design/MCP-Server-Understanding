@@ -22,11 +22,11 @@ plt.rcParams.update(
     }
 )
 
-ROOT = Path("/home/lls/MCP_Analyze")
+ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "picture"
 
 AUTH_CLASSIFIED_PATH = ROOT / "tool_analyzer" / "final_success_authorization_classified.json"
-FINAL_PROJECTS_PATH = ROOT / "tool_analyzer" / "final_success_projects.txt"
+ALL_PROJECTS_PATH = ROOT / "tool_analyzer" / "all_projects.txt"
 SERVER_ASSIGNMENTS_PATH = ROOT / "tool_analyzer" / "paper8_new_servers_classification" / "merged_server_assignments.jsonl"
 OUT_AUDIT_PATH = OUT_DIR / "auth_type_to_server_type_alluvial.audit.json"
 
@@ -136,7 +136,7 @@ def load_server_assignments(path: Path) -> dict[str, str]:
 def build_flow() -> tuple[Counter[tuple[str, str]], int, int]:
     auth_data = load_json(AUTH_CLASSIFIED_PATH)
     raw_auth_items = auth_data.get("items", {})
-    final_projects = load_project_set(FINAL_PROJECTS_PATH)
+    all_projects = load_project_set(ALL_PROJECTS_PATH)
     server_type_by_project = load_server_assignments(SERVER_ASSIGNMENTS_PATH)
 
     flow = Counter()
@@ -157,7 +157,7 @@ def build_flow() -> tuple[Counter[tuple[str, str]], int, int]:
             continue
         project = auth_obj.get("project", "")
         project = project.strip()
-        if project not in final_projects:
+        if project not in all_projects:
             continue
 
         auth_type = auth_obj.get("type")
@@ -203,7 +203,7 @@ def save_audit(
     rows.sort(key=lambda x: (-x["value"], x["source"], x["target"]))
     audit = {
         "authorization_classified_path": str(AUTH_CLASSIFIED_PATH),
-        "final_projects_path": str(FINAL_PROJECTS_PATH),
+        "all_projects_path": str(ALL_PROJECTS_PATH),
         "server_assignments_path": str(SERVER_ASSIGNMENTS_PATH),
         "matched_projects": matched,
         "skipped_projects": skipped,

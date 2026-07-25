@@ -7,14 +7,14 @@
   "all_projects": true,
   "seed": null,
   "model": "qwen3.7-plus",
-  "population": "tool_analyzer/final_success_projects.txt",
+  "population": "tool_analyzer/all_projects.txt",
   "population_size_loaded": 4049,
-  "tool_results_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_tools.json",
-  "hidden_permission_cases_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_hidden_permission_cases.json",
+  "tool_results_file": "tool_analyzer/permission_transparency_qwen_tools.json",
+  "hidden_permission_cases_file": "tool_analyzer/permission_transparency_qwen_hidden_permission_cases.json",
   "hidden_permission_cases": 4168,
-  "table_csv_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_table.csv",
+  "table_csv_file": "tool_analyzer/permission_transparency_qwen_table.csv",
   "table_rows": 45487,
-  "hidden_table_csv_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_hidden_table.csv",
+  "hidden_table_csv_file": "tool_analyzer/permission_transparency_qwen_hidden_table.csv",
   "hidden_table_rows": 5097,
   "analysis_scope": "permission_categories_elevated_impact_only",
   "num_shards_merged": 8,
@@ -29,7 +29,7 @@
     7
   ],
   "api_cache_filter": {
-    "cache_file": "/home/lls/MCP_Analyze/tool_analyzer/api_cache.json",
+    "cache_file": "tool_analyzer/api_cache.json",
     "cache_api_names": 77336,
     "removed_actual_api_refs": 6822,
     "removed_bucket_api_refs": 6822,
@@ -37,7 +37,7 @@
   },
   "hidden_api_cache_entry_stats": {
     "unique_definition": "api_cache_entry; duplicate iff hidden API resolves to the same top-level language/API key entry in api_cache.json",
-    "cache_file": "/home/lls/MCP_Analyze/tool_analyzer/api_cache.json",
+    "cache_file": "tool_analyzer/api_cache.json",
     "raw_hidden_api_refs": 9977,
     "raw_unique_api_name_strings": 3048,
     "hidden_api_cache_entry_refs": 10318,
@@ -47,7 +47,7 @@
     "multi_cache_entry_api_refs": 341,
     "unresolved_api_refs": 0,
     "unresolved_examples": [],
-    "unique_cache_entries_file": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_unique_hidden_api_cache_entries.csv"
+    "unique_cache_entries_file": "tool_analyzer/permission_transparency_qwen_unique_hidden_api_cache_entries.csv"
   },
   "multi_mcp_project_filter": {
     "exclude_file": "/tmp/multi_server_yes_62.txt",

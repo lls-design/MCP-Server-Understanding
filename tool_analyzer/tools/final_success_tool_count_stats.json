@@ -1,5 +1,5 @@
 {
-  "project_file": "/home/lls/MCP_Analyze/tool_analyzer/final_success_projects.txt",
+  "project_file": "tool_analyzer/all_projects.txt",
   "project_count": 4049,
   "method": "count unique tool names from call_graph_labeled.json nodes whose des matches \"Source ...\" or \"Source: ...\"",
   "total_tool_count": 35476,

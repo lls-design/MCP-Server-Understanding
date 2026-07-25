@@ -1,16 +1,16 @@
 {
   "unique_definition": "A unique external API is one concrete api_cache.json entry with external_api=true, identified as language::api_name. The same API name in different language sections is counted as different.",
   "filter": "Only api_cache.json entries with external_api=true are counted.",
-  "cache_file": "/home/lls/MCP_Analyze/tool_analyzer/api_cache.json",
-  "deepseek_hidden_table": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_hidden_table.csv",
-  "qwen_hidden_table": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_hidden_table.csv",
+  "cache_file": "tool_analyzer/api_cache.json",
+  "deepseek_hidden_table": "tool_analyzer/permission_transparency_hidden_table.csv",
+  "qwen_hidden_table": "tool_analyzer/permission_transparency_qwen_hidden_table.csv",
   "deepseek_unique_external_api_cache_entries": 2372,
   "qwen_unique_external_api_cache_entries": 3065,
   "intersection_unique_external_api_cache_entries": 1349,
   "deepseek_only_unique_external_api_cache_entries": 1023,
   "qwen_only_unique_external_api_cache_entries": 1716,
   "deepseek": {
-    "source": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_hidden_table.csv",
+    "source": "tool_analyzer/permission_transparency_hidden_table.csv",
     "raw_api_refs": 9035,
     "raw_unique_api_name_strings": 2348,
     "external_api_cache_entry_refs": 9336,
@@ -182,7 +182,7 @@
     ]
   },
   "qwen": {
-    "source": "/home/lls/MCP_Analyze/tool_analyzer/permission_transparency_qwen_hidden_table.csv",
+    "source": "tool_analyzer/permission_transparency_qwen_hidden_table.csv",
     "raw_api_refs": 9977,
     "raw_unique_api_name_strings": 3048,
     "external_api_cache_entry_refs": 10269,
@@ -353,7 +353,7 @@
       }
     ]
   },
-  "intersection_csv": "/home/lls/MCP_Analyze/tool_analyzer/deepseek_qwen_hidden_api_cache_entry_intersection.csv",
-  "output_png": "/home/lls/MCP_Analyze/picture/deepseek_qwen_hidden_api_cache_entry_venn.png",
-  "output_pdf": "/home/lls/MCP_Analyze/picture/deepseek_qwen_hidden_api_cache_entry_venn.pdf"
+  "intersection_csv": "tool_analyzer/deepseek_qwen_hidden_api_cache_entry_intersection.csv",
+  "output_png": "picture/deepseek_qwen_hidden_api_cache_entry_venn.png",
+  "output_pdf": "picture/deepseek_qwen_hidden_api_cache_entry_venn.pdf"
 }

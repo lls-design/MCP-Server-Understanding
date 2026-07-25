@@ -31,11 +31,11 @@ Specifically, this file contains:
 - `draw/plot_auth_category_to_server_type.py`
   - Script that reads the filtered project list, authorization labels, and
     paper-8 server assignments, then writes the alluvial outputs and audit file.
-- `tool_analyzer/final_success_projects.txt`
+- `tool_analyzer/all_projects.txt`
   - The exact 4049-project population used for the table counts.
 - `tool_analyzer/paper8_new_servers_classification/merged_server_assignments.jsonl`
   - Per-project paper-8 category assignments used to derive the 8 category
-    totals for the 4049 final-success projects.
+    totals for the 4,049 projects in `all_projects.txt`.
 - `tool_analyzer/final_success_authorization_classified.json`
   - Authorization labels used by the same alluvial/audit pipeline.
 
@@ -65,7 +65,7 @@ These define the category names used in the table.
 
 - `tool_analyzer/paper8_new_servers_classification/merged_server_assignments.jsonl`
   - Current merged paper-8 assignments over the larger corpus; the table uses
-    this file after filtering to `final_success_projects.txt`.
+    this file after filtering to `all_projects.txt`.
 - `tool_analyzer/paper8_new_servers_classification/merged_type_count_summary.json`
   - Full merged corpus category totals before the 4049-project filter.
 - `tool_analyzer/paper8_new_servers_classification/run_summary.json`
@@ -88,7 +88,7 @@ If your goal is only this table, the essential file set is:
 
 - `picture/auth_type_to_server_type_alluvial.audit.json`
 - `draw/plot_auth_category_to_server_type.py`
-- `tool_analyzer/final_success_projects.txt`
+- `tool_analyzer/all_projects.txt`
 - `tool_analyzer/paper8_new_servers_classification/merged_server_assignments.jsonl`
 - `tool_analyzer/taxonomy_paper8.json`
 

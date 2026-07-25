@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-ROOT = Path("/home/lls/MCP_Analyze")
-PROJECT_FILE = ROOT / "tool_analyzer" / "final_success_projects.txt"
+ROOT = Path(__file__).resolve().parents[1]
+PROJECT_FILE = ROOT / "tool_analyzer" / "all_projects.txt"
 DETAILS_FILE = ROOT / "tool_analyzer" / "final_success_tool_count_call_graph_source_details.json"
 OUTPUT_DIR = ROOT / "picture"
 OUTPUT_PNG = OUTPUT_DIR / "final_success_tool_count_violin.png"

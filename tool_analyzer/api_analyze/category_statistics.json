@@ -1,5 +1,5 @@
 {
-  "source": "/home/lls/MCP_Analyze/tool_analyzer/api_cache.json",
+  "source": "tool_analyzer/api_cache.json",
   "total_external_apis": 27465,
   "filter_scope": "All api_cache.json entries with external_api=true",
   "taxonomy": "10-category merged taxonomy",

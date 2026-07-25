@@ -5,11 +5,11 @@
 Generate an English category table for privileged/external APIs.
 
 Input:
-  /home/lls/MCP_Analyze/tool_analyzer/api_cache.json
+  tool_analyzer/api_cache.json
 
 Output:
-  /home/lls/MCP_Analyze/picture/Table 2 Categorization of Privilege-Sensitive APIs.csv
-  /home/lls/MCP_Analyze/picture/Table 2 Categorization of Privilege-Sensitive APIs.png
+  picture/Table 2 Categorization of Privilege-Sensitive APIs.csv
+  picture/Table 2 Categorization of Privilege-Sensitive APIs.png
 """
 
 import json
@@ -23,9 +23,9 @@ os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
 import matplotlib.pyplot as plt
 
 
-ROOT = Path("/home/lls/MCP_Analyze")
+ROOT = Path(__file__).resolve().parents[1]
 API_CACHE = ROOT / "tool_analyzer" / "api_cache.json"
-PROJECT_FILE = ROOT / "tool_analyzer" / "final_success_projects.txt"
+PROJECT_FILE = ROOT / "tool_analyzer" / "all_projects.txt"
 OUT_DIR = ROOT / "picture"
 OUT_CSV = OUT_DIR / "Table 2 Categorization of Privilege-Sensitive APIs.csv"
 OUT_PNG = OUT_DIR / "Table 2 Categorization of Privilege-Sensitive APIs.png"

@@ -1,21 +1,12 @@
-# MCP Privilege Analysis
+# MCP Permission Analysis
 
-This repository contains the artifact for our large-scale study of privilege
-usage in Model Context Protocol (MCP) servers. The analysis combines CodeQL
-static analysis with LLM-assisted classification to identify privilege-sensitive
-APIs, authorization mechanisms, and permission transparency issues in MCP tools.
+This repository contains the artifact for our large-scale study of permission usage in Model Context Protocol (MCP) servers. The analysis combines CodeQL static analysis with LLM-assisted classification to identify permission-relevant APIs, authorization mechanisms, and permission transparency issues in MCP tools.
 
-The repository includes the analysis scripts, the local MCP server corpus, the
-per-project analysis results, and precomputed tables/figures used by the paper.
+The repository includes the analysis scripts, the local MCP server corpus, and precomputed tables/figures used by the paper.
 
 ## Overview
 
-MCP servers expose tool entry points to LLM clients. A single tool invocation can
-reach local resources or remote services through SDK calls, HTTP clients,
-filesystem operations, database clients, browser automation, shell commands, and
-other APIs. This artifact follows the execution path from each MCP tool to the
-downstream APIs it may invoke, then analyzes the privileges implied by those
-APIs.
+MCP servers expose tool entry points to LLM clients. A single tool invocation can reach local resources or remote services through SDK calls, HTTP clients, filesystem operations, database clients, browser automation, shell commands, and other APIs. This artifact follows the execution path from each MCP tool to the downstream APIs it may invoke, then analyzes the permissions exercised through those APIs.
 
 
 ## Repository Structure
@@ -30,7 +21,6 @@ APIs.
 | `utils/` | It contains tool scripts and functions for LLM calling, figure drawing, etc. |
 | `MCPs/` | Raw MCP metadata shards used to construct the corpus. |
 | `Servers/` | It is used for saving source code and CodeQL database of each MCP server. |
-| `results/` | It saves per-project analysis results, including entry points, call graphs, labeled call graphs, and authorization reports. |
 
 ## Current Artifact Snapshot
 
@@ -38,11 +28,10 @@ The current workspace contains:
 
 | Item | Count / Location |
 |---|---:|
-| Successfully analyzed projects | `4049` in `tool_analyzer/final_success_projects.txt` |
-| Per-project result directories | `4049` under `results/` |
-| MCP tools in final successful projects | `35476` |
-| External API call occurrences in final successful projects | `79874` |
-| Unique external APIs in final successful projects | `27465` |
+| Projects | `4049` in `tool_analyzer/all_projects.txt` |
+| MCP tools | `35476` |
+| Permission-relevant external API call occurrences | `79874` |
+| Unique permission-relevant external APIs | `27465` |
 | Qwen/DeepSeek consensus hidden-permission tools | `2219` |
 
 The checked-in JSON/CSV files under `tool_analyzer/` are the canonical
@@ -112,7 +101,7 @@ Typical per-project outputs are written to `results/<project>/`:
 | `call_graph_labeled.json` | Call graph labeled with external API and category information. |
 | `authorization.json` | Authorization analysis report. |
 
-### 2. Identify and Classify Privilege-Sensitive APIs
+### 2. Identify and Classify Permission-Relevant APIs
 
 ```bash
 uv run python scripts/api_analyze.py \
@@ -174,7 +163,7 @@ The authorization summary and classified authorization results are available in
 
 ```bash
 uv run python scripts/permission_transparency.py \
-  --projects-file tool_analyzer/final_success_projects.txt \
+  --projects-file tool_analyzer/all_projects.txt \
   --all \
   --output-json tool_analyzer/permission_transparency/permission_transparency_qwen_tools.json \
   --summary-json tool_analyzer/permission_transparency/permission_transparency_qwen_summary.json \
@@ -192,7 +181,7 @@ The most important reusable result files are:
 
 | File | Description |
 |---|---|
-| `tool_analyzer/api_analyze/category_statistics.json` | Classification results for privilege-sensitive API categories. |
+| `tool_analyzer/api_analyze/category_statistics.json` | Classification results for permission-relevant API categories. |
 | `tool_analyzer/api_analyze/api_cache.json` | Cached API evidence used by the API and permission-transparency analyses. |
 | `tool_analyzer/authorization_analyze/authorization_summary.json` | Project-level authorization analysis results. |
 | `tool_analyzer/authorization_analyze/authorization_classified.json` | Authorization results grouped into higher-level authorization approaches. |
@@ -211,7 +200,7 @@ Paper-facing outputs are stored under `figures/`.
 |---|---|
 | `Distribution of Authorization Approaches.png/pdf` | `draw/authorization_pie.py` |
 | `auth_type_to_server_type_alluvial.png/pdf/csv` | `draw/plot_auth_category_to_server_type.py` |
-| `Table 2 Categorization of Privilege-Sensitive APIs.csv/png` | `draw/category_priviledged_api.py` |
+| Table 2 permission-relevant API categorization (CSV/PNG) | `draw/category_priviledged_api.py` |
 | `final_success_tool_count_violin.png/pdf` | `draw/final_success_tool_violin.py` |
 | `final_success_external_api_count_violin.png/pdf` | `draw/final_success_external_api_violin.py` |
 | `final_success_code_loc_violin.png/pdf` | `draw/final_success_code_loc_violin.py` |
@@ -221,10 +210,9 @@ Paper-facing outputs are stored under `figures/`.
 ## Quick Inspection Commands
 
 ```bash
-wc -l tool_analyzer/final_success_projects.txt
+wc -l tool_analyzer/all_projects.txt
 uv run python -m json.tool tool_analyzer/api_analyze/api_cache.json | head -40
 uv run python -m json.tool tool_analyzer/api_analyze/category_statistics.json | head -40
 uv run python -m json.tool tool_analyzer/authorization_analyze/authorization_summary.json | head -40
 uv run python -m json.tool tool_analyzer/authorization_analyze/authorization_classified.json | head -40
 ```
-

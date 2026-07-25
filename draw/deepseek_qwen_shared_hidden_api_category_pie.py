@@ -17,7 +17,7 @@ os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib")
 import matplotlib.pyplot as plt
 
 
-ROOT = Path("/home/lls/MCP_Analyze")
+ROOT = Path(__file__).resolve().parents[1]
 INTERSECTION_CSV = ROOT / "tool_analyzer" / "deepseek_qwen_hidden_api_cache_entry_intersection.csv"
 
 OUTPUT_DIR = ROOT / "picture"

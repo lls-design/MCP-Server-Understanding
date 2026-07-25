@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-ROOT = Path("/home/lls/MCP_Analyze")
-PROJECT_FILE = ROOT / "tool_analyzer" / "final_success_projects.txt"
+ROOT = Path(__file__).resolve().parents[1]
+PROJECT_FILE = ROOT / "tool_analyzer" / "all_projects.txt"
 SERVERS_DIR = ROOT / "Servers"
 RESULTS_DIR = ROOT / "results"
 OUTPUT_DIR = ROOT / "picture"

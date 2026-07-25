@@ -26,7 +26,7 @@
       "role": "Script that generates the alluvial outputs and audit file"
     },
     {
-      "path": "tool_analyzer/final_success_projects.txt",
+      "path": "tool_analyzer/all_projects.txt",
       "role": "4049-project filtered population"
     },
     {

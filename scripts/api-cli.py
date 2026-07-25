@@ -9,9 +9,10 @@ import time
 from pathlib import Path
 from typing import Any
 
-PROJECTS_FILE = Path("/home/lls/MCP_Analyze/projects_by_stars.txt")
-SERVERS_DIR = Path("/home/lls/MCP_Analyze/Servers")
-OUTPUT_JSONL = Path("/home/lls/MCP_Analyze/copilot_sensitive_api_scan.jsonl")
+ROOT = Path(__file__).resolve().parents[1]
+PROJECTS_FILE = ROOT / "projects_by_stars.txt"
+SERVERS_DIR = ROOT / "Servers"
+OUTPUT_JSONL = ROOT / "copilot_sensitive_api_scan.jsonl"
 
 EXTRACT_PROMPT_TEMPLATE = r"""
 You are working inside the root directory of a single project. Treat the current working directory as the entire project and analyze the whole codebase, not just the README or a single file.

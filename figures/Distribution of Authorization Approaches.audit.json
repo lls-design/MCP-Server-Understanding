@@ -1,5 +1,5 @@
 {
-  "project_list_file": "/home/lls/MCP_Analyze/tool_analyzer/final_success_projects.txt",
+  "project_list_file": "tool_analyzer/all_projects.txt",
   "projects_in_list": 4049,
   "counted_projects": 4049,
   "missing_authorization_json": 0,

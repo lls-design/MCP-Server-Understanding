@@ -1,7 +1,7 @@
 {
   "summary": {
     "total": 4049,
-    "project_list": "tool_analyzer/final_success_projects.txt",
+    "project_list": "tool_analyzer/all_projects.txt",
     "counts_by_type": {
       "T0": 1440,
       "T1": 1867,

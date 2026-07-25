@@ -1,7 +1,7 @@
 {
-  "authorization_classified_path": "/home/lls/MCP_Analyze/tool_analyzer/final_success_authorization_classified.json",
-  "final_projects_path": "/home/lls/MCP_Analyze/tool_analyzer/final_success_projects.txt",
-  "server_assignments_path": "/home/lls/MCP_Analyze/tool_analyzer/paper8_new_servers_classification/merged_server_assignments.jsonl",
+  "authorization_classified_path": "tool_analyzer/final_success_authorization_classified.json",
+  "all_projects_path": "tool_analyzer/all_projects.txt",
+  "server_assignments_path": "tool_analyzer/paper8_new_servers_classification/merged_server_assignments.jsonl",
   "matched_projects": 4049,
   "skipped_projects": 0,
   "total_flow": 4049,

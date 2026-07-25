@@ -239,7 +239,7 @@ def main() -> None:
     parser.add_argument(
         "--root",
         type=Path,
-        default=Path("/home/lls/MCP_Analyze"),
+        default=Path(__file__).resolve().parents[1],
         help="Project root directory.",
     )
     parser.add_argument(

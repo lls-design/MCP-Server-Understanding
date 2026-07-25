@@ -18,7 +18,7 @@ from matplotlib.patches import Circle, PathPatch
 from matplotlib.path import Path as MplPath
 
 
-ROOT = Path("/home/lls/MCP_Analyze")
+ROOT = Path(__file__).resolve().parents[1]
 CACHE_FILE = ROOT / "tool_analyzer" / "api_cache.json"
 DEEPSEEK_HIDDEN_TABLE = ROOT / "tool_analyzer" / "permission_transparency_hidden_table.csv"
 QWEN_HIDDEN_TABLE = ROOT / "tool_analyzer" / "permission_transparency_qwen_hidden_table.csv"

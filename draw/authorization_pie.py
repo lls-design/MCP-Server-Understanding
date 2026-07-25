@@ -32,9 +32,9 @@ plt.rcParams.update(
 )
 
 
-ROOT = Path("/home/lls/MCP_Analyze")
+ROOT = Path(__file__).resolve().parents[1]
 RESULTS_DIR = ROOT / "results"
-PROJECT_LIST_FILE = ROOT / "tool_analyzer" / "final_success_projects.txt"
+PROJECT_LIST_FILE = ROOT / "tool_analyzer" / "all_projects.txt"
 OUT_DIR = ROOT / "picture"
 OUT_PATH = OUT_DIR / "Distribution of Authorization Approaches.png"
 OUT_PDF = OUT_DIR / "Distribution of Authorization Approaches.pdf"
