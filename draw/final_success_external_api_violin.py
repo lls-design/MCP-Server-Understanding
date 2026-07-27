@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Draw a compact violin plot for external API call counts in final projects."""
+"""Draw a compact violin plot for external API call counts in the project corpus."""
 
 from __future__ import annotations
 
+import csv
 import json
 from pathlib import Path
 
@@ -13,13 +14,23 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT_FILE = ROOT / "tool_analyzer" / "all_projects.txt"
-API_CACHE_FILE = ROOT / "tool_analyzer" / "api_cache.json"
+API_CACHE_FILE = ROOT / "tool_analyzer" / "api_analyze" / "api_cache.json"
 RESULTS_DIR = ROOT / "results"
 OUTPUT_DIR = ROOT / "picture"
 OUTPUT_PNG = OUTPUT_DIR / "final_success_external_api_count_violin.png"
 OUTPUT_PDF = OUTPUT_DIR / "final_success_external_api_count_violin.pdf"
-STATS_JSON = ROOT / "tool_analyzer" / "final_success_external_api_stats.json"
-PER_PROJECT_TSV = ROOT / "tool_analyzer" / "final_success_external_api_per_project.tsv"
+STATS_JSON = (
+    ROOT
+    / "tool_analyzer"
+    / "api_calls"
+    / "final_success_external_api_stats.json"
+)
+PER_PROJECT_TSV = (
+    ROOT
+    / "tool_analyzer"
+    / "api_calls"
+    / "final_success_external_api_per_project.tsv"
+)
 
 VIOLIN_FILL = "#E7C6A5"
 VIOLIN_EDGE = "#8A6546"
@@ -42,11 +53,21 @@ plt.rcParams.update({
 
 
 def read_projects(path: Path) -> list[str]:
-    return [
+    projects = [
         line.strip()
         for line in path.read_text(encoding="utf-8", errors="ignore").splitlines()
         if line.strip()
     ]
+    if len(projects) != len(set(projects)):
+        raise ValueError(f"Duplicate projects in {path}")
+    return projects
+
+
+def display_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
 
 
 def project_type(call_graph: dict) -> str:
@@ -68,11 +89,114 @@ def node_lang(node: dict, fallback: str) -> str:
     return fallback
 
 
-def collect_external_api_counts() -> tuple[np.ndarray, dict]:
-    projects = read_projects(PROJECT_FILE)
-    project_set = set(projects)
-    if len(projects) != len(project_set):
-        raise ValueError(f"Duplicate projects in {PROJECT_FILE}")
+def load_precomputed_external_api_counts(
+    projects: list[str],
+) -> tuple[np.ndarray, dict]:
+    counts_by_project: dict[str, int] = {}
+    with PER_PROJECT_TSV.open(
+        "r",
+        encoding="utf-8",
+        errors="strict",
+        newline="",
+    ) as file:
+        reader = csv.DictReader(file, delimiter="\t")
+        required_columns = {"project", "external_api_count"}
+        if reader.fieldnames is None or not required_columns.issubset(reader.fieldnames):
+            raise ValueError(
+                f"{PER_PROJECT_TSV} must contain tab-separated columns "
+                "'project' and 'external_api_count'"
+            )
+
+        for row_number, row in enumerate(reader, start=2):
+            project = (row.get("project") or "").strip()
+            raw_count = (row.get("external_api_count") or "").strip()
+            if not project:
+                raise ValueError(f"Missing project at {PER_PROJECT_TSV}:{row_number}")
+            if project in counts_by_project:
+                raise ValueError(
+                    f"Duplicate project {project!r} at "
+                    f"{PER_PROJECT_TSV}:{row_number}"
+                )
+            try:
+                count = int(raw_count)
+            except ValueError as error:
+                raise ValueError(
+                    f"Invalid external_api_count {raw_count!r} at "
+                    f"{PER_PROJECT_TSV}:{row_number}"
+                ) from error
+            if count < 0:
+                raise ValueError(
+                    f"Negative external_api_count at {PER_PROJECT_TSV}:{row_number}"
+                )
+            counts_by_project[project] = count
+
+    expected = set(projects)
+    observed = set(counts_by_project)
+    missing = sorted(expected - observed)
+    extra = sorted(observed - expected)
+    if missing or extra:
+        raise ValueError(
+            f"Project coverage mismatch in {PER_PROJECT_TSV}: "
+            f"{len(missing)} missing and {len(extra)} extra"
+            + (f"; missing examples: {', '.join(missing[:5])}" if missing else "")
+            + (f"; extra examples: {', '.join(extra[:5])}" if extra else "")
+        )
+
+    values = np.asarray([counts_by_project[project] for project in projects], dtype=float)
+    stats: dict = {}
+    if STATS_JSON.is_file():
+        payload = json.loads(
+            STATS_JSON.read_text(encoding="utf-8", errors="strict")
+        )
+        if not isinstance(payload, dict):
+            raise ValueError(f"Expected a JSON object in {STATS_JSON}")
+        stats.update(payload)
+
+        stats_project_count = payload.get("project_count")
+        if stats_project_count is not None and stats_project_count != len(projects):
+            raise ValueError(
+                f"project_count in {STATS_JSON} is {stats_project_count}, "
+                f"but {PER_PROJECT_TSV} contains {len(values)} projects"
+            )
+        stats_total = payload.get("external_api_occurrences_in_projects")
+        if stats_total is not None and stats_total != int(values.sum()):
+            raise ValueError(
+                f"external_api_occurrences_in_projects in {STATS_JSON} is "
+                f"{stats_total}, but the TSV sums to {int(values.sum())}"
+            )
+        by_language = payload.get("by_language_occurrences")
+        if isinstance(by_language, dict) and sum(by_language.values()) != int(values.sum()):
+            raise ValueError(
+                f"by_language_occurrences in {STATS_JSON} does not sum to the TSV total"
+            )
+
+    nonzero = int(np.count_nonzero(values))
+    stats.update(
+        {
+            "data_source": display_path(PER_PROJECT_TSV),
+            "source_mode": "precomputed_tsv",
+            "project_count": len(projects),
+            "external_api_occurrences_in_projects": int(values.sum()),
+            "projects_with_external_api_count": nonzero,
+            "projects_without_external_api_count": len(values) - nonzero,
+        }
+    )
+    return values, stats
+
+
+def rebuild_external_api_counts(
+    projects: list[str],
+) -> tuple[np.ndarray, dict]:
+    missing_graphs = [
+        project
+        for project in projects
+        if not (RESULTS_DIR / project / "call_graph_labeled.json").is_file()
+    ]
+    if missing_graphs:
+        raise FileNotFoundError(
+            f"{len(missing_graphs)} projects lack call_graph_labeled.json in "
+            f"{display_path(RESULTS_DIR)}; examples: {', '.join(missing_graphs[:5])}"
+        )
 
     counts_by_project = dict.fromkeys(projects, 0)
     api_cache = json.loads(API_CACHE_FILE.read_text(encoding="utf-8", errors="ignore"))
@@ -104,10 +228,12 @@ def collect_external_api_counts() -> tuple[np.ndarray, dict]:
 
     values = np.asarray([counts_by_project[p] for p in projects], dtype=float)
     stats = {
-        "project_file": str(PROJECT_FILE),
+        "project_file": display_path(PROJECT_FILE),
+        "data_source": display_path(RESULTS_DIR),
+        "source_mode": "per_project_results_fallback",
         "project_count": len(projects),
-        "api_cache": str(API_CACHE_FILE),
-        "results_dir": str(RESULTS_DIR),
+        "api_cache": display_path(API_CACHE_FILE),
+        "results_dir": display_path(RESULTS_DIR),
         "counting_policy": (
             "call graph node occurrence where node (language, api_name) is external_api=true "
             "in current api_cache.json"
@@ -119,6 +245,7 @@ def collect_external_api_counts() -> tuple[np.ndarray, dict]:
         "projects_without_external_api_count": int(len(values) - np.count_nonzero(values)),
         "by_language_occurrences": by_language,
     }
+    PER_PROJECT_TSV.parent.mkdir(parents=True, exist_ok=True)
     PER_PROJECT_TSV.write_text(
         "project\texternal_api_count\n"
         + "\n".join(f"{project}\t{counts_by_project[project]}" for project in projects)
@@ -127,6 +254,28 @@ def collect_external_api_counts() -> tuple[np.ndarray, dict]:
     )
     STATS_JSON.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return values, stats
+
+
+def collect_external_api_counts() -> tuple[np.ndarray, dict]:
+    projects = read_projects(PROJECT_FILE)
+    if not projects:
+        raise ValueError(f"No projects found in {PROJECT_FILE}")
+
+    if PER_PROJECT_TSV.is_file():
+        return load_precomputed_external_api_counts(projects)
+
+    missing_fallback_sources = [
+        display_path(path)
+        for path in (RESULTS_DIR, API_CACHE_FILE)
+        if not path.exists()
+    ]
+    if missing_fallback_sources:
+        raise FileNotFoundError(
+            "No external-API per-project data source is available. Expected the "
+            f"submitted {display_path(PER_PROJECT_TSV)}; fallback inputs are also "
+            f"missing: {', '.join(missing_fallback_sources)}."
+        )
+    return rebuild_external_api_counts(projects)
 
 
 def format_tick(value: int) -> str:
@@ -314,9 +463,17 @@ def main() -> None:
     values, stats = collect_external_api_counts()
     draw_violin(values)
 
+    print(
+        f"[INFO] data source: {stats['data_source']} "
+        f"({stats['source_mode']})"
+    )
     print(f"[INFO] projects: {len(values)}")
     print(f"[INFO] total external API calls: {int(values.sum())}")
-    print(f"[INFO] unique external API names used: {stats['unique_external_api_name_count_used']}")
+    if "unique_external_api_name_count_used" in stats:
+        print(
+            "[INFO] unique external API names used: "
+            f"{stats['unique_external_api_name_count_used']}"
+        )
     print(
         "[INFO] min/median/mean/p95/max: "
         f"{values.min():.0f} / {np.median(values):.0f} / "

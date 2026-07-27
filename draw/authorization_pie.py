@@ -35,6 +35,12 @@ plt.rcParams.update(
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS_DIR = ROOT / "results"
 PROJECT_LIST_FILE = ROOT / "tool_analyzer" / "all_projects.txt"
+AUTH_CLASSIFIED_FILE = (
+    ROOT
+    / "tool_analyzer"
+    / "authorization_analyze"
+    / "final_success_authorization_classified.json"
+)
 OUT_DIR = ROOT / "picture"
 OUT_PATH = OUT_DIR / "Distribution of Authorization Approaches.png"
 OUT_PDF = OUT_DIR / "Distribution of Authorization Approaches.pdf"
@@ -67,7 +73,82 @@ def normalize_name(s: str) -> str:
 
 def load_project_list(path: Path) -> list[str]:
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
-    return [x.strip() for x in lines if x.strip()]
+    projects = [x.strip() for x in lines if x.strip()]
+    if len(projects) != len(set(projects)):
+        raise ValueError(f"Duplicate projects in {path}")
+    return projects
+
+
+def display_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
+
+
+def load_precomputed_authorization(
+    path: Path,
+    projects: list[str],
+) -> Counter[str]:
+    payload = json.loads(path.read_text(encoding="utf-8", errors="ignore"))
+    if not isinstance(payload, dict):
+        raise ValueError(f"Expected a JSON object in {path}")
+
+    items = payload.get("items")
+    if not isinstance(items, list):
+        raise ValueError(f"Expected an 'items' list in {path}")
+
+    project_types: dict[str, str] = {}
+    for index, item in enumerate(items, start=1):
+        if not isinstance(item, dict):
+            raise ValueError(f"Item {index} in {path} is not an object")
+        project = item.get("project")
+        auth_type = item.get("type")
+        if not isinstance(project, str) or not project.strip():
+            raise ValueError(f"Item {index} in {path} has no valid project")
+        if project in project_types:
+            raise ValueError(f"Duplicate project {project!r} in {path}")
+        if auth_type not in ORDER:
+            raise ValueError(
+                f"Project {project!r} has invalid authorization type {auth_type!r}"
+            )
+        project_types[project] = auth_type
+
+    expected = set(projects)
+    observed = set(project_types)
+    missing = sorted(expected - observed)
+    extra = sorted(observed - expected)
+    if missing or extra:
+        raise ValueError(
+            f"Project coverage mismatch in {path}: "
+            f"{len(missing)} missing and {len(extra)} extra"
+            + (f"; missing examples: {', '.join(missing[:5])}" if missing else "")
+            + (f"; extra examples: {', '.join(extra[:5])}" if extra else "")
+        )
+
+    counter = Counter(project_types[project] for project in projects)
+    summary = payload.get("summary")
+    if isinstance(summary, dict):
+        summary_total = summary.get("total")
+        if summary_total is not None and summary_total != len(projects):
+            raise ValueError(
+                f"summary.total in {path} is {summary_total}, "
+                f"but the project list contains {len(projects)} projects"
+            )
+        summary_missing = summary.get("missing")
+        if summary_missing not in (None, 0):
+            raise ValueError(f"summary.missing in {path} is {summary_missing}, not 0")
+        summary_counts = summary.get("counts_by_type")
+        if isinstance(summary_counts, dict):
+            expected_counts = {auth_type: counter.get(auth_type, 0) for auth_type in ORDER}
+            observed_counts = {
+                auth_type: summary_counts.get(auth_type, 0) for auth_type in ORDER
+            }
+            if observed_counts != expected_counts:
+                raise ValueError(
+                    f"summary.counts_by_type in {path} does not match its items"
+                )
+    return counter
 
 
 def build_results_dir_map(results_dir: Path) -> dict[str, Path]:
@@ -78,6 +159,35 @@ def build_results_dir_map(results_dir: Path) -> dict[str, Path]:
         key = normalize_name(d.name)
         mapping.setdefault(key, d)
     return mapping
+
+
+def load_authorization_from_results(
+    projects: list[str],
+) -> tuple[Counter[str], list[str], list[str]]:
+    results_map = build_results_dir_map(RESULTS_DIR)
+    counter: Counter[str] = Counter()
+    missing_auth: list[str] = []
+    missing_type: list[str] = []
+
+    for project in projects:
+        real_dir = results_map.get(normalize_name(project))
+        if real_dir is None:
+            missing_auth.append(project)
+            continue
+
+        auth_file = real_dir / "authorization.json"
+        if not auth_file.exists():
+            missing_auth.append(project)
+            continue
+
+        auth_type = extract_type_from_authorization_json(auth_file)
+        if auth_type is None:
+            missing_type.append(real_dir.name)
+            continue
+
+        counter[auth_type] += 1
+
+    return counter, missing_auth, missing_type
 
 
 def extract_type_from_authorization_json(path: Path) -> str | None:
@@ -191,10 +301,14 @@ def write_audit(
     counter: Counter[str],
     missing_auth: list[str],
     missing_type: list[str],
+    data_source: Path,
+    source_mode: str,
 ) -> None:
     counted = sum(counter.values())
     audit = {
-        "project_list_file": str(PROJECT_LIST_FILE),
+        "project_list_file": display_path(PROJECT_LIST_FILE),
+        "data_source": display_path(data_source),
+        "source_mode": source_mode,
         "projects_in_list": len(projects),
         "counted_projects": counted,
         "missing_authorization_json": len(missing_auth),
@@ -205,6 +319,7 @@ def write_audit(
             for t in ORDER
         },
     }
+    OUT_AUDIT.parent.mkdir(parents=True, exist_ok=True)
     OUT_AUDIT.write_text(
         json.dumps(audit, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
@@ -213,30 +328,25 @@ def write_audit(
 
 def main():
     projects = load_project_list(PROJECT_LIST_FILE)
-    results_map = build_results_dir_map(RESULTS_DIR)
+    if AUTH_CLASSIFIED_FILE.is_file():
+        counter = load_precomputed_authorization(AUTH_CLASSIFIED_FILE, projects)
+        missing_auth: list[str] = []
+        missing_type: list[str] = []
+        data_source = AUTH_CLASSIFIED_FILE
+        source_mode = "precomputed_json"
+    elif RESULTS_DIR.is_dir():
+        counter, missing_auth, missing_type = load_authorization_from_results(projects)
+        data_source = RESULTS_DIR
+        source_mode = "per_project_results_fallback"
+    else:
+        raise FileNotFoundError(
+            "No authorization data source is available. Expected the submitted "
+            f"{display_path(AUTH_CLASSIFIED_FILE)} or fallback directory "
+            f"{display_path(RESULTS_DIR)}."
+        )
 
-    counter: Counter[str] = Counter()
-    missing_auth = []
-    missing_type = []
-
-    for p in projects:
-        real_dir = results_map.get(normalize_name(p))
-        if real_dir is None:
-            missing_auth.append(p)
-            continue
-
-        auth_file = real_dir / "authorization.json"
-        if not auth_file.exists():
-            missing_auth.append(p)
-            continue
-
-        t = extract_type_from_authorization_json(auth_file)
-        if t is None:
-            missing_type.append(real_dir.name)
-            continue
-
-        counter[t] += 1
     counted = sum(counter.values())
+    print(f"[INFO] data source: {display_path(data_source)} ({source_mode})")
     print(f"[INFO] projects in list: {len(projects)}")
     print(f"[INFO] counted projects: {counted}")
     print(f"[WARN] missing authorization.json: {len(missing_auth)}")
@@ -256,6 +366,8 @@ def main():
         counter=counter,
         missing_auth=missing_auth,
         missing_type=missing_type,
+        data_source=data_source,
+        source_mode=source_mode,
     )
     plot_bar(counter, OUT_PATH)
     print(f"[DONE] saved: {OUT_PATH}")
