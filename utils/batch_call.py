@@ -241,7 +241,7 @@ def prepare_batch_requests(
     Args:
         requests_data: Request data list. Each element is a dictionary
                       containing request parameters.
-                      Format: [{"model": "qwen-plus", "messages": [...]}, ...]
+                      Format: [{"model": "qwen3.7-plus", "messages": [...]}, ...]
         output_file: Output file path.
     
     Returns:
@@ -329,7 +329,7 @@ def extract_content_from_batch_result(result: Dict) -> str:
 
 def batch_call(
     requests_data: List[Dict],
-    model: str = "qwen-plus",
+    model: str = "qwen3.7-plus",
     input_file: Optional[str] = None,
     output_file: Optional[str] = None,
     error_file: Optional[str] = None,
@@ -343,8 +343,8 @@ def batch_call(
     
     Args:
         requests_data: Request data list. Each element is a dictionary.
-                      Format: [{"model": "qwen-plus", "messages": [{"role": "user", "content": "..."}]}, ...]
-        model: Model name. Defaults to qwen-plus.
+                      Format: [{"model": "qwen3.7-plus", "messages": [{"role": "user", "content": "..."}]}, ...]
+        model: Model name. Defaults to qwen3.7-plus.
         input_file: Input file path. Generated automatically if None.
         output_file: Output file path. Generated automatically if None.
         error_file: Error file path. Generated automatically if None.
@@ -479,7 +479,7 @@ def batch_call(
 # Convenience function: generate batch requests from a prompt list.
 def batch_call_from_prompts(
     prompts: List[str],
-    model: str = "qwen-plus",
+    model: str = "qwen3.7-plus",
     system_prompt: str = "You are a helpful assistant.",
     **kwargs
 ) -> List[Dict]:
@@ -521,7 +521,7 @@ def batch_call_from_prompts(
 def batch_classify_apis(
     api_list: List[Dict[str, str]],
     classification_prompt_template: str,
-    model: str = "qwen-plus",
+    model: str = "qwen3.7-plus",
     **kwargs
 ) -> List[Dict]:
     """

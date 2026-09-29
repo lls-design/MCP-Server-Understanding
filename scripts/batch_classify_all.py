@@ -9,7 +9,7 @@ import logging
 import time
 from pathlib import Path
 from scripts.api_analyze import classify_api_of_a_project, safe_save_json, collect_apis_to_classify, apply_classification_results, prompt_api_classification
-from utils.llm_call import get_openai_client, get_gemini_client
+from utils.llm_call import get_openai_client
 from utils.batch_call import batch_classify_apis
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -200,7 +200,7 @@ def main():
             gen_info = batch_classify_apis(
                 all_apis,
                 prompt_api_classification,
-                model="qwen-plus",
+                model="qwen3.7-plus",
                 input_file=input_file_path,
                 generate_only=True,
                 keep_files=True,
@@ -222,7 +222,7 @@ def main():
             results = batch_classify_apis(
                 all_apis,
                 prompt_api_classification,
-                model="qwen-plus",
+                model="qwen3.7-plus",
                 input_file=input_file_path,
                 use_existing_input_file=True,
                 keep_files=True

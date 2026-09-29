@@ -248,12 +248,12 @@ def save_fixed(path: str, data: Dict):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Classify authorization types from authorization summary results (qwen3-max-preview)")
+    parser = argparse.ArgumentParser(description="Classify authorization types from authorization summary results (qwen3.7-plus)")
     parser.add_argument("--input", "-i", type=str, required=True, help="Input summary JSON file path")
     parser.add_argument("--project", type=str, default=None, help="Classify only the specified project")
     parser.add_argument("--output", type=str, default="tool_analyzer/authorization_classified.json",
                         help="Fixed output file path (JSON)")
-    parser.add_argument("--model", type=str, default="qwen3-max-preview", help="Model name (default: qwen3-max-preview)")
+    parser.add_argument("--model", type=str, default="qwen3.7-plus", help="Model name (default: qwen3.7-plus)")
     parser.add_argument("--sleep", type=float, default=0.2, help="Seconds to sleep after each request to avoid rate limits")
     parser.add_argument("--results_dir", type=str, default="results", help="Results directory used to write back category")
     args = parser.parse_args()

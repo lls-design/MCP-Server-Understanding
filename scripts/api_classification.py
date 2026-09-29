@@ -362,7 +362,7 @@ Return the result in JSON format:
     result = generate_content_openai(
         client=client,
         prompt=prompt,
-        model='qwen3-max-preview',  # Use qwen3-max-preview, a model already validated in this project.
+        model='qwen3.7-plus',  # Use qwen3.7-plus, a model already validated in this project.
         repeat=10,
         output_check={'categories': []}
     )
@@ -485,7 +485,7 @@ Please return in JSON format:
         result = generate_content_openai(
             client=client,
             prompt=prompt,
-            model='qwen3-max-preview',
+            model='qwen3.7-plus',
             repeat=3,
             output_check={'similar': False}
         )
@@ -789,7 +789,7 @@ Analyze and return the following permission features in JSON format:
         result = generate_content_openai(
             client=client,
             prompt=prompt,
-            model='qwen3-max-preview',
+            model='qwen3.7-plus',
             repeat=3,
             output_check={
                 'permission_type': 'mixed',
@@ -858,7 +858,7 @@ Return JSON in this format:
         result = generate_content_openai(
             client=client,
             prompt=prompt,
-            model='qwen3-max-preview',
+            model='qwen3.7-plus',
             repeat=3,
             output_check={'best_match_index': 1, 'similarity_score': 0.5, 'reason': ''}
         )
@@ -1054,7 +1054,7 @@ Return JSON in this format:
         result = generate_content_openai(
             client=client,
             prompt=prompt,
-            model='qwen3-max-preview',
+            model='qwen3.7-plus',
             repeat=3,
             output_check={
                 'can_merge': False, 
@@ -1143,7 +1143,7 @@ Return JSON in this format:
         result = generate_content_openai(
             client=client,
             prompt=prompt,
-            model='qwen3-max-preview',
+            model='qwen3.7-plus',
             repeat=3,
             output_check={
                 'existing_name_adequate': True,
@@ -1275,7 +1275,7 @@ Return JSON in this format:
         result = generate_content_openai(
             client=client,
             prompt=prompt,
-            model='qwen3-max-preview',
+            model='qwen3.7-plus',
             repeat=3,
             output_check={
                 'category_name': seed_name,
