@@ -4,7 +4,7 @@ import openai
 import argparse
 import dotenv
 from api_analyze import analyze_a_project, classify_api_of_a_project, safe_save_json
-from utils.llm_call import get_gemini_client, get_openai_client
+from utils.llm_call import get_openai_client
 
 
 
@@ -23,7 +23,6 @@ if __name__ == "__main__":
         args.output_file = "call_graph_labeled.json"
 
     client1 = get_openai_client()
-    client2 = get_gemini_client()
     # index = 40
     for project in projects:
         print(f"-----------------------{project}--------------------------")
@@ -35,8 +34,8 @@ if __name__ == "__main__":
         output_file = os.path.join(project_path, args.output_file)
         
         # TODO: temporarily force rerun 
-        # call_graph = analyze_a_project(project, client1, client2, force_rerun=False, cache_path="tool_analyzer/api_cache.json", output_file=args.output_file)
-        call_graph = analyze_a_project(project, client1, client2, force_rerun=True, cache_path="tool_analyzer/api_cache.json", output_file=args.output_file)
+        # call_graph = analyze_a_project(project, client1, force_rerun=False, cache_path="tool_analyzer/api_cache.json", output_file=args.output_file)
+        call_graph = analyze_a_project(project, client1, force_rerun=True, cache_path="tool_analyzer/api_cache.json", output_file=args.output_file)
         
         if call_graph == {}:
             continue

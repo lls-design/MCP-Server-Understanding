@@ -147,9 +147,9 @@ def main():
 
     # Parameters passed to authorization_analyze.py.
     parser.add_argument("--copilot_cmd", type=str,
-                        default="codex -c model_reasoning_effort=\"low\" -a never exec -m gpt-5.4-mini -s read-only --skip-git-repo-check --ephemeral --ignore-rules",
-                        help="LLM command passed to authorization_analyze.py via MCP_ANALYZE_COPILOT_CMD")
-    parser.add_argument("--copilot_prompt_arg", type=str, default="--prompt",
+                        default="copilot --model gpt-5-mini --allow-all-tools --allow-all-paths -s",
+                        help="Copilot CLI command passed to authorization_analyze.py via MCP_ANALYZE_COPILOT_CMD")
+    parser.add_argument("--copilot_prompt_arg", type=str, default="-p",
                         help="--copilot_prompt_arg passed to authorization_analyze.py")
     parser.add_argument("--timeout_sec", type=int, default=900,
                         help="--timeout_sec passed to authorization_analyze.py")

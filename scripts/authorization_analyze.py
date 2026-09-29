@@ -216,15 +216,14 @@ def save_result(results_dir: str, project: str, payload: dict) -> str:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Analyze authorization for one MCP Server project by launching Codex/Copilot CLI in the project directory")
+    parser = argparse.ArgumentParser(description="Analyze authorization for one MCP Server project by launching Copilot CLI in the project directory")
     parser.add_argument("--project", type=str, required=True, help="Project name (directory name under Servers)")
     parser.add_argument("--servers_dir", type=str, default="Servers", help="Server project directory (default: Servers)")
     parser.add_argument("--results_dir", type=str, default="results", help="Results directory (default: results)")
 
-    # Use the Codex CLI mini model by default; keep parameter names for compatibility with existing batch scripts.
     parser.add_argument("--copilot_cmd", type=str,
-                        default="codex -c model_reasoning_effort=\"low\" -a never exec -m gpt-5.4-mini -s read-only --skip-git-repo-check --ephemeral --ignore-rules",
-                        help="LLM CLI command (may include options). Defaults to the Codex mini model")
+                        default="copilot --model gpt-5-mini --allow-all-tools --allow-all-paths -s",
+                        help="Copilot CLI command (may include options). Defaults to gpt-5-mini")
     parser.add_argument("--copilot_prompt_arg", type=str, default="-p",
                         help="Copilot CLI prompt argument (default: -p, equivalent to --prompt)")
     parser.add_argument("--timeout_sec", type=int, default=900, help="Timeout in seconds (default: 900)")

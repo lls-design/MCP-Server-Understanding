@@ -8,10 +8,9 @@ from urllib.parse import unquote
 
 import requests
 from openai import OpenAI
-from google.genai import Client
 import os
 import dotenv
-from utils.llm_call import generate_content_openai, get_gemini_client, generate_content_gemini, get_openai_client
+from utils.llm_call import generate_content_openai, get_openai_client
 
 dotenv.load_dotenv('.env')
 
@@ -339,7 +338,7 @@ def should_skip_labeled_node(node_data: dict, force_rerun: bool) -> bool:
     return "external_api" in node_data and "api_name" in node_data
 
 
-def analyze_a_project(project: str, client1: OpenAI | Client, client2: OpenAI | Client | None = None, force_rerun: bool = False, cache_path: str = "", output_file: str = "call_graph_labeled.json", no_search: bool = False):
+def analyze_a_project(project: str, client1: OpenAI, force_rerun: bool = False, cache_path: str = "", output_file: str = "call_graph_labeled.json", no_search: bool = False):
     res_path = os.path.join("results", project)
     if cache_path != "" and os.path.exists(cache_path):
         with open(cache_path, "r") as f:
@@ -497,7 +496,7 @@ def analyze_a_project(project: str, client1: OpenAI | Client, client2: OpenAI | 
     return call_graph
 
 
-def classify_api_of_a_project(project: str, client: OpenAI | Client, cache_path: str = "", output_file: str = "call_graph_labeled.json", call_graph: dict | None = None):
+def classify_api_of_a_project(project: str, client: OpenAI, cache_path: str = "", output_file: str = "call_graph_labeled.json", call_graph: dict | None = None):
     res_path = os.path.join("results", project)
     if not os.path.exists(res_path):
         logger.error(f"!!! result path not found: {res_path}")
@@ -625,16 +624,11 @@ if __name__ == "__main__":
     parser.add_argument("--skip-classify", action="store_true", help="Skip category classification (run batch_classify_all later)")
     parser.add_argument("--no-search", action="store_true", help="Identify without web search (faster bulk labeling)")
     args = parser.parse_args()
-    try:
-        client2 = get_gemini_client()
-    except Exception as e:
-        logger.warning(f"Failed to initialize Gemini client: {e}; using only OpenAI/QWEN")
-        client2 = None
     client1 = get_openai_client()
 
     project_name = os.path.basename(args.project_path.rstrip("/"))
     call_graph = analyze_a_project(
-        project_name, client1, client2, args.force_rerun, args.cache, args.output_file, no_search=args.no_search
+        project_name, client1, args.force_rerun, args.cache, args.output_file, no_search=args.no_search
     )
     if call_graph and not args.skip_classify:
         call_graph = classify_api_of_a_project(

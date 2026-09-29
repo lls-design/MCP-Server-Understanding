@@ -53,7 +53,6 @@ pipeline:
 | `CODEQL_PATH` | Path to the CodeQL engine used to build databases and run queries. |
 | `GITHUB_TOKEN` | Optional GitHub token for repository metadata collection and rate-limit avoidance. |
 | `QWEN_KEY` or `DASHSCOPE_API_KEY` | Qwen-compatible LLM calls. |
-| `GEMINI_KEY` | Optional Gemini-backed LLM calls. |
 
 Set these variables in a local `.env` file before running stages that require
 CodeQL, GitHub API access, or LLM calls. The precomputed results can be
